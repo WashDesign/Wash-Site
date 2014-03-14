@@ -1,0 +1,98 @@
+// !ASIDE
+
+
+.site-aside__media {
+
+    position: fixed;
+	z-index: $layer3;
+	top: 0;
+	left: 0;
+	height: 40%;
+	width: 100%;
+
+	@include transition (all 0.3s ease-in-out);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	-webkit-box-shadow: 0 10px 15px 20px rgba(255,255,255,0.9);
+	   -moz-box-shadow: 0 10px 15px 20px rgba(255,255,255,0.9);
+		    box-shadow: 0 10px 15px 20px rgba(255,255,255,0.9);
+
+
+	@include mq( $from: desktop-small ) {
+
+		z-index: $layer10;
+		width: 100%;
+		height: 100%;
+
+	}
+
+	@include mq( $and: $ipad-landscape ) {
+
+		width: 50%;
+		height: 50%;
+
+	}
+
+}
+
+.site-aside__info {
+
+	position: fixed;
+	z-index: $layer3;
+	top: 40%;
+	left: 0;
+	height: 0;
+	width: 100%;
+	background: $cs-yellow;
+
+	@include transition (all 0.3s ease-in-out);
+
+        div {
+
+            @include transition (all 0.3s ease-in-out);
+
+        }
+
+	@include mq( $to: desktop-small ) {
+
+		&.is-site-aside__info-open {
+
+			height: 100%;
+
+		}
+
+	}
+
+	@include mq( $from: desktop-small ) {
+
+		top: 0;
+		bottom: auto;
+		z-index: $layer5;
+		margin: 11.5em 0 0 5%;
+		height: 20%;
+		width: 25%;
+
+	}
+
+	@include mq( $from: desktop ) {
+
+		top: auto;
+		bottom: 0;
+		margin: 80% 5% 5% 70%;
+
+	}
+
+	@include mq( $and: $ipad-landscape ) {
+
+		top: auto;
+		bottom: 0;
+		width: 50%;
+		height: 50%;
+		margin:0;
+
+	}
+
+}

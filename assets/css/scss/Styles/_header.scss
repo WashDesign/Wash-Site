@@ -1,0 +1,137 @@
+// !HEADER
+
+.site-header {
+
+	position: fixed;
+	z-index: $layer2;
+	top: 0;
+	right: 0;
+	height: 40%;
+	width: 100%;
+	text-align: center;
+	color: $black;
+
+	@include transition (all 0.3s ease-in-out);
+
+	@include mq( $from: desktop-small ) {
+
+		width: 100%;
+		height: 7em;
+		padding: $frameThickness $frameThickness 0 $frameThickness;
+		background-color: $cs-black;
+		background-color: $cs-black-alpha;
+		color: $white;
+
+	}
+
+	@include mq( $and: $ipad-landscape ) {
+
+		background-color: $white;
+		height: 7em;
+		width: 50%;
+
+	}
+
+}
+
+.logo {
+
+    padding-top: 1em;
+
+    @include mq( $from: desktop-small ) {
+
+        width: 31%;
+        float: left;
+
+    }
+
+     @include mq( $and: $ipad-landscape ) {
+
+        width: 100%;
+        float: inherit;
+
+     }
+
+}
+
+.logo__link {
+
+    @include mq( $from: desktop-small ) {
+
+        float: left;
+
+    }
+
+    @include mq( $and: $ipad-landscape ) {
+
+        float: inherit;
+
+    }
+
+}
+
+.logo__header {
+
+    @extend .vh;
+
+}
+
+.logo__img--white {
+
+    @extend .hm;
+
+    @include mq( $and: $ipad-landscape ) {
+
+       display: none;
+
+    }
+
+}
+
+.logo__img--black {
+
+    @extend .hd;
+
+    @include mq( $and: $ipad-landscape ) {
+
+       display: inline-block;
+
+    }
+
+}
+
+.cta-contact {
+
+    text-align: left;
+
+    a {
+		text-decoration: none;
+	}
+
+	@include mq( $from: desktop-small ) {
+
+    	display: inline-block;
+        padding: 1.25em 0;
+        height: 7em;
+        top: 0;
+
+    }
+
+    @include mq( $and: $ipad-landscape ) {
+
+
+        display: block;
+        padding: 1em 0;
+        height: auto;
+        top: auto;
+
+
+    }
+
+}
+
+.cta-contact--tel {
+
+	font-weight: 700;
+
+}

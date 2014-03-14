@@ -1,0 +1,62 @@
+.site-footer {
+
+	position: fixed;
+	z-index: $layer5;
+	bottom: 0;
+	right: 0;
+	height: 30%;
+	width: 100%;
+	color: white;
+	padding: 0 1em;
+	font-size: 0.9em;
+
+	background-color: $cs-black;
+
+	@include transition (all 0.3s ease-in-out);
+
+
+	@include mq( $from: desktop-small ) {
+
+        display: none;
+		/*
+z-index: $layer2;
+		right: auto;
+		left: 0;
+		width: 30%;
+		height: 7em;
+		min-width: 10em;
+		padding: 0 0 $frameThickness $frameThickness;
+
+		background-color: $cs-black;
+		background-color: $cs-black-alpha;
+		color: white;
+*/
+
+	}
+
+	@include mq( $from: desktop ) {
+
+		/* width: 22%; */
+
+	}
+
+	 @include mq( $and: $ipad-landscape ) {
+
+    	display: block;
+    	width: 50%;
+    	right: 0;
+    	left: auto;
+    	background-color: $cs-black;
+    	height: 30%;
+    	padding: 1em;
+    	z-index: $layer3;
+
+    	.constrain {
+
+        	width: 100%;
+
+    	}
+
+	}
+
+}

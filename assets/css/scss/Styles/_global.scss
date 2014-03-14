@@ -1,0 +1,73 @@
+// !GLOBAL
+
+html {
+
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+
+}
+
+body {
+
+    font-family: $serif;
+    font-size: 100%;
+    line-height: 1.5;
+    font-weight: 100;
+    height: 100%;
+
+    @include mq( $from: desktop-small ) {
+
+		background-color: rgb(210,210,210);
+
+	}
+
+	@include mq( $from: desktop ) {
+
+		background-color: rgb(200,200,200);
+
+
+	}
+
+	@include mq( $and: $ipad-landscape ) {
+
+		background-color: rgb(230,230,230);
+
+	}
+
+}
+
+
+a {
+
+    color: $white;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+
+        text-decoration: none;
+
+    }
+
+
+}
+
+.constrain {
+
+    width: 100%;
+    margin: 0 auto;
+
+    @include mq( $from: desktop-small ) {
+
+        width: 90%;
+
+    }
+
+}
+
+
+
+
+
+
+

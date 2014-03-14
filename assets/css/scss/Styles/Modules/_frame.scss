@@ -1,0 +1,55 @@
+// !FRAME
+
+@include mq( $from: desktop-small ) {
+
+    .frame {
+
+        position: fixed;
+    	z-index: $layer1;
+    	width: 100%;
+    	height: 100%;
+    	background-color: $white;
+
+    }
+
+    .frame-x {
+
+        top: 0;
+    	left: 0;
+    	width: $frameThickness;
+
+    }
+
+    .frame-y {
+
+    	top: 0;
+    	right: 0;
+    	height: $frameThickness;
+
+    }
+
+    .frame--bottom {
+
+    	top: auto;
+    	bottom: 0;
+
+    }
+
+    .frame--right {
+
+    	left: auto;
+    	right: 0;
+
+    }
+
+}
+
+@include mq( $and: $ipad-landscape ) {
+
+    .frame {
+
+        display: none;
+
+    }
+
+}

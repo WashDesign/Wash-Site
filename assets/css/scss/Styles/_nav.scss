@@ -1,0 +1,303 @@
+// !NAV
+
+// !--Primary
+
+.nav--primary {
+
+    @include mq( $from: desktop-small ) {
+
+        width: 54%;
+        float: left;
+
+    }
+
+    @include mq( $and: $ipad-landscape ) {
+
+        width: 100%;
+        float: right;
+
+    }
+
+}
+
+.nav--primary__btn {
+
+    z-index: $layerTop;
+
+    @extend .hd;
+
+    @include mq( $and: $ipad-landscape ) {
+
+        display: block;
+
+    }
+
+}
+
+.nav__ul {
+
+	margin: 0;
+	padding: 0;
+
+	@include mq( $from: desktop-small ) {
+
+    	padding: 0.75em 0;
+        height: 7em;
+
+    }
+
+}
+
+.nav__item {
+
+
+    text-align: left;
+
+	a {
+
+		display: block;
+		text-decoration: none;
+		padding: 1em;
+		border-bottom: 1px solid white;
+
+	}
+
+    @include mq( $from: desktop-small ) {
+
+
+        width: 100%;
+        position: relative;
+        float: left;
+
+    	a {
+
+        	color: rgb(255, 255, 255);
+            display: inline-block;
+            position: relative;
+            float: left;
+            padding: 0;
+            text-decoration: none;
+            border-bottom: none;
+
+        }
+
+    }
+
+     @include mq( $and: $ipad-landscape ) {
+
+        width: 100%;
+
+        a {
+
+            display: block;
+    		text-decoration: none;
+    		padding: 1em;
+    		width: 100%;
+    		border-bottom: 1px solid white;
+
+        }
+
+
+     }
+
+
+}
+
+// !--Fly out
+
+.wash-nav--push--toleft {
+
+	.site-header,
+	.site-aside__media,
+	.site-aside__info
+	{
+		left: auto;
+		right: 240px;
+	}
+
+	 @include mq( $and: $ipad-landscape ) {
+
+    	 .site-header,
+         .site-footer
+         {
+            left: auto;
+    	    right: 50%;
+
+    	 }
+
+    	 .site-aside__media,
+         .site-aside__info {
+
+             left: -100%;
+
+    	 }
+
+	 }
+
+}
+
+.nav--primary__btn {
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	text-decoration: none;
+	font-size: 1.825em;
+	color: $white;
+	color: $black; //*** remove
+	@include transition (all 0.3s ease-in-out);
+
+	@include mq( $and: $ipad-landscape ) {
+
+         color: $cs-black;
+	}
+
+}
+
+.wash-nav {
+	background-color: $cs-black;
+	color: white;
+	position: fixed;
+
+	@include mq( $from: desktop-small ) {
+
+
+		background-color: transparent;
+        position: relative;
+        width: 68%;
+
+
+	}
+
+	@include mq( $and: $ipad-landscape ) {
+
+    	background-color: $cs-black;
+	    position: fixed;
+	    width: auto;
+	    margin-left: 0;
+
+	}
+
+	.cta-contact {
+
+		padding: 1em;
+
+		@include mq( $and: $ipad-landscape ) {
+
+            float: left;
+
+            a {
+
+                padding: 1em 0 0;
+
+            }
+
+        }
+
+	}
+
+}
+
+.wash-nav--vertical {
+
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+
+	@include mq( $from: desktop-small ) {
+
+        width: 68%;
+        float: left;
+
+    	a {
+    		padding: 0;
+    	}
+
+	}
+
+
+	@include mq( $and: $ipad-landscape ) {
+
+    	width: 50%;
+        float: inherit;
+
+    	a {
+    		padding: 1em;
+    	}
+
+    }
+
+}
+
+.wash-nav--right {
+
+	right: -240px;
+
+	@include mq( $from: desktop-small ) {
+
+	    right: auto;
+	    left: 0;
+
+	}
+
+	@include mq( $and: $ipad-landscape ) {
+
+	    left: auto;
+	    right: -50%;
+
+	}
+}
+
+.wash-nav--right.wash-nav--open {
+	right: 0px;
+}
+
+.wash-nav--push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.wash-nav--push--toleft {
+
+	left: -240px;
+
+	@include mq( $and: $ipad-landscape ) {
+
+	    left: -50%;
+
+	}
+
+}
+
+.wash-nav,
+.wash-nav--push {
+	@include transition (all 0.3s ease-in-out);
+}
+
+// !--Secondary
+
+.nav--secondary {
+
+    @include mq( $from: desktop-small ) {
+
+        position: absolute;
+        width: 22%;
+        display: block;
+        bottom: $frameThickness;
+        left: 0;
+        z-index: $layer2;
+        padding: 0 0 $frameThickness $frameThickness;
+        background: $cs-black;
+        background-color: $cs-black-alpha;
+
+    }
+
+    @include mq( $and: $ipad-landscape ) {
+
+        display: none;
+
+    }
+
+
+}
