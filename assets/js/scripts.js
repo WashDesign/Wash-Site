@@ -65,7 +65,7 @@ jQuery(document).ready(function($) {
         	controls: 'none', // not required
         	fade: false,
         	keyboard: true, //*** what are these
-        	overflow: true,
+        	overflow: false,
         	theme: '#222',
         	timing: { 'linear': '0.7s ease-out' },
         	touch: true,

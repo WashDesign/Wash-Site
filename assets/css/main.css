@@ -1032,7 +1032,7 @@ a {
       width: 100%; } }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .site-main {
-      top: 7em;
+      top: 6.9em;
       width: 50%;
       padding-bottom: 20%; } }
 
@@ -1043,7 +1043,7 @@ a {
   float: left;
   padding: 1em;
   background-color: white; }
-  @media all and (max-width: 63.74em) {
+  @media all and (max-width: 47.99em) {
     .page:last-child {
       -webkit-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
       -moz-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
