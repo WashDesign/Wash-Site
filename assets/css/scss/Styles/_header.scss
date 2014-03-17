@@ -5,7 +5,7 @@
 	position: fixed;
 	z-index: $layer2;
 	top: 0;
-	right: 0;
+	left: 0;
 	height: 40%;
 	width: 100%;
 	text-align: center;
@@ -29,6 +29,8 @@
 		background-color: $white;
 		height: 7em;
 		width: 50%;
+		right: 0;
+		left: auto;
 
 	}
 
