@@ -909,7 +909,8 @@ a {
     right: 50%; }
   .wash-nav--push--toleft .site-aside__media,
   .wash-nav--push--toleft .site-aside__info {
-    left: -100%; } }
+    left: -100%;
+    right: 100%; } }
 
 .nav--primary__btn {
   position: absolute;
