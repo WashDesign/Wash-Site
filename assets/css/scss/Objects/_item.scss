@@ -1,7 +1,7 @@
 
 .is-content {
 	background-color: $cs-yellow;
-	padding: 0.5em;
+	//padding: 0.5em;
 }
 
 .item {
@@ -28,7 +28,18 @@
 @include mq($from: desktop-small) {
 
   .item.is-half { width:  50%; }
-  .item.is-half.is-content { width:  100%; }
+  
+  .item.is-half.is-split.is-content {
+  	
+  	> .is-ratio {
+  		padding-bottom: 62.5490196078%;
+  	}
+  	
+  	> .item.is-half.is-split { 
+  		width: 100%; 
+  	}
+  	
+  }
   
   .is-ratio {
     padding-bottom: 54.2%; 
@@ -42,6 +53,7 @@
 
 @include mq($from: desktop-medium) {
    .item.is-half.is-content { width:  50%; font-size: 0.925em; }
+   .item.is-content > .item.is-half.is-split { width: 50%; }
 } // end 900
 
 
@@ -51,5 +63,5 @@
 
 
 @include mq($from: wide) {
-   .is-ratio { padding-bottom: 52.7%; }
+   .is-ratio {  }
 } // end 900
