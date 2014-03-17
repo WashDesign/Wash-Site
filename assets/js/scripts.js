@@ -60,18 +60,21 @@ jQuery(document).ready(function($) {
  	var s = slidr.create('js-site-aside__media', {
         	after: function(e) { console.log('in: ' + e.in.slidr); },
         	before: function(e) { console.log('out: ' + e.out.slidr); },
-        	breadcrumbs: false,
+        	breadcrumbs: false, // not required
         	direction: 'horizontal',
-        	controls: 'none',
+        	controls: 'none', // not required
         	fade: false,
-        	keyboard: true,
+        	keyboard: true, //*** what are these
         	overflow: true,
         	theme: '#222',
         	timing: { 'linear': '0.7s ease-out' },
         	touch: true,
         	transition: 'linear'
 
-    }).start().add('h', ['one', 'two', 'three', 'four', 'one']).auto();
+    })
+    .start()
+    .add('h', ['one', 'two', 'three', 'four', 'one'])
+    .auto();
 
     /*
 $.fn.fullpage({
