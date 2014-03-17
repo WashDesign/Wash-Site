@@ -781,9 +781,9 @@ a {
   width: 100%;
   text-align: center;
   color: black;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
   @media all and (min-width: 48em) {
     .site-header {
       width: 100%;
@@ -900,7 +900,7 @@ a {
 .wash-nav--push--toleft .site-header,
 .wash-nav--push--toleft .site-aside__media,
 .wash-nav--push--toleft .site-aside__info {
-  left: auto;
+  left: -240px;
   right: 240px; }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .wash-nav--push--toleft .site-header,
@@ -919,9 +919,9 @@ a {
   font-size: 1.825em;
   color: white;
   color: black;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .nav--primary__btn {
       color: #1e2425; } }
@@ -994,9 +994,9 @@ a {
 
 .wash-nav,
 .wash-nav--push {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
 
 @media all and (min-width: 48em) {
   .nav--secondary {
@@ -1214,9 +1214,9 @@ a {
   left: 0;
   height: 40%;
   width: 100%;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1241,13 +1241,13 @@ a {
   height: 0;
   width: 100%;
   background: #fdba31;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
   .site-aside__info div {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; }
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important; }
   @media all and (max-width: 47.99em) {
     .site-aside__info.is-site-aside__info-open {
       height: 100%; } }
@@ -1283,9 +1283,9 @@ a {
   padding: 0 1em;
   font-size: 0.9em;
   background-color: #1e2425;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
   @media all and (min-width: 48em) {
     .site-footer {
       display: none;
