@@ -1043,10 +1043,11 @@ a {
   float: left;
   padding: 1em;
   background-color: white; }
-  .page:last-child {
-    -webkit-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
-    -moz-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
-    box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9); }
+  @media all and (max-width: 63.74em) {
+    .page:last-child {
+      -webkit-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
+      -moz-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
+      box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9); } }
   @media all and (min-width: 48em) {
     .page {
       padding: 0 5% 0 40%;
@@ -1143,6 +1144,9 @@ a {
       width: 50%;
       height: 50%;
       margin: 0; } }
+
+#js-site-aside__media-breadcrumbs {
+  bottom: -36px; }
 
 .site-footer {
   position: fixed;

@@ -60,8 +60,9 @@ jQuery(document).ready(function($) {
  	var s = slidr.create('js-site-aside__media', {
         	after: function(e) { console.log('in: ' + e.in.slidr); },
         	before: function(e) { console.log('out: ' + e.out.slidr); },
-        	breadcrumbs: true,
+        	breadcrumbs: false,
         	direction: 'horizontal',
+        	controls: 'none',
         	fade: false,
         	keyboard: true,
         	overflow: true,
@@ -70,7 +71,7 @@ jQuery(document).ready(function($) {
         	touch: true,
         	transition: 'linear'
 
-    }).start();
+    }).start().add('h', ['one', 'two', 'three', 'four', 'one']).auto();
 
     /*
 $.fn.fullpage({
@@ -109,12 +110,10 @@ $.fn.fullpage({
 
 
 
-	/*
-$('.site-header').click(function(){
+	$('.site-header').click(function(){
 
 		s.slide('right');
 
 	});
-*/
 
 });
