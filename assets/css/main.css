@@ -834,7 +834,7 @@ a {
     .cta-contact {
       display: inline-block;
       padding: 1.25em 0;
-      height: 7em;
+      height: 5.75em;
       top: 0; } }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .cta-contact {
@@ -867,7 +867,7 @@ a {
   @media all and (min-width: 48em) {
     .nav__ul {
       padding: 0.75em 0;
-      height: 7em; } }
+      height: 5.75em; } }
 
 .nav__item {
   text-align: left; }

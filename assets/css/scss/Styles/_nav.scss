@@ -42,7 +42,7 @@
 	@include mq( $from: desktop-small ) {
 
     	padding: 0.75em 0;
-        height: 7em;
+        height: 7em - $frameThickness;
 
     }
 

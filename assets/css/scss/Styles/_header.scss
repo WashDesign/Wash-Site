@@ -114,7 +114,7 @@
 
     	display: inline-block;
         padding: 1.25em 0;
-        height: 7em;
+        height: 7em - $frameThickness;
         top: 0;
 
     }
