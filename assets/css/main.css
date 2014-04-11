@@ -713,8 +713,8 @@ table {
 
 @font-face {
   font-family: 'ui';
-  src: url("../fonts/ui.eot");
-  src: url("../fonts/ui.eot?#iefix") format("embedded-opentype"), url("../fonts/ui.ttf") format("truetype"), url("../fonts/ui.woff") format("woff"), url("../fonts/ui.svg#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -738,6 +738,56 @@ table {
 
 .media--left {
   float: left; }
+
+.nav--slidr {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1; }
+  @media all and (min-width: 48em) {
+    .nav--slidr {
+      display: none; } }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .nav--slidr {
+      display: block; } }
+
+.nav-slidr__link {
+  float: left;
+  display: block;
+  font-size: 32px;
+  line-height: 32px;
+  padding: .2em;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: black;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
+  .nav-slidr__link:hover, .nav-slidr__link:focus {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black; }
+
+.nav-slidr__link--right {
+  float: right; }
+
+.nav--slidr--arrow {
+  margin-top: -3em;
+  font-size: 10px; }
+  @media all and (max-width: 47.99em) {
+    .nav--slidr--arrow {
+      display: none; } }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .nav--slidr--arrow {
+      display: none; } }
+  .nav--slidr--arrow .slidr--arrow__link {
+    float: right;
+    margin-right: 2em;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important; }
+    .nav--slidr--arrow .slidr--arrow__link:focus, .nav--slidr--arrow .slidr--arrow__link:hover {
+      text-shadow: 0px 0px 5px white; }
 
 html {
   -webkit-font-smoothing: antialiased;

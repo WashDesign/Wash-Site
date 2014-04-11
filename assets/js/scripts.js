@@ -82,7 +82,8 @@ jQuery(document).ready(function($) {
         	transition: 'linear'
 
     })
-    .add('h', ['one', 'two', 'three', 'four', 'one']);
+    .add('h', ['one', 'two', 'three', 'four', 'one'])
+    .start();
 
 
     // slidr bind
@@ -98,14 +99,41 @@ jQuery(document).ready(function($) {
         	overflow: false,
         	theme: '#222',
         	timing: { 'linear': '0.7s ease-out' },
-        	touch: true,
+        	touch: false,
         	transition: 'linear'
 
     })
-    .add('h', ['one', 'two', 'three', 'four', 'one']);
+    .add('h', ['one', 'two', 'three', 'four', 'one'])
+    .start();
 
-    s.auto();
-    a.auto();
+    //s.auto();
+    //a.auto();
+
+    // slidr controls
+
+    $('#js-nav-slidr__link--right').on('click', function(){
+
+		s.slide('left');
+		a.slide('left');
+        event.preventDefault();
+
+	});
+
+	$('#js-nav-slidr__link--left').on('click', function(){
+
+		s.slide('right');
+		a.slide('right');
+		event.preventDefault();
+
+	});
+
+	$('#js-slidr--arrow__link').on('click', function(){
+
+	    s.slide('right');
+		a.slide('right');
+		event.preventDefault();
+
+	});
 
     if ( $('.page').length > 1 ) {
 
@@ -146,10 +174,6 @@ jQuery(document).ready(function($) {
 
 
 
-	$('.site-header').click(function(){
 
-		s.slide('right');
-
-	});
 
 });
