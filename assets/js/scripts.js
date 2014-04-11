@@ -9,6 +9,14 @@ jQuery(document).ready(function($) {
 
 	});
 
+	$('#js-wash-slider__info__btn').on( 'click', function() {
+
+    	$(this).toggleClass( 'ux-ctaSpin');
+    	$('#js-site-aside__info').toggleClass( 'is-open' );
+    	console.log('toggle');
+
+	});
+
 	mediaCheck({
     media: '(max-width: 767px)',
     entry: function() {
@@ -74,9 +82,8 @@ jQuery(document).ready(function($) {
         	transition: 'linear'
 
     })
-    .start()
-    .add('h', ['one', 'two', 'three', 'four', 'one'])
-    .auto();
+    .add('h', ['one', 'two', 'three', 'four', 'one']);
+
 
     // slidr bind
 
@@ -95,9 +102,10 @@ jQuery(document).ready(function($) {
         	transition: 'linear'
 
     })
-    .start()
-    .add('h', ['one', 'two', 'three', 'four', 'one'])
-    .auto();
+    .add('h', ['one', 'two', 'three', 'four', 'one']);
+
+    s.auto();
+    a.auto();
 
     if ( $('.page').length > 1 ) {
 

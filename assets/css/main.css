@@ -846,6 +846,79 @@ a {
 .cta-contact--tel {
   font-weight: 700; }
 
+.wash-slider__info__btn {
+  background-color: #fdba31;
+  font-size: 1.825em;
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  right: 0.5em;
+  width: 29px;
+  height: 29px;
+  float: right;
+  line-height: 1; }
+  .wash-slider__info__btn span {
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  @media all and (min-width: 48em) {
+    .wash-slider__info__btn {
+      display: none; } }
+
+.ux-ctaSpin span {
+  -webkit-animation: ux-ctaSpin 0.3s 1 ease-in-out;
+  -moz-animation: ux-ctaSpin 0.3s 1 ease-in-out;
+  -o-animation: ux-ctaSpin 0.3s 1 ease-in-out;
+  animation: ux-ctaSpin 0.3s 1 ease-in-out;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* Open Spin
+-------------------------------------*/
+@-webkit-keyframes ux-ctaSpin {
+  from {
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    -webkit-transform: rotate(-45deg); } }
+
+@-moz-keyframes ux-ctaSpin {
+  from {
+    -moz-transform: rotate(0deg); }
+
+  to {
+    -moz-transform: rotate(-45deg); } }
+
+@-ms-keyframes ux-ctaSpin {
+  from {
+    -moz-transform: rotate(0deg); }
+
+  to {
+    -moz-transform: rotate(-45deg); } }
+
+@-o-keyframes ux-ctaSpin {
+  from {
+    -o-transform: rotate(0deg); }
+
+  to {
+    -o-transform: rotate(-45deg); } }
+
+@keyframes ux-ctaSpin {
+  from {
+    -o-transform: rotate(0deg); }
+
+  to {
+    -o-transform: rotate(-45deg); } }
+
 @media all and (min-width: 48em) {
   .nav--primary {
     width: 54%;
@@ -1039,6 +1112,7 @@ a {
     .site-main {
       top: 6.9em;
       width: 50%;
+      left: 50%;
       padding-bottom: 20%; } }
 
 .page {
@@ -1122,7 +1196,7 @@ a {
   -moz-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important; }
   @media all and (max-width: 47.99em) {
-    .site-aside__info.is-site-aside__info-open {
+    .site-aside__info.is-open {
       height: 60%; } }
   @media all and (min-width: 48em) {
     .site-aside__info {
@@ -1139,11 +1213,13 @@ a {
       top: auto;
       bottom: 0;
       width: 50%;
-      height: 50%; } }
+      height: 50%;
+      background: #fdba31; } }
   .site-aside__info > div {
     position: relative;
     height: 100%;
     width: 100%;
+    padding: 1em;
     background: #fdba31;
     -webkit-transition: all 0.3s ease-in-out !important;
     -moz-transition: all 0.3s ease-in-out !important;

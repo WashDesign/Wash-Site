@@ -137,3 +137,133 @@
 	font-weight: 700;
 
 }
+
+.wash-slider__info__btn {
+
+    background-color: $cs-yellow;
+    font-size: 1.825em;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    right: 0.5em;
+    width: 29px;
+    height: 29px;
+    float: right;
+    line-height: 1;
+
+    span {
+
+        display: block;
+
+    @include transition (all 0.3s ease-in-out);
+
+    -webkit-transform: rotate(-0deg);
+       -moz-transform: rotate(-0deg);
+         -o-transform: rotate(-0deg);
+            transform: rotate(-0deg);
+
+    }
+
+    @include mq( $from: desktop-small ) {
+
+        display: none;
+
+    }
+
+}
+
+.ux-ctaSpin {
+
+    span {
+
+          -webkit-animation: ux-ctaSpin 0.3s 1 ease-in-out;
+             -moz-animation: ux-ctaSpin 0.3s 1 ease-in-out;
+               -o-animation: ux-ctaSpin 0.3s 1 ease-in-out;
+                  animation: ux-ctaSpin 0.3s 1 ease-in-out;
+
+          -webkit-transform: rotate(-45deg);
+             -moz-transform: rotate(-45deg);
+               -o-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+
+    }
+}
+
+
+/* Open Spin
+-------------------------------------*/
+@-webkit-keyframes ux-ctaSpin {
+
+    from {
+
+        -webkit-transform: rotate(0deg);
+
+    }
+
+    to {
+
+        -webkit-transform: rotate(-45deg); }
+
+    }
+
+@-moz-keyframes ux-ctaSpin {
+
+    from {
+
+        -moz-transform: rotate(0deg);
+
+    }
+
+    to {
+
+        -moz-transform: rotate(-45deg); }
+
+    }
+
+@-ms-keyframes ux-ctaSpin {
+
+    from {
+
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+
+        -moz-transform: rotate(-45deg);
+
+    }
+}
+
+@-o-keyframes ux-ctaSpin {
+
+    from {
+
+        -o-transform: rotate(0deg);
+
+    }
+
+    to {
+
+        -o-transform: rotate(-45deg);
+
+    }
+
+}
+
+@keyframes ux-ctaSpin {
+
+    from {
+
+        -o-transform: rotate(0deg);
+
+    }
+
+    to {
+
+        -o-transform: rotate(-45deg);
+
+    }
+
+}

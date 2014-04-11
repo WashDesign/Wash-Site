@@ -50,7 +50,7 @@
 
 	@include mq( $to: desktop-small ) {
 
-		&.is-site-aside__info-open {
+		&.is-open {
 
 			height: 60%;
 
@@ -81,6 +81,7 @@
 		bottom: 0;
 		width: 50%;
 		height: 50%;
+		background: $cs-yellow;
 
 	}
 
@@ -89,6 +90,7 @@
 	    position: relative;
         height: 100%;
         width: 100%;
+        padding: 1em;
         background: $cs-yellow;
         @include transition (all 0.3s ease-in-out);
 
