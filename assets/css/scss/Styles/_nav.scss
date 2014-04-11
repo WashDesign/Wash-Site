@@ -283,7 +283,6 @@
     @include mq( $from: desktop-small ) {
 
         position: absolute;
-        width: 22%;
         display: block;
         bottom: $frameThickness;
         left: 0;
@@ -291,6 +290,15 @@
         padding: 0 0 $frameThickness $frameThickness;
         background: $cs-black;
         background-color: $cs-black-alpha;
+        width: 27%;
+        ul { padding-left: 38px; }
+
+    }
+
+    @include mq( $from: desktop ) {
+
+        width: 22%;
+        ul { padding-left: 4.25em; }
 
     }
 
@@ -300,5 +308,157 @@
 
     }
 
+
+}
+
+// Hover+Current Line
+
+.nav--primary,
+.nav--secondary {
+
+    .nav__item {
+
+        &.nav__item--current,
+        a:hover,
+        a:focus {
+
+            &:before {
+
+                @include mq( $from: desktop-small ) {
+
+                    content: " ";
+                    margin-top: .75em;
+                    position: absolute;
+                    display: block;
+                    border-bottom: 1px solid rgb(255, 255, 255);
+                    width: 1em;
+                    margin-left: -1.5em;
+
+                }
+
+                @include mq( $from: desktop ) {
+
+                    width: 3em;
+                    margin-left: -4em;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.nav--secondary {
+
+    .nav__item {
+
+        &.nav__item--current,
+        a:hover,
+        a:focus {
+
+            &:before {
+
+                @include mq( $from: desktop ) {
+
+                    width: 2.25em;
+                    margin-left: -3.25em;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+// Slidr Navs
+
+.nav--slidr {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+
+    @include mq( $from: desktop-small ) {
+
+        display: none;
+
+    }
+
+    @include mq( $and: $ipad-landscape ) {
+
+        display: block;
+
+    }
+
+}
+
+.nav-slidr__link {
+
+   float: left;
+   display: block;
+   font-size: 32px;
+   line-height: 32px;
+   padding: .2em;
+   text-decoration: none;
+   background-color: rgba(255, 255, 255, 0.25);
+   color: black;
+   @include transition (all 0.3s ease-in-out);
+
+   &:hover,
+   &:focus {
+
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+
+   }
+
+}
+
+.nav-slidr__link--right {
+
+    float: right;
+
+}
+
+
+.nav--slidr--arrow {
+
+    margin-top: -3em;
+    font-size: 10px;
+
+    @include mq( $to: desktop-small ) {
+
+        display: none;
+
+    }
+
+     @include mq( $and: $ipad-landscape ) {
+
+        display: none;
+
+    }
+
+    .slidr--arrow__link {
+
+        float: right;
+        margin-right: 2em;
+        text-decoration: none;
+        @include transition (all 0.3s ease-in-out);
+
+        &:focus,
+        &:hover {
+
+            text-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+        }
+
+    }
 
 }
