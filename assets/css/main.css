@@ -1248,7 +1248,9 @@ a {
       padding: 0;
       background-color: white;
       color: black;
-      width: 100%; } }
+      width: 100%; }
+      .page__constrain a {
+        color: black; } }
 
 .site-aside__media {
   position: fixed;
