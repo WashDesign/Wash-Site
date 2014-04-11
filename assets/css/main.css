@@ -1029,10 +1029,11 @@ a {
   @media all and (min-width: 48em) {
     .site-main {
       top: 7em;
-      width: 42%;
+      width: 65%;
       left: 30%; } }
   @media all and (min-width: 63.75em) {
     .site-main {
+      width: 42%;
       left: 25%; } }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .site-main {

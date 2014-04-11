@@ -16,13 +16,14 @@
 	@include mq( $from: desktop-small ) {
 
 		top: 7em;
-		width: 42%;
+		width: 65%;
 		left: 30%;
 
 	}
 
 	@include mq( $from: desktop ) {
 
+		width: 42%;
 		left: 25%;
 
     }
