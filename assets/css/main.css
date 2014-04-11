@@ -1108,42 +1108,58 @@ a {
 
 .site-aside__info {
   position: fixed;
-  z-index: 80;
   top: 40%;
   left: 0;
   height: 0;
   width: 100%;
-  background: #fdba31;
+  z-index: 80;
   -webkit-transition: all 0.3s ease-in-out !important;
   -moz-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important; }
-  .site-aside__info div {
-    -webkit-transition: all 0.3s ease-in-out !important;
-    -moz-transition: all 0.3s ease-in-out !important;
-    transition: all 0.3s ease-in-out !important; }
   @media all and (max-width: 47.99em) {
     .site-aside__info.is-site-aside__info-open {
-      height: 100%; } }
+      height: 60%; } }
   @media all and (min-width: 48em) {
     .site-aside__info {
       top: 0;
       bottom: auto;
-      z-index: 60;
-      margin: 11.5em 0 0 5%;
-      height: 20%;
-      width: 25%; } }
+      height: 100%;
+      z-index: 60; } }
   @media all and (min-width: 63.75em) {
     .site-aside__info {
       top: auto;
-      bottom: 0;
-      margin: 80% 5% 5% 70%; } }
+      bottom: 0; } }
   @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .site-aside__info {
       top: auto;
       bottom: 0;
       width: 50%;
-      height: 50%;
-      margin: 0; } }
+      height: 50%; } }
+  .site-aside__info > div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #fdba31;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important; }
+    @media all and (min-width: 48em) {
+      .site-aside__info > div {
+        margin: 11.5em 0 0 5%;
+        height: 20%;
+        width: 25%; } }
+    @media all and (min-width: 63.75em) {
+      .site-aside__info > div {
+        margin: 80% 5% 5% 70%;
+        bottom: 0;
+        height: 20%;
+        width: 25%; } }
+    @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+      .site-aside__info > div {
+        height: 100%;
+        width: 100%;
+        bottom: auto;
+        margin: 0; } }
 
 #js-site-aside__media-breadcrumbs {
   bottom: -36px; }

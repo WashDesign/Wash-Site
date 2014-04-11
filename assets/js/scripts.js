@@ -57,6 +57,8 @@ jQuery(document).ready(function($) {
 
     });
 
+    // slidr
+
  	var s = slidr.create('js-site-aside__media', {
         	after: function(e) { console.log('in: ' + e.in.slidr); },
         	before: function(e) { console.log('out: ' + e.out.slidr); },
@@ -76,40 +78,63 @@ jQuery(document).ready(function($) {
     .add('h', ['one', 'two', 'three', 'four', 'one'])
     .auto();
 
-    /*
-$.fn.fullpage({
-        verticalCentered: false,
-        resize : true,
-        anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-        scrollingSpeed: 700,
-        easing: 'easeInQuart',
-        menu: false,
-        navigation: true,
-        navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom',
-        loopBottom: false,
-        loopTop: false,
-        loopHorizontal: false,
-        autoScrolling: true,
-        scrollOverflow: true,
-        css3: false,
-        paddingTop: '0',
-        paddingBottom: '0',
-        fixedElements: '#frame',
-        normalScrollElements: '.frame',
-        keyboardScrolling: true,
-        touchSensitivity: 15,
+    // slidr bind
 
-        //events
-        onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
-        afterLoad: function(anchorLink, index){},
-        afterRender: function(){},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
-    });
-*/
+    var a = slidr.create('js-site-aside__info', {
+        	after: function(e) { console.log('in: ' + e.in.slidr); },
+        	before: function(e) { console.log('out: ' + e.out.slidr); },
+        	breadcrumbs: false, // not required
+        	direction: 'horizontal',
+        	controls: 'none', // not required
+        	fade: false,
+        	keyboard: true, //*** what are these
+        	overflow: false,
+        	theme: '#222',
+        	timing: { 'linear': '0.7s ease-out' },
+        	touch: true,
+        	transition: 'linear'
+
+    })
+    .start()
+    .add('h', ['one', 'two', 'three', 'four', 'one'])
+    .auto();
+
+    if ( $('.page').length > 1 ) {
+
+        $.fn.fullpage({
+            verticalCentered: false,
+            resize : true,
+            anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+            scrollingSpeed: 700,
+            easing: 'easeInQuart',
+            menu: false,
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+            slidesNavigation: true,
+            slidesNavPosition: 'bottom',
+            loopBottom: false,
+            loopTop: false,
+            loopHorizontal: false,
+            autoScrolling: true,
+            scrollOverflow: true,
+            css3: false,
+            paddingTop: '0',
+            paddingBottom: '0',
+            fixedElements: '#frame',
+            normalScrollElements: '.frame',
+            keyboardScrolling: true,
+            touchSensitivity: 15,
+
+            //events
+            onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
+            afterLoad: function(anchorLink, index){},
+            afterRender: function(){},
+            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+            onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
+        });
+
+    }
 
 
 
