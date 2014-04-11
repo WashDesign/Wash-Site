@@ -92,6 +92,17 @@
 	background-color: white;
 	color: black;
 
+	@include mq( $to: desktop-small ) {
+
+	    a {
+
+    	    color: black;
+
+
+	    }
+
+	}
+
 	@include mq( $from: desktop-small ) {
 
 		padding: 5%;

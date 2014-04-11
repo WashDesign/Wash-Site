@@ -1193,6 +1193,9 @@ a {
 .page__constrain {
   background-color: white;
   color: black; }
+  @media all and (max-width: 47.99em) {
+    .page__constrain a {
+      color: black; } }
   @media all and (min-width: 48em) {
     .page__constrain {
       padding: 5%;
