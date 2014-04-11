@@ -1228,7 +1228,8 @@ a {
       .site-aside__info > div {
         margin: 12em 72.5% 0 5%;
         height: auto;
-        width: 22.5%; } }
+        width: 22.5%;
+        background-color: rgba(253, 186, 49, 0.75); } }
     @media all and (min-width: 63.75em) {
       .site-aside__info > div {
         margin: 80% 5% 5% 70%;
@@ -1240,7 +1241,8 @@ a {
         height: 100%;
         width: 100%;
         bottom: auto;
-        margin: 0; } }
+        margin: 0;
+        background-color: #fdba31; } }
 
 #js-site-aside__media-breadcrumbs {
   bottom: -36px; }
