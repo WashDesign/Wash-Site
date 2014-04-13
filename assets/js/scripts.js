@@ -61,6 +61,41 @@ jQuery(document).ready(function($) {
 
     		});
 
+    		if ( $('.page').length > 1 ) {
+
+                $.fn.fullpage({
+                    verticalCentered: false,
+                    resize : true,
+                    anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+                    scrollingSpeed: 700,
+                    easing: 'easeInQuart',
+                    menu: false,
+                    navigation: true,
+                    navigationPosition: 'right',
+                    navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+                    slidesNavigation: true,
+                    slidesNavPosition: 'bottom',
+                    loopBottom: false,
+                    loopTop: false,
+                    loopHorizontal: false,
+                    autoScrolling: true,
+                    scrollOverflow: true,
+                    css3: false,
+                    paddingTop: '0',
+                    paddingBottom: '0',
+                    keyboardScrolling: true,
+                    touchSensitivity: 15,
+
+                    //events
+                    onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
+                    afterLoad: function(anchorLink, index){},
+                    afterRender: function(){},
+                    afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+                    onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
+                });
+
+            }
+
         }
 
     });
@@ -152,45 +187,6 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 
 	});
-
-    if ( $('.page').length > 1 ) {
-
-        $.fn.fullpage({
-            verticalCentered: false,
-            resize : true,
-            anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-            scrollingSpeed: 700,
-            easing: 'easeInQuart',
-            menu: false,
-            navigation: true,
-            navigationPosition: 'right',
-            navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-            slidesNavigation: true,
-            slidesNavPosition: 'bottom',
-            loopBottom: false,
-            loopTop: false,
-            loopHorizontal: false,
-            autoScrolling: true,
-            scrollOverflow: true,
-            css3: false,
-            paddingTop: '0',
-            paddingBottom: '0',
-            fixedElements: '.frame',
-            normalScrollElements: '.frame',
-            keyboardScrolling: true,
-            touchSensitivity: 15,
-
-            //events
-            onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
-            afterLoad: function(anchorLink, index){},
-            afterRender: function(){},
-            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-            onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
-        });
-
-    }
-
-
 
 
 
