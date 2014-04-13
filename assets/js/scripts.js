@@ -57,7 +57,7 @@ jQuery(document).ready(function($) {
     				offSetX = $('.site-header').outerHeight();
     				offSetY = 40/* $('.frame--top').height() */;
 
-    			$('.page').height(height-offSetX - offSetY)/* .width($(window).width()) */;
+    			//$('.page').height(height-offSetX - offSetY)/* .width($(window).width()) */;
 
     		});
 
@@ -82,7 +82,8 @@ jQuery(document).ready(function($) {
                     scrollOverflow: true,
                     css3: false,
                     paddingTop: '0',
-                    paddingBottom: '0',
+                    fixedElements: '.frame-y',
+                    //paddingBottom: '1.25em',
                     keyboardScrolling: true,
                     touchSensitivity: 15,
 
