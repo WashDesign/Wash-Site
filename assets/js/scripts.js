@@ -88,6 +88,16 @@ jQuery(document).ready(function($) {
 
     // slidr bind
 
+    var isSingle = false;
+
+    if ( $('.singlepage').length ) {
+
+        isSingle = true;
+
+    }
+
+    if ( isSingle ) {
+
     var a = slidr.create('js-site-aside__info', {
         	after: function(e) { console.log('in: ' + e.in.slidr); },
         	before: function(e) { console.log('out: ' + e.out.slidr); },
@@ -106,6 +116,8 @@ jQuery(document).ready(function($) {
     .add('h', ['one', 'two', 'three', 'four', 'one'])
     .start();
 
+    }
+
     //s.auto();
     //a.auto();
 
@@ -114,7 +126,9 @@ jQuery(document).ready(function($) {
     $('#js-nav-slidr__link--right').on('click', function(){
 
 		s.slide('left');
-		a.slide('left');
+		if ( isSingle ) {
+            a.slide('left');
+        }
         event.preventDefault();
 
 	});
@@ -122,7 +136,9 @@ jQuery(document).ready(function($) {
 	$('#js-nav-slidr__link--left').on('click', function(){
 
 		s.slide('right');
-		a.slide('right');
+		if ( isSingle ) {
+    		a.slide('right');
+        }
 		event.preventDefault();
 
 	});
@@ -130,7 +146,9 @@ jQuery(document).ready(function($) {
 	$('#js-slidr--arrow__link').on('click', function(){
 
 	    s.slide('right');
-		a.slide('right');
+	    if ( isSingle ) {
+		    a.slide('right');
+		}
 		event.preventDefault();
 
 	});
@@ -157,7 +175,7 @@ jQuery(document).ready(function($) {
             css3: false,
             paddingTop: '0',
             paddingBottom: '0',
-            fixedElements: '#frame',
+            fixedElements: '.frame',
             normalScrollElements: '.frame',
             keyboardScrolling: true,
             touchSensitivity: 15,

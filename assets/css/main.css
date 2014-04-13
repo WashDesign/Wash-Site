@@ -1252,6 +1252,42 @@ a {
       .page__constrain a {
         color: black; } }
 
+@media all and (min-width: 48em) {
+  .multipage .site-main {
+    width: 100%;
+    left: 0; } }
+@media all and (min-width: 63.75em) {
+  .multipage .site-main {
+    width: 100%;
+    left: 0; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .multipage .site-main {
+    top: 6.9em;
+    width: 50%;
+    left: 50%;
+    padding-bottom: 20%; } }
+@media all and (min-width: 48em) {
+  .multipage .page {
+    padding: 0;
+    background-color: transparent; } }
+@media all and (min-width: 63.75em) {
+  .multipage .page {
+    padding: 0; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .multipage .page {
+    padding: 1em;
+    background-color: white;
+    float: right; } }
+@media all and (min-width: 48em) {
+  .multipage .page__constrain {
+    padding: 5%; } }
+@media all and (min-width: 63.75em) {
+  .multipage .page__constrain {
+    width: 100%; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .multipage .page__constrain {
+    padding: 0; } }
+
 .site-aside__media {
   position: fixed;
   z-index: 80;
