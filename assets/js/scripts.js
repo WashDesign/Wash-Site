@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
 
+    // Nav Push
 
     $('#js-nav--primary__btn').on( 'click', function() {
 
@@ -9,6 +10,8 @@ jQuery(document).ready(function($) {
 
 	});
 
+	// Aside Slide Toggle
+
 	$('#js-wash-slider__info__btn').on( 'click', function() {
 
     	$(this).toggleClass( 'ux-ctaSpin');
@@ -17,9 +20,10 @@ jQuery(document).ready(function($) {
 
 	});
 
+
 	mediaCheck({
-    media: '(max-width: 767px)',
-    entry: function() {
+        media: '(max-width: 767px)',
+        entry: function() {
 
     		$(window).bind("load resize", function() {
 
@@ -32,10 +36,7 @@ jQuery(document).ready(function($) {
 
     });
 
-
-
     mediaCheck({
-
         media: '(min-width: 768px)',
         entry: function() {
 
@@ -84,7 +85,6 @@ jQuery(document).ready(function($) {
                         //paddingBottom: '1.25em',
                         keyboardScrolling: true,
                         touchSensitivity: 15,
-
                         //events
                         onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
                         afterLoad: function(anchorLink, index){},
@@ -134,30 +134,27 @@ jQuery(document).ready(function($) {
 
     if ( isSingle ) {
 
-    var a = slidr.create('js-site-aside__info', {
-        	after: function(e) { console.log('in: ' + e.in.slidr); },
-        	before: function(e) { console.log('out: ' + e.out.slidr); },
-        	breadcrumbs: false, // not required
-        	direction: 'horizontal',
-        	controls: 'none', // not required
-        	fade: false,
-        	keyboard: true, //*** what are these
-        	overflow: false,
-        	theme: '#222',
-        	timing: { 'linear': '0.7s ease-out' },
-        	touch: false,
-        	transition: 'linear'
+        var a = slidr.create('js-site-aside__info', {
+            	after: function(e) { console.log('in: ' + e.in.slidr); },
+            	before: function(e) { console.log('out: ' + e.out.slidr); },
+            	breadcrumbs: false, // not required
+            	direction: 'horizontal',
+            	controls: 'none', // not required
+            	fade: false,
+            	keyboard: true, //*** what are these
+            	overflow: false,
+            	theme: '#222',
+            	timing: { 'linear': '0.7s ease-out' },
+            	touch: false,
+            	transition: 'linear'
 
-    })
-    .add('h', ['one', 'two', 'three', 'four', 'one'])
-    .start();
+        })
+        .add('h', ['one', 'two', 'three', 'four', 'one'])
+        .start();
 
     }
 
-    //s.auto();
-    //a.auto();
-
-    // slidr controls
+     // slidr controls
 
     $('#js-nav-slidr__link--right').on('click', function(){
 
@@ -179,6 +176,8 @@ jQuery(document).ready(function($) {
 
 	});
 
+	// arrow right //*** extend for multipage
+
 	$('#js-slidr--arrow__link').on('click', function(){
 
 	    s.slide('right');
@@ -188,7 +187,6 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 
 	});
-
 
 
 });
