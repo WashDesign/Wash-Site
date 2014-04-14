@@ -40,66 +40,58 @@ jQuery(document).ready(function($) {
         entry: function() {
 
 
-           $('#js-nav--primary__btn.active').removeClass( 'active' );
-           $('body.wash-nav--push--toleft').removeClass( 'wash-nav--push--toleft' );
-           $('#js-wash-nav--push.wash-nav--open').removeClass( 'wash-nav--open' );
-
+            $('#js-nav--primary__btn.active').removeClass( 'active' );
+            $('body.wash-nav--push--toleft').removeClass( 'wash-nav--push--toleft' );
+            $('#js-wash-nav--push.wash-nav--open').removeClass( 'wash-nav--open' );
 
 
             $(window).bind("load resize", function() {
 
-    			if ( $('#js-site-main').css( 'padding-bottom') != "204.796875px" ) { //*** HACKISACK
+            	if ( $('#js-site-main').css( 'padding-bottom') != "204.796875px" ) { //*** HACKISACK
 
 
-    			    $('#js-site-main').css( 'padding-bottom', '0');
+            	    $('#js-site-main').css( 'padding-bottom', '0');
 
-    			}
+            	}
 
-    			var height = $(window).height(),
-    				offSetX = $('.site-header').outerHeight();
-    				offSetY = 40/* $('.frame--top').height() */;
 
-    			//$('.page').height(height-offSetX - offSetY)/* .width($(window).width()) */;
-
-    		});
+            });
 
     		if ( $('.page').length > 1 ) {
 
-                if ( matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+                if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
 
-                } else {
+                    $.fn.fullpage({
+                        verticalCentered: false,
+                        resize : true,
+                        anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+                        scrollingSpeed: 700,
+                        easing: 'easeInQuart',
+                        menu: false,
+                        navigation: true,
+                        navigationPosition: 'right',
+                        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+                        slidesNavigation: true,
+                        slidesNavPosition: 'bottom',
+                        loopBottom: false,
+                        loopTop: false,
+                        loopHorizontal: false,
+                        autoScrolling: true,
+                        scrollOverflow: true,
+                        css3: false,
+                        paddingTop: '0',
+                        fixedElements: '.frame-y',
+                        //paddingBottom: '1.25em',
+                        keyboardScrolling: true,
+                        touchSensitivity: 15,
 
-                $.fn.fullpage({
-                    verticalCentered: false,
-                    resize : true,
-                    anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-                    scrollingSpeed: 700,
-                    easing: 'easeInQuart',
-                    menu: false,
-                    navigation: true,
-                    navigationPosition: 'right',
-                    navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-                    slidesNavigation: true,
-                    slidesNavPosition: 'bottom',
-                    loopBottom: false,
-                    loopTop: false,
-                    loopHorizontal: false,
-                    autoScrolling: true,
-                    scrollOverflow: true,
-                    css3: false,
-                    paddingTop: '0',
-                    fixedElements: '.frame-y',
-                    //paddingBottom: '1.25em',
-                    keyboardScrolling: true,
-                    touchSensitivity: 15,
-
-                    //events
-                    onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
-                    afterLoad: function(anchorLink, index){},
-                    afterRender: function(){},
-                    afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-                    onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
-                });
+                        //events
+                        onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
+                        afterLoad: function(anchorLink, index){},
+                        afterRender: function(){},
+                        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+                        onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
+                    });
 
                 }
 
