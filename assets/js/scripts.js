@@ -44,6 +44,8 @@ jQuery(document).ready(function($) {
            $('body.wash-nav--push--toleft').removeClass( 'wash-nav--push--toleft' );
            $('#js-wash-nav--push.wash-nav--open').removeClass( 'wash-nav--open' );
 
+
+
             $(window).bind("load resize", function() {
 
     			if ( $('#js-site-main').css( 'padding-bottom') != "204.796875px" ) { //*** HACKISACK
@@ -62,6 +64,10 @@ jQuery(document).ready(function($) {
     		});
 
     		if ( $('.page').length > 1 ) {
+
+                if ( matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+                } else {
 
                 $.fn.fullpage({
                     verticalCentered: false,
@@ -94,6 +100,8 @@ jQuery(document).ready(function($) {
                     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
                     onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
                 });
+
+                }
 
             }
 
