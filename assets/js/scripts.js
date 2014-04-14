@@ -65,13 +65,13 @@ jQuery(document).ready(function($) {
                     $.fn.fullpage({
                         verticalCentered: false,
                         resize : true,
-                        anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+                        anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
                         scrollingSpeed: 700,
                         easing: 'easeInQuart',
                         menu: false,
                         navigation: true,
                         navigationPosition: 'right',
-                        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
+                        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
                         slidesNavigation: true,
                         slidesNavPosition: 'bottom',
                         loopBottom: false,
@@ -86,7 +86,31 @@ jQuery(document).ready(function($) {
                         keyboardScrolling: true,
                         touchSensitivity: 15,
                         //events
-                        onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
+                        onLeave: function(index, direction){
+
+                            if( direction == "down" ) {
+
+                                if ( index  < ($('.page').size() ) ) {
+
+                                    s.slide($('.page').eq(index).data('start'));
+
+                                }
+
+                            }
+                            if( direction == "up" ) {
+
+                                console.log(index);
+                                console.log($('.page').size());
+
+                                if ( index - 1  < ($('.page').size() ) ) {
+
+                                    s.slide($('.page').eq(index - 2).data('start'));
+
+                                }
+
+                            }
+
+                        },
                         afterLoad: function(anchorLink, index){},
                         afterRender: function(){},
                         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
@@ -117,9 +141,38 @@ jQuery(document).ready(function($) {
         	touch: true,
         	transition: 'linear'
 
-    })
-    .add('h', ['one', 'two', 'three', 'four', 'one'])
-    .start();
+    });
+
+
+    var startslides = new Array();
+    var $i = 0;
+
+    $('.page').each( function(){
+
+        //console.log($(this).data('slides'))
+        var slides = $(this).data('slides');
+
+        if ( slides ) {
+
+            s.add('h', slides);
+
+            startslides[$i] = $(this).data('start');
+            $i++;
+
+        }
+
+    });
+
+    startslides[$i] = startslides[0];
+
+    //var slidesArray = new Array('image1', 'image4', 'image7', 'image1');
+
+    console.log(startslides);
+
+    //.add('h', ['one', 'two', 'three', 'four', 'one'])
+    s.add('v', startslides, 'fade');
+    s.start();
+
 
 
     // slidr bind
@@ -178,7 +231,7 @@ jQuery(document).ready(function($) {
 
 	// arrow right //*** extend for multipage
 
-	$('#js-slidr--arrow__link').on('click', function(){
+	$('.slidr--arrow__link').on('click', function(){
 
 	    s.slide('right');
 	    if ( isSingle ) {

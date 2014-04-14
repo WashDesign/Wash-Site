@@ -84,7 +84,8 @@
 		<main id="js-site-main" class="site-content site-main grp" role="main">
 		    <div id="js-site-content">
 
-			<section class="page page--1 section">
+            <!-- use &#34; for " in data-slides -->
+			<section class="page page--1 section" data-start="image1"  data-slides='[&#34;image1&#34;, &#34;image2&#34;, &#34;image3&#34;, &#34;image1&#34;]'>
 				<div class="page__constrain">
 					<h2 class="page__title">Wash</h2>
 					<div class="page__body">
@@ -97,7 +98,7 @@
 				<nav class="nav--slidr--arrow"><a href="#" id="js-slidr--arrow__link" class="slidr--arrow__link"><span class="ui-icon" data-icon="&#xe600;"></span></a></nav>
 			</section>
 
-			<section class="page page--2 section">
+			<section class="page page--2 section" data-start="image4" data-slides='[&#34;image4&#34;, &#34;image5&#34;, &#34;image6&#34;, &#34;image4&#34;]'>
 				<div class="page__constrain">
 					<h2 class="page__title">Page 2</h2>
 					<div class="page__body">
@@ -107,7 +108,7 @@
 				<nav class="nav--slidr--arrow"><a href="#" id="js-slidr--arrow__link" class="slidr--arrow__link"><span class="ui-icon" data-icon="&#xe600;"></span></a></nav>
 			</section>
 
-			<section class="page page--3 section">
+			<section class="page page--3 section" data-start="image7"  data-slides='[&#34;image7&#34;, &#34;image8&#34;, &#34;image9&#34;, &#34;image7&#34;]'>
 				<div class="page__constrain">
 					<h2 class="page__title">Page 3</h2>
 					<div class="page__body">
@@ -186,19 +187,40 @@
 
 			<div id="js-site-aside__media" class="site-aside__media">
 
-				<div data-slidr="one" style="background-size: cover; background-image: url(assets/img/people.jpg); width: 100%; height: 100%;">
+				<div data-slidr="image1" style="background-size: cover; background-image: url(assets/img/people.jpg); width: 100%; height: 100%;">
 
 				</div>
 
-                <div data-slidr="two" style="background-size: cover;background-image: url(assets/img/red-block.jpg); width: 100%; height: 100%;">
+                <div data-slidr="image2" style="background-size: cover;background-image: url(assets/img/people.jpg); width: 100%; height: 100%;">
 
 				</div>
-				<div data-slidr="three" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
+				<div data-slidr="image3" style="background-size: cover; background-image: url(assets/img/people.jpg); width: 100%; height: 100%;">
 
 				</div>
-				<div data-slidr="four" style="background-size: cover; background-image: url(assets/img/lewis-away.jpg); width: 100%; height: 100%;">
+				<div data-slidr="image4" style="background-size: cover; background-image: url(assets/img/red-block.jpg); width: 100%; height: 100%;">
 
 				</div>
+
+				<div data-slidr="image5" style="background-size: cover; background-image: url(assets/img/red-block.jpg); width: 100%; height: 100%;">
+
+				</div>
+
+                <div data-slidr="image6" style="background-size: cover;background-image: url(assets/img/red-block.jpg); width: 100%; height: 100%;">
+
+				</div>
+				<div data-slidr="image7" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
+
+				</div>
+				<div data-slidr="image8" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
+
+				</div>
+
+				<div data-slidr="image9" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
+
+				</div>
+
+
+
 
 			</div>
 			<div id="js-site-aside__info" class="site-aside__info">
