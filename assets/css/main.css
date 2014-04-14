@@ -1327,13 +1327,17 @@ a {
   left: 0;
   height: 0;
   width: 100%;
+  overflow: hidden;
   z-index: 80;
   -webkit-transition: all 0.3s ease-in-out !important;
   -moz-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important; }
   @media all and (max-width: 47.99em) {
-    .site-aside__info.is-open {
-      height: 60%; } }
+    .site-aside__info {
+      overflow: hidden;
+      background: #fdba31; }
+      .site-aside__info.is-open {
+        height: 60%; } }
   @media all and (min-width: 48em) {
     .site-aside__info {
       top: 0;

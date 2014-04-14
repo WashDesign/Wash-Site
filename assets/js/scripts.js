@@ -144,33 +144,83 @@ jQuery(document).ready(function($) {
     });
 
 
-    var startslides = new Array();
-    var $i = 0;
+            var startslides = new Array();
+            var $i = 0;
 
-    $('.page').each( function(){
+            $('.page').each( function(){
 
-        //console.log($(this).data('slides'))
-        var slides = $(this).data('slides');
+                //console.log($(this).data('slides'))
 
-        if ( slides ) {
+                 if ( ! matchMedia('(max-width : 768px)').matches ) {
 
-            s.add('h', slides);
+                     if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
 
-            startslides[$i] = $(this).data('start');
-            $i++;
+                         var slides = $(this).data('slideloop');
 
-        }
+                    }
 
-    });
+                }
 
-    startslides[$i] = startslides[0];
+                if ( slides ) {
 
-    //var slidesArray = new Array('image1', 'image4', 'image7', 'image1');
+                    console.log(slides);
 
-    console.log(startslides);
+                    s.add('h', slides);
 
-    //.add('h', ['one', 'two', 'three', 'four', 'one'])
-    s.add('v', startslides, 'fade');
+                    startslides[$i] = $(this).data('start');
+                    $i++;
+
+                }
+
+            });
+
+            if ( ! matchMedia('(max-width : 768px)').matches ) {
+
+                if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+                    startslides[$i] = startslides[0];
+
+                }
+
+            }
+
+            if ( matchMedia('(max-width : 768px)').matches  ) {
+
+
+                $('#js-site-aside__media').find('div').each(function(){
+
+                    startslides[$i] = $(this).data('slidr');
+                    $i++;
+
+                });
+
+                startslides[$i] = startslides[0];
+
+                s.add('h', startslides);
+
+
+            }
+
+            if ( matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+                $('#js-site-aside__media').find('div').each(function(){
+
+                    startslides[$i] = $(this).data('slidr');
+                    $i++;
+
+                });
+
+                startslides[$i] = startslides[0];
+
+                s.add('h', startslides);
+
+
+            }
+
+
+            s.add('v', startslides, 'fade');
+
+
     s.start();
 
 
