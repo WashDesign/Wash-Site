@@ -1393,6 +1393,15 @@ a {
 #js-site-aside__media-breadcrumbs {
   bottom: -36px; }
 
+@media all and (min-width: 48em) {
+  .page__aside {
+    position: absolute;
+    background-color: rgba(253, 186, 49, 0.75);
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    height: auto; } }
+
 .site-footer {
   position: fixed;
   z-index: 60;
