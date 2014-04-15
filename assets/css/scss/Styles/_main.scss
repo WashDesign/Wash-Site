@@ -1,5 +1,6 @@
 // !MAIN
 
+
 .site-main {
 
 	// ! Layout Site Content
@@ -34,6 +35,7 @@
 		width: 50%;
 		left: 50%;
 		padding-bottom: 20%;
+		background-color: white;
 
 	}
 
@@ -135,6 +137,98 @@
 
 
 	}
+
+
+}
+
+.multipage {
+
+   .site-main {
+
+        @include mq( $from: desktop-small ) {
+
+            width: 100%;
+            left: 0;
+
+        }
+
+        @include mq( $from: desktop ) {
+
+    		width: 100%;
+            left: 0;
+
+        }
+
+        @include mq( $and: $ipad-landscape ) {
+
+    		top: 6.9em;
+    		width: 50%;
+    		left: 50%;
+    		padding-bottom: 20%;
+
+        }
+
+
+   }
+
+   .page {
+
+    	@include mq( $from: desktop-small ) {
+
+            padding: 0 5% 0 30%;
+
+
+    	}
+
+    	@include mq( $from: desktop ) {
+
+    		padding: 0 5% 0 25%;
+
+    	}
+
+    	@include mq( $and: $ipad-landscape ) {
+
+    	    padding: 1em;
+
+    	}
+
+    }
+
+    .page__constrain {
+
+
+    	@include mq( $from: desktop ) {
+
+    		width: 60%;
+
+    	}
+
+        @include mq( $and: $ipad-landscape ) {
+
+    	   width: 100%;
+
+    	}
+
+
+    }
+
+    .article {
+
+        float: left;
+        width: 100%;
+        background-color: white;
+        padding-bottom: 2.5em;
+
+
+        .page__constrain {
+
+            background-color: white;
+            color: black;
+            padding: 2 * $frameThickness;
+
+        }
+
+    }
 
 
 }

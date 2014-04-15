@@ -439,6 +439,7 @@
 
     }
 
+
      @include mq( $and: $ipad-landscape ) {
 
         display: none;
@@ -456,6 +457,20 @@
         &:hover {
 
             text-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+        }
+
+    }
+
+}
+
+.multipage {
+
+    .nav--slidr--arrow {
+
+        @include mq( $from: desktop ) {
+
+            width: 60%;
 
         }
 

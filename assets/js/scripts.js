@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
 
+    // Nav Push
 
     $('#js-nav--primary__btn').on( 'click', function() {
 
@@ -9,6 +10,8 @@ jQuery(document).ready(function($) {
 
 	});
 
+	// Aside Slide Toggle
+
 	$('#js-wash-slider__info__btn').on( 'click', function() {
 
     	$(this).toggleClass( 'ux-ctaSpin');
@@ -17,9 +20,10 @@ jQuery(document).ready(function($) {
 
 	});
 
+
 	mediaCheck({
-    media: '(max-width: 767px)',
-    entry: function() {
+        media: '(max-width: 767px)',
+        entry: function() {
 
     		$(window).bind("load resize", function() {
 
@@ -32,34 +36,90 @@ jQuery(document).ready(function($) {
 
     });
 
-
-
     mediaCheck({
-
         media: '(min-width: 768px)',
         entry: function() {
 
 
-           $('#js-nav--primary__btn.active').removeClass( 'active' );
-           $('body.wash-nav--push--toleft').removeClass( 'wash-nav--push--toleft' );
-           $('#js-wash-nav--push.wash-nav--open').removeClass( 'wash-nav--open' );
+            $('#js-nav--primary__btn.active').removeClass( 'active' );
+            $('body.wash-nav--push--toleft').removeClass( 'wash-nav--push--toleft' );
+            $('#js-wash-nav--push.wash-nav--open').removeClass( 'wash-nav--open' );
+
 
             $(window).bind("load resize", function() {
 
-    			if ( $('#js-site-main').css( 'padding-bottom') != "204.796875px" ) { //*** HACKISACK
+            	if ( $('#js-site-main').css( 'padding-bottom') != "204.796875px" ) { //*** HACKISACK
 
 
-    			    $('#js-site-main').css( 'padding-bottom', '0');
+            	    $('#js-site-main').css( 'padding-bottom', '0');
 
-    			}
+            	}
 
-    			var height = $(window).height(),
-    				offSetX = $('.site-header').outerHeight();
-    				offSetY = 40/* $('.frame--top').height() */;
 
-    			$('.page').height(height-offSetX - offSetY)/* .width($(window).width()) */;
+            });
 
-    		});
+    		if ( $('.page').length > 1 ) {
+
+                if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+                    $.fn.fullpage({
+                        verticalCentered: false,
+                        resize : true,
+                        anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
+                        scrollingSpeed: 700,
+                        easing: 'easeInQuart',
+                        menu: false,
+                        navigation: true,
+                        navigationPosition: 'right',
+                        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
+                        slidesNavigation: true,
+                        slidesNavPosition: 'bottom',
+                        loopBottom: false,
+                        loopTop: false,
+                        loopHorizontal: false,
+                        autoScrolling: true,
+                        scrollOverflow: true,
+                        css3: false,
+                        paddingTop: '0',
+                        fixedElements: '.frame-y',
+                        //paddingBottom: '1.25em',
+                        keyboardScrolling: true,
+                        touchSensitivity: 15,
+                        //events
+                        onLeave: function(index, direction){
+
+                            if( direction == "down" ) {
+
+                                if ( index  < ($('.page').size() ) ) {
+
+                                    s.slide($('.page').eq(index).data('start'));
+
+                                }
+
+                            }
+                            if( direction == "up" ) {
+
+                                console.log(index);
+                                console.log($('.page').size());
+
+                                if ( index - 1  < ($('.page').size() ) ) {
+
+                                    s.slide($('.page').eq(index - 2).data('start'));
+
+                                }
+
+                            }
+
+                        },
+                        afterLoad: function(anchorLink, index){},
+                        afterRender: function(){},
+                        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+                        onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
+                    });
+
+                }
+
+            }
 
         }
 
@@ -81,40 +141,130 @@ jQuery(document).ready(function($) {
         	touch: true,
         	transition: 'linear'
 
-    })
-    .add('h', ['one', 'two', 'three', 'four', 'one'])
-    .start();
+    });
+
+
+            var startslides = new Array();
+            var $i = 0;
+
+            $('.page').each( function(){
+
+                //console.log($(this).data('slides'))
+
+                 if ( ! matchMedia('(max-width : 768px)').matches ) {
+
+                     if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+                         var slides = $(this).data('slideloop');
+
+                    }
+
+                }
+
+                if ( slides ) {
+
+                    console.log(slides);
+
+                    s.add('h', slides);
+
+                    startslides[$i] = $(this).data('start');
+                    $i++;
+
+                }
+
+            });
+
+            if ( ! matchMedia('(max-width : 768px)').matches ) {
+
+                if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+                    startslides[$i] = startslides[0];
+
+                }
+
+            }
+
+            if ( matchMedia('(max-width : 768px)').matches  ) {
+
+
+                $('#js-site-aside__media').find('div').each(function(){
+
+                    startslides[$i] = $(this).data('slidr');
+                    $i++;
+
+                });
+
+                startslides[$i] = startslides[0];
+
+                s.add('h', startslides);
+
+
+            }
+
+            if ( matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+                $('#js-site-aside__media').find('div').each(function(){
+
+                    startslides[$i] = $(this).data('slidr');
+                    $i++;
+
+                });
+
+                startslides[$i] = startslides[0];
+
+                s.add('h', startslides);
+
+
+            }
+
+
+            s.add('v', startslides, 'fade');
+
+
+    s.start();
+
 
 
     // slidr bind
 
-    var a = slidr.create('js-site-aside__info', {
-        	after: function(e) { console.log('in: ' + e.in.slidr); },
-        	before: function(e) { console.log('out: ' + e.out.slidr); },
-        	breadcrumbs: false, // not required
-        	direction: 'horizontal',
-        	controls: 'none', // not required
-        	fade: false,
-        	keyboard: true, //*** what are these
-        	overflow: false,
-        	theme: '#222',
-        	timing: { 'linear': '0.7s ease-out' },
-        	touch: false,
-        	transition: 'linear'
+    var isSingle = false;
 
-    })
-    .add('h', ['one', 'two', 'three', 'four', 'one'])
-    .start();
+    if ( $('.singlepage').length ) {
 
-    //s.auto();
-    //a.auto();
+        isSingle = true;
 
-    // slidr controls
+    }
+
+    if ( isSingle ) {
+
+        var a = slidr.create('js-site-aside__info', {
+            	after: function(e) { console.log('in: ' + e.in.slidr); },
+            	before: function(e) { console.log('out: ' + e.out.slidr); },
+            	breadcrumbs: false, // not required
+            	direction: 'horizontal',
+            	controls: 'none', // not required
+            	fade: false,
+            	keyboard: true, //*** what are these
+            	overflow: false,
+            	theme: '#222',
+            	timing: { 'linear': '0.7s ease-out' },
+            	touch: false,
+            	transition: 'linear'
+
+        })
+        .add('h', ['one', 'two', 'three', 'four', 'one'])
+        .start();
+
+    }
+
+     // slidr controls
 
     $('#js-nav-slidr__link--right').on('click', function(){
 
 		s.slide('left');
-		a.slide('left');
+		if ( isSingle ) {
+            a.slide('left');
+        }
         event.preventDefault();
 
 	});
@@ -122,58 +272,24 @@ jQuery(document).ready(function($) {
 	$('#js-nav-slidr__link--left').on('click', function(){
 
 		s.slide('right');
-		a.slide('right');
+		if ( isSingle ) {
+    		a.slide('right');
+        }
 		event.preventDefault();
 
 	});
 
-	$('#js-slidr--arrow__link').on('click', function(){
+	// arrow right //*** extend for multipage
+
+	$('.slidr--arrow__link').on('click', function(){
 
 	    s.slide('right');
-		a.slide('right');
+	    if ( isSingle ) {
+		    a.slide('right');
+		}
 		event.preventDefault();
 
 	});
-
-    if ( $('.page').length > 1 ) {
-
-        $.fn.fullpage({
-            verticalCentered: false,
-            resize : true,
-            anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-            scrollingSpeed: 700,
-            easing: 'easeInQuart',
-            menu: false,
-            navigation: true,
-            navigationPosition: 'right',
-            navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide', 'lastSlide'],
-            slidesNavigation: true,
-            slidesNavPosition: 'bottom',
-            loopBottom: false,
-            loopTop: false,
-            loopHorizontal: false,
-            autoScrolling: true,
-            scrollOverflow: true,
-            css3: false,
-            paddingTop: '0',
-            paddingBottom: '0',
-            fixedElements: '#frame',
-            normalScrollElements: '.frame',
-            keyboardScrolling: true,
-            touchSensitivity: 15,
-
-            //events
-            onLeave: function(index, direction){ if( direction == "down" ) { s.slide('right'); } if( direction == "up" ) { s.slide('left'); } },
-            afterLoad: function(anchorLink, index){},
-            afterRender: function(){},
-            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-            onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
-        });
-
-    }
-
-
-
 
 
 });

@@ -1177,6 +1177,10 @@ a {
     .nav--slidr--arrow .slidr--arrow__link:focus, .nav--slidr--arrow .slidr--arrow__link:hover {
       text-shadow: 0px 0px 5px white; }
 
+@media all and (min-width: 63.75em) {
+  .multipage .nav--slidr--arrow {
+    width: 60%; } }
+
 .site-main {
   position: absolute;
   z-index: 80;
@@ -1201,7 +1205,8 @@ a {
       top: 6.9em;
       width: 50%;
       left: 50%;
-      padding-bottom: 20%; } }
+      padding-bottom: 20%;
+      background-color: white; } }
 
 .page {
   position: relative;
@@ -1252,6 +1257,45 @@ a {
       .page__constrain a {
         color: black; } }
 
+@media all and (min-width: 48em) {
+  .multipage .site-main {
+    width: 100%;
+    left: 0; } }
+@media all and (min-width: 63.75em) {
+  .multipage .site-main {
+    width: 100%;
+    left: 0; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .multipage .site-main {
+    top: 6.9em;
+    width: 50%;
+    left: 50%;
+    padding-bottom: 20%; } }
+@media all and (min-width: 48em) {
+  .multipage .page {
+    padding: 0 5% 0 30%; } }
+@media all and (min-width: 63.75em) {
+  .multipage .page {
+    padding: 0 5% 0 25%; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .multipage .page {
+    padding: 1em; } }
+@media all and (min-width: 63.75em) {
+  .multipage .page__constrain {
+    width: 60%; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .multipage .page__constrain {
+    width: 100%; } }
+.multipage .article {
+  float: left;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 2.5em; }
+  .multipage .article .page__constrain {
+    background-color: white;
+    color: black;
+    padding: 2.5em; }
+
 .site-aside__media {
   position: fixed;
   z-index: 80;
@@ -1284,13 +1328,17 @@ a {
   left: 0;
   height: 0;
   width: 100%;
+  overflow: hidden;
   z-index: 80;
   -webkit-transition: all 0.3s ease-in-out !important;
   -moz-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important; }
   @media all and (max-width: 47.99em) {
-    .site-aside__info.is-open {
-      height: 60%; } }
+    .site-aside__info {
+      overflow: hidden;
+      background: #fdba31; }
+      .site-aside__info.is-open {
+        height: 60%; } }
   @media all and (min-width: 48em) {
     .site-aside__info {
       top: 0;
