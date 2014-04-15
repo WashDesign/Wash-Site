@@ -137,20 +137,3 @@
     bottom: -36px;
 
 }
-
-// Page Aside
-
-.page__aside {
-
-    @include mq( $from: desktop-small ) {
-
-        position: absolute;
-        background-color: $cs-yellow-alpha;
-        bottom: 0;
-        left: 100%;
-        width: 100%;
-        height: auto;
-
-    }
-
-}
