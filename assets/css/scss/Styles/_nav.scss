@@ -430,7 +430,9 @@
 
 .nav--slidr--arrow {
 
-    margin-top: -3em;
+    position: absolute;
+    left: 0;
+    width: 100%;
     font-size: 10px;
 
     @include mq( $to: desktop-small ) {
@@ -468,9 +470,9 @@
 
     .nav--slidr--arrow {
 
-        @include mq( $from: desktop ) {
+        @include mq( $from: desktop-small ) {
 
-            width: 60%;
+             margin-top: 1em;
 
         }
 

@@ -108,7 +108,6 @@
 	@include mq( $from: desktop-small ) {
 
 		padding: 5%;
-
 		background-color: $cs-black;
 		background-color: $cs-black-alpha;
 		color: white;
@@ -178,6 +177,7 @@
             padding: 0 5% 0 30%;
 
 
+
     	}
 
     	@include mq( $from: desktop ) {
@@ -196,6 +196,12 @@
 
     .page__constrain {
 
+
+        @include mq( $from: desktop-small ) {
+
+            position: relative;
+
+        }
 
     	@include mq( $from: desktop ) {
 
