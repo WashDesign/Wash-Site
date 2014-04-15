@@ -259,7 +259,7 @@ jQuery(document).ready(function($) {
 
      // slidr controls
 
-    $('#js-nav-slidr__link--right').on('click', function(){
+    $('#js-nav-slidr__link--left').on('click', function(){
 
 		s.slide('left');
 		if ( isSingle ) {
@@ -269,7 +269,7 @@ jQuery(document).ready(function($) {
 
 	});
 
-	$('#js-nav-slidr__link--left').on('click', function(){
+	$('#js-nav-slidr__link--right').on('click', function(){
 
 		s.slide('right');
 		if ( isSingle ) {
