@@ -1,6 +1,5 @@
 // !ASIDE
 
-
 .site-aside__media {
 
     position: fixed;
@@ -146,10 +145,127 @@
 
         position: absolute;
         background-color: $cs-yellow-alpha;
-        bottom: 0;
-        left: 100%;
-        width: 100%;
         height: auto;
+        padding: 1em;
+        width: 34.615385%;
+        top: 5em;
+        left: -39%;
+
+
+    }
+
+    @include mq( $from: desktop ) {
+
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+
+        &.is-left {
+
+            width: 45%;
+            left: -50%;
+
+            &.hug {
+
+                width: 55%;
+                left: -50%;
+
+            }
+
+        }
+
+        &.is-right {
+
+         width: 65%;
+         right: -70%;
+
+            &.hug {
+
+                width: 60%;
+                right: -55%;
+
+            }
+
+        }
+
+        &.is-center {
+
+            width: 72.5%;
+
+        }
+
+        &.is-up {
+
+            top: 5em;
+
+        }
+
+        &.is-mid {
+
+            top: 50%;
+
+        }
+
+        &.is-down {
+
+            bottom: -8em;
+
+            &.is-center {
+
+                top: 103.5%;
+                bottom: auto;
+
+            }
+
+            &.hug {
+
+                bottom: auto;
+                top: 96%;
+
+                &.is-right {
+
+                    top: 97%;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.multipage {
+
+    .site-aside__info {
+
+
+     	@include mq( $to: desktop-small ) {
+
+     		&.is-open {
+
+    			height: 48px;
+
+    		}
+
+    	}
+
+
+
+    	> div {
+
+    	    display: none;
+
+    	    @include mq( $and: $ipad-landscape ) {
+
+    	        display: block;
+
+    	    }
+
+    	}
+
 
     }
 

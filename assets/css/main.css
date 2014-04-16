@@ -802,6 +802,12 @@ a {
 
 .logo {
   padding-top: 1em; }
+  @media all and (max-width: 47.99em) {
+    .logo {
+      display: table;
+      width: 100%;
+      height: 40%;
+      position: fixed; } }
   @media all and (min-width: 48em) {
     .logo {
       width: 31%;
@@ -811,6 +817,10 @@ a {
       width: 100%;
       float: inherit; } }
 
+@media all and (max-width: 47.99em) {
+  .logo__link {
+    display: table-cell;
+    vertical-align: middle; } }
 @media all and (min-width: 48em) {
   .logo__link {
     float: left; } }
@@ -818,10 +828,16 @@ a {
   .logo__link {
     float: inherit; } }
 
+@media all and (max-width: 47.99em) {
+  .logo__img--white {
+    display: inline-block; } }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .logo__img--white {
     display: none; } }
 
+@media all and (max-width: 47.99em) {
+  .logo__img--black {
+    display: none; } }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .logo__img--black {
     display: inline-block; } }
@@ -941,6 +957,9 @@ a {
     .nav__ul {
       padding: 0.75em 0;
       height: 5.75em; } }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .nav__ul {
+      padding-top: 0; } }
 
 .nav__item {
   text-align: left; }
@@ -994,11 +1013,10 @@ a {
   text-decoration: none;
   font-size: 1.825em;
   color: white;
-  color: black;
   -webkit-transition: all 0.3s ease-in-out !important;
   -moz-transition: all 0.3s ease-in-out !important;
   transition: all 0.3s ease-in-out !important; }
-  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  @media all and (min-width: 48em) {
     .nav--primary__btn {
       color: #1e2425; } }
 
@@ -1096,13 +1114,58 @@ a {
   .nav--secondary {
     display: none; } }
 
+.nav--primary .nav__item a,
+.nav--secondary .nav__item a {
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
+  @media all and (max-width: 47.99em) {
+    .nav--primary .nav__item a,
+    .nav--secondary .nav__item a {
+      background-color: #1e2425;
+      color: white; } }
+  @media all and (max-width: 47.99em) {
+    .nav--primary .nav__item a:hover, .nav--primary .nav__item a:focus,
+    .nav--secondary .nav__item a:hover,
+    .nav--secondary .nav__item a:focus {
+      background-color: white;
+      color: #1e2425; } }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .nav--primary .nav__item a:hover, .nav--primary .nav__item a:focus,
+    .nav--secondary .nav__item a:hover,
+    .nav--secondary .nav__item a:focus {
+      background-color: white;
+      color: #1e2425; } }
+  @media all and (min-width: 48em) {
+    .nav--primary .nav__item a:hover:before, .nav--primary .nav__item a:focus:before,
+    .nav--secondary .nav__item a:hover:before,
+    .nav--secondary .nav__item a:focus:before {
+      content: " ";
+      margin-top: .75em;
+      position: absolute;
+      display: block;
+      border-bottom: 1px solid white;
+      width: 1em;
+      margin-left: -1.5em; } }
+  @media all and (min-width: 63.75em) {
+    .nav--primary .nav__item a:hover:before, .nav--primary .nav__item a:focus:before,
+    .nav--secondary .nav__item a:hover:before,
+    .nav--secondary .nav__item a:focus:before {
+      width: 3em;
+      margin-left: -4em; } }
+@media all and (max-width: 47.99em) {
+  .nav--primary .nav__item.nav__item--current a,
+  .nav--secondary .nav__item.nav__item--current a {
+    background-color: white;
+    color: #1e2425; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .nav--primary .nav__item.nav__item--current a,
+  .nav--secondary .nav__item.nav__item--current a {
+    background-color: white;
+    color: #1e2425; } }
 @media all and (min-width: 48em) {
-  .nav--primary .nav__item.nav__item--current:before,
-  .nav--primary .nav__item a:hover:before,
-  .nav--primary .nav__item a:focus:before,
-  .nav--secondary .nav__item.nav__item--current:before,
-  .nav--secondary .nav__item a:hover:before,
-  .nav--secondary .nav__item a:focus:before {
+  .nav--primary .nav__item.nav__item--current a:before,
+  .nav--secondary .nav__item.nav__item--current a:before {
     content: " ";
     margin-top: .75em;
     position: absolute;
@@ -1111,12 +1174,8 @@ a {
     width: 1em;
     margin-left: -1.5em; } }
 @media all and (min-width: 63.75em) {
-  .nav--primary .nav__item.nav__item--current:before,
-  .nav--primary .nav__item a:hover:before,
-  .nav--primary .nav__item a:focus:before,
-  .nav--secondary .nav__item.nav__item--current:before,
-  .nav--secondary .nav__item a:hover:before,
-  .nav--secondary .nav__item a:focus:before {
+  .nav--primary .nav__item.nav__item--current a:before,
+  .nav--secondary .nav__item.nav__item--current a:before {
     width: 3em;
     margin-left: -4em; } }
 
@@ -1397,10 +1456,54 @@ a {
   .page__aside {
     position: absolute;
     background-color: rgba(253, 186, 49, 0.75);
-    bottom: 0;
-    left: 100%;
-    width: 100%;
-    height: auto; } }
+    height: auto;
+    padding: 1em;
+    width: 34.615385%;
+    top: 5em;
+    left: -39%; } }
+@media all and (min-width: 63.75em) {
+  .page__aside {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto; }
+    .page__aside.is-left {
+      width: 45%;
+      left: -50%; }
+      .page__aside.is-left.hug {
+        width: 55%;
+        left: -50%; }
+    .page__aside.is-right {
+      width: 65%;
+      right: -70%; }
+      .page__aside.is-right.hug {
+        width: 60%;
+        right: -55%; }
+    .page__aside.is-center {
+      width: 72.5%; }
+    .page__aside.is-up {
+      top: 5em; }
+    .page__aside.is-mid {
+      top: 50%; }
+    .page__aside.is-down {
+      bottom: -8em; }
+      .page__aside.is-down.is-center {
+        top: 103.5%;
+        bottom: auto; }
+      .page__aside.is-down.hug {
+        bottom: auto;
+        top: 96%; }
+        .page__aside.is-down.hug.is-right {
+          top: 97%; } }
+
+@media all and (max-width: 47.99em) {
+  .multipage .site-aside__info.is-open {
+    height: 48px; } }
+.multipage .site-aside__info > div {
+  display: none; }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .multipage .site-aside__info > div {
+      display: block; } }
 
 .site-footer {
   position: fixed;
