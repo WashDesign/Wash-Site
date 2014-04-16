@@ -143,14 +143,15 @@
 	top: 0.5em;
 	text-decoration: none;
 	font-size: 1.825em;
-	color: $white;
-	color: $black; //*** remove
+	color: white;
 	@include transition (all 0.3s ease-in-out);
 
-	@include mq( $and: $ipad-landscape ) {
+    @include mq( $from: desktop-small ) {
 
-         color: $cs-black;
-	}
+        color: $cs-black;
+
+    }
+
 
 }
 

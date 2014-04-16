@@ -40,6 +40,15 @@
 
     padding-top: 1em;
 
+    @include mq( $to: desktop-small ) {
+
+        display: table;
+        width: 100%;
+        height: 40%;
+        position: fixed;
+
+    }
+
     @include mq( $from: desktop-small ) {
 
         width: 31%;
@@ -57,6 +66,14 @@
 }
 
 .logo__link {
+
+    @include mq( $to: desktop-small ) {
+
+        display: table-cell;
+        vertical-align: middle;
+
+    }
+
 
     @include mq( $from: desktop-small ) {
 
@@ -82,6 +99,12 @@
 
     @extend .hm;
 
+    @include mq( $to: desktop-small ) {
+
+        display: inline-block;
+
+    }
+
     @include mq( $and: $ipad-landscape ) {
 
        display: none;
@@ -93,6 +116,12 @@
 .logo__img--black {
 
     @extend .hd;
+
+     @include mq( $to: desktop-small ) {
+
+        display: none;
+
+    }
 
     @include mq( $and: $ipad-landscape ) {
 

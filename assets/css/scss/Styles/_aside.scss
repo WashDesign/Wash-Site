@@ -1,6 +1,5 @@
 // !ASIDE
 
-
 .site-aside__media {
 
     position: fixed;
@@ -234,6 +233,23 @@
 
         }
 
+    }
+
+}
+
+.multipage {
+
+    .site-aside__info {
+
+     	@include mq( $to: desktop-small ) {
+
+     		&.is-open {
+
+    			height: 48px;
+
+    		}
+
+    	}
     }
 
 }
