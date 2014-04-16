@@ -62,16 +62,26 @@ jQuery(document).ready(function($) {
 
                 if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
 
+                    var anchorTitles = new Array();
+                    var $i = 0;
+
+                    $('.page').each( function(){
+
+                        anchorTitles[$i] = encodeURI($(this).find('.page__title').html().replace(" ","+"));
+                        $i++;
+
+                    });
+
                     $.fn.fullpage({
                         verticalCentered: false,
                         resize : true,
-                        anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
+                        anchors: anchorTitles,
                         scrollingSpeed: 700,
                         easing: 'easeInQuart',
                         menu: false,
                         navigation: true,
                         navigationPosition: 'right',
-                        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
+                        //navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
                         slidesNavigation: true,
                         slidesNavPosition: 'bottom',
                         loopBottom: false,
@@ -94,19 +104,25 @@ jQuery(document).ready(function($) {
 
                                     s.slide($('.page').eq(index).data('start'));
 
+                                } else {
+
+                                    $('#js-nav-slidr__link--down, #js-nav-slidr__link--up').toggleClass('is-on');
+
                                 }
 
                             }
                             if( direction == "up" ) {
 
-                                console.log(index);
-                                console.log($('.page').size());
-
                                 if ( index - 1  < ($('.page').size() ) ) {
 
                                     s.slide($('.page').eq(index - 2).data('start'));
 
+                                } else {
+
+                                    $('#js-nav-slidr__link--down, #js-nav-slidr__link--up').toggleClass('is-on');
+
                                 }
+
 
                             }
 
@@ -115,6 +131,18 @@ jQuery(document).ready(function($) {
                         afterRender: function(){},
                         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
                         onSlideLeave: function(anchorLink, index, slideIndex, direction){  }
+                    });
+
+                    $('#js-nav-slidr__link--down').click( function() {
+
+                        $.fn.fullpage.moveSectionDown();
+
+                    });
+
+                    $('#js-nav-slidr__link--up').click( function() {
+
+                        $.fn.fullpage.moveTo(1);
+
                     });
 
                 }
@@ -144,82 +172,81 @@ jQuery(document).ready(function($) {
     });
 
 
-            var startslides = new Array();
-            var $i = 0;
+    var startslides = new Array();
+    var $i = 0;
 
-            $('.page').each( function(){
+    $('.page').each( function(){
 
-                //console.log($(this).data('slides'))
+        //console.log($(this).data('slides'))
 
-                 if ( ! matchMedia('(max-width : 768px)').matches ) {
+         if ( ! matchMedia('(max-width : 768px)').matches ) {
 
-                     if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+             if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
 
-                         var slides = $(this).data('slideloop');
-
-                    }
-
-                }
-
-                if ( slides ) {
-
-                    console.log(slides);
-
-                    s.add('h', slides);
-
-                    startslides[$i] = $(this).data('start');
-                    $i++;
-
-                }
-
-            });
-
-            if ( ! matchMedia('(max-width : 768px)').matches ) {
-
-                if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
-
-                    startslides[$i] = startslides[0];
-
-                }
+                 var slides = $(this).data('slideloop');
 
             }
 
-            if ( matchMedia('(max-width : 768px)').matches  ) {
+        }
+
+        if ( slides ) {
+
+            console.log(slides);
+
+            s.add('h', slides);
+
+            startslides[$i] = $(this).data('start');
+            $i++;
+
+        }
+
+    });
+
+    if ( ! matchMedia('(max-width : 768px)').matches ) {
+
+        if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+            startslides[$i] = startslides[0];
+
+        }
+
+    }
+
+    if ( matchMedia('(max-width : 768px)').matches  ) {
 
 
-                $('#js-site-aside__media').find('div').each(function(){
+        $('#js-site-aside__media').find('div').each(function(){
 
-                    startslides[$i] = $(this).data('slidr');
-                    $i++;
+            startslides[$i] = $(this).data('slidr');
+            $i++;
 
-                });
+        });
 
-                startslides[$i] = startslides[0];
+        startslides[$i] = startslides[0];
 
-                s.add('h', startslides);
-
-
-            }
-
-            if ( matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
-
-                $('#js-site-aside__media').find('div').each(function(){
-
-                    startslides[$i] = $(this).data('slidr');
-                    $i++;
-
-                });
-
-                startslides[$i] = startslides[0];
-
-                s.add('h', startslides);
+        s.add('h', startslides);
 
 
-            }
+    }
+
+    if ( matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
+
+        $('#js-site-aside__media').find('div').each(function(){
+
+            startslides[$i] = $(this).data('slidr');
+            $i++;
+
+        });
+
+        startslides[$i] = startslides[0];
+
+        s.add('h', startslides);
 
 
-            s.add('v', startslides, 'fade');
+    }
 
+
+    s.add('v', startslides, 'fade');
 
     s.start();
 

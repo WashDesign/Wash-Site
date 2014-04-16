@@ -476,6 +476,47 @@
 
 }
 
+.nav--slidr--link {
+
+    @include mq( $to: desktop-small ) {
+
+        display: none;
+
+    }
+
+    position: absolute;
+    bottom: $frameThickness;
+    left: 50%;
+    margin-left: -24px;
+    z-index: $layer1;
+
+    .nav-slidr__link {
+
+        display: none;
+
+        background-color: $cs-yellow-alpha;
+
+        &:hover,
+        &:focus {
+
+            background-color: $cs-yellow;
+
+        }
+
+        &.is-on {
+
+            display: block;
+
+        }
+
+    }
+
+
+
+
+
+}
+
 .nav-slidr__link {
 
    float: left;
@@ -556,3 +597,4 @@
     }
 
 }
+

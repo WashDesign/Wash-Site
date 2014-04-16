@@ -1198,6 +1198,23 @@ a {
     .nav--slidr {
       display: block; } }
 
+.nav--slidr--link {
+  position: absolute;
+  bottom: 1.25em;
+  left: 50%;
+  margin-left: -24px;
+  z-index: 100; }
+  @media all and (max-width: 47.99em) {
+    .nav--slidr--link {
+      display: none; } }
+  .nav--slidr--link .nav-slidr__link {
+    display: none;
+    background-color: rgba(253, 186, 49, 0.75); }
+    .nav--slidr--link .nav-slidr__link:hover, .nav--slidr--link .nav-slidr__link:focus {
+      background-color: #fdba31; }
+    .nav--slidr--link .nav-slidr__link.is-on {
+      display: block; }
+
 .nav-slidr__link {
   float: left;
   display: block;
