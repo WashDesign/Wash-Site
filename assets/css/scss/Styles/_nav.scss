@@ -46,6 +46,12 @@
 
     }
 
+    @include mq( $and: $ipad-landscape ) {
+
+        padding-top: 0;
+
+    }
+
 }
 
 .nav__item {
@@ -319,47 +325,98 @@
 
     .nav__item {
 
-        @include transition (all 0.3s ease-in-out);
+       a {
 
-        &.nav__item--current,
-        a:hover,
-        a:focus {
-
+            @include transition (all 0.3s ease-in-out);
 
             @include mq( $to: desktop-small ) {
 
-                background-color: white;
-                color: $cs-black !important;
+                background-color: $cs-black;
+                color: white;
 
             }
 
-            @include mq( $and: $ipad-landscape ) {
+            &:hover,
+            &:focus {
 
-                 background-color: white;
-                 color: $cs-black;
+                @include mq( $to: desktop-small ) {
 
-            }
-
-
-
-            &:before {
-
-                @include mq( $from: desktop-small ) {
-
-                    content: " ";
-                    margin-top: .75em;
-                    position: absolute;
-                    display: block;
-                    border-bottom: 1px solid rgb(255, 255, 255);
-                    width: 1em;
-                    margin-left: -1.5em;
+                    background-color: white;
+                    color: $cs-black;
 
                 }
 
-                @include mq( $from: desktop ) {
+                @include mq( $and: $ipad-landscape ) {
 
-                    width: 3em;
-                    margin-left: -4em;
+                     background-color: white;
+                     color: $cs-black;
+
+                }
+
+                &:before {
+
+                    @include mq( $from: desktop-small ) {
+
+                        content: " ";
+                        margin-top: .75em;
+                        position: absolute;
+                        display: block;
+                        border-bottom: 1px solid rgb(255, 255, 255);
+                        width: 1em;
+                        margin-left: -1.5em;
+
+                    }
+
+                    @include mq( $from: desktop ) {
+
+                        width: 3em;
+                        margin-left: -4em;
+
+                    }
+
+                }
+
+            }
+
+       }
+
+       &.nav__item--current {
+
+            a {
+                @include mq( $to: desktop-small ) {
+
+                    background-color: white;
+                    color: $cs-black;
+
+                }
+
+                @include mq( $and: $ipad-landscape ) {
+
+                     background-color: white;
+                     color: $cs-black;
+
+                }
+
+                &:before {
+
+                    @include mq( $from: desktop-small ) {
+
+                        content: " ";
+                        margin-top: .75em;
+                        position: absolute;
+                        display: block;
+                        border-bottom: 1px solid rgb(255, 255, 255);
+                        width: 1em;
+                        margin-left: -1.5em;
+
+                    }
+
+                    @include mq( $from: desktop ) {
+
+                        width: 3em;
+                        margin-left: -4em;
+
+                    }
 
                 }
 
