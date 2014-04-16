@@ -319,9 +319,28 @@
 
     .nav__item {
 
+        @include transition (all 0.3s ease-in-out);
+
         &.nav__item--current,
         a:hover,
         a:focus {
+
+
+            @include mq( $to: desktop-small ) {
+
+                background-color: white;
+                color: $cs-black !important;
+
+            }
+
+            @include mq( $and: $ipad-landscape ) {
+
+                 background-color: white;
+                 color: $cs-black;
+
+            }
+
+
 
             &:before {
 

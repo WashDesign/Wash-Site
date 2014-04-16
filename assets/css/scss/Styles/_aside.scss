@@ -241,6 +241,7 @@
 
     .site-aside__info {
 
+
      	@include mq( $to: desktop-small ) {
 
      		&.is-open {
@@ -250,6 +251,22 @@
     		}
 
     	}
+
+
+
+    	> div {
+
+    	    display: none;
+
+    	    @include mq( $and: $ipad-landscape ) {
+
+    	        display: block;
+
+    	    }
+
+    	}
+
+
     }
 
 }

@@ -1111,29 +1111,52 @@ a {
   .nav--secondary {
     display: none; } }
 
-@media all and (min-width: 48em) {
-  .nav--primary .nav__item.nav__item--current:before,
-  .nav--primary .nav__item a:hover:before,
-  .nav--primary .nav__item a:focus:before,
-  .nav--secondary .nav__item.nav__item--current:before,
-  .nav--secondary .nav__item a:hover:before,
-  .nav--secondary .nav__item a:focus:before {
-    content: " ";
-    margin-top: .75em;
-    position: absolute;
-    display: block;
-    border-bottom: 1px solid white;
-    width: 1em;
-    margin-left: -1.5em; } }
-@media all and (min-width: 63.75em) {
-  .nav--primary .nav__item.nav__item--current:before,
-  .nav--primary .nav__item a:hover:before,
-  .nav--primary .nav__item a:focus:before,
-  .nav--secondary .nav__item.nav__item--current:before,
-  .nav--secondary .nav__item a:hover:before,
-  .nav--secondary .nav__item a:focus:before {
-    width: 3em;
-    margin-left: -4em; } }
+.nav--primary .nav__item,
+.nav--secondary .nav__item {
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important; }
+  @media all and (max-width: 47.99em) {
+    .nav--primary .nav__item.nav__item--current,
+    .nav--primary .nav__item a:hover,
+    .nav--primary .nav__item a:focus,
+    .nav--secondary .nav__item.nav__item--current,
+    .nav--secondary .nav__item a:hover,
+    .nav--secondary .nav__item a:focus {
+      background-color: white;
+      color: #1e2425 !important; } }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .nav--primary .nav__item.nav__item--current,
+    .nav--primary .nav__item a:hover,
+    .nav--primary .nav__item a:focus,
+    .nav--secondary .nav__item.nav__item--current,
+    .nav--secondary .nav__item a:hover,
+    .nav--secondary .nav__item a:focus {
+      background-color: white;
+      color: #1e2425; } }
+  @media all and (min-width: 48em) {
+    .nav--primary .nav__item.nav__item--current:before,
+    .nav--primary .nav__item a:hover:before,
+    .nav--primary .nav__item a:focus:before,
+    .nav--secondary .nav__item.nav__item--current:before,
+    .nav--secondary .nav__item a:hover:before,
+    .nav--secondary .nav__item a:focus:before {
+      content: " ";
+      margin-top: .75em;
+      position: absolute;
+      display: block;
+      border-bottom: 1px solid white;
+      width: 1em;
+      margin-left: -1.5em; } }
+  @media all and (min-width: 63.75em) {
+    .nav--primary .nav__item.nav__item--current:before,
+    .nav--primary .nav__item a:hover:before,
+    .nav--primary .nav__item a:focus:before,
+    .nav--secondary .nav__item.nav__item--current:before,
+    .nav--secondary .nav__item a:hover:before,
+    .nav--secondary .nav__item a:focus:before {
+      width: 3em;
+      margin-left: -4em; } }
 
 @media all and (min-width: 63.75em) {
   .nav--secondary .nav__item.nav__item--current:before,
@@ -1455,6 +1478,11 @@ a {
 @media all and (max-width: 47.99em) {
   .multipage .site-aside__info.is-open {
     height: 48px; } }
+.multipage .site-aside__info > div {
+  display: none; }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .multipage .site-aside__info > div {
+      display: block; } }
 
 .site-footer {
   position: fixed;
