@@ -1495,6 +1495,17 @@ a {
         top: 96%; }
         .page__aside.is-down.hug.is-right {
           top: 97%; } }
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .page__aside {
+    position: inherit;
+    background-color: transparent;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    top: auto !important;
+    left: auto !important;
+    bottom: auto !important;
+    right: auto !important; } }
 
 @media all and (max-width: 47.99em) {
   .multipage .site-aside__info.is-open {
