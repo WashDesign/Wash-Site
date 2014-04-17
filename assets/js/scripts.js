@@ -65,7 +65,7 @@ jQuery(document).ready(function($) {
                     var anchorTitles = new Array();
                     var $i = 0;
 
-                    $('.page').each( function(){
+                    $('#js-site-content').find('section').each( function(){
 
                         anchorTitles[$i] = encodeURI($(this).find('.page__title').html().replace(" ","+"));
                         $i++;
