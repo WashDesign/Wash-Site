@@ -739,6 +739,49 @@ table {
 .media--left {
   float: left; }
 
+.is-content {
+  background-color: #fdba31; }
+
+.item {
+  float: left; }
+  .item img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom; }
+
+.item:hover {
+  cursor: pointer; }
+
+.item.is-full {
+  width: 100%; }
+
+.is-right {
+  float: right; }
+
+@media all and (min-width: 48em) {
+  .item.is-half {
+    width: 50%; }
+
+  .item.is-half.is-split.is-content > .is-ratio {
+    padding-bottom: 62.5490196078%; }
+  .item.is-half.is-split.is-content > .item.is-half.is-split {
+    width: 100%; }
+
+  .is-ratio {
+    padding-bottom: 54.2%;
+    position: relative;
+    overflow: hidden;
+    height: 0; } }
+@media all and (min-width: 56.25em) {
+  .item.is-half.is-content {
+    width: 50%;
+    font-size: 0.925em; }
+
+  .item.is-content > .item.is-half.is-split {
+    width: 50%; } }
+@media all and (min-width: 63.75em) {
+  .item.is-third {
+    width: 33.33%; } }
 html {
   -webkit-font-smoothing: antialiased;
   height: 100%; }
@@ -1374,7 +1417,7 @@ a {
   float: left;
   width: 100%;
   background-color: white;
-  padding-bottom: 2.5em; }
+  padding-bottom: 1.25em; }
   .multipage .article .page__constrain {
     background-color: white;
     color: black;

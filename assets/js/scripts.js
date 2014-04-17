@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
 
             });
 
-    		if ( $('.page').length > 1 ) {
+    		if ( $('#js-site-content').find('section').size() > 1 ) {
 
                 if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
 
@@ -68,8 +68,15 @@ jQuery(document).ready(function($) {
 
                     $('#js-site-content').find('section').each( function(){
 
-                        anchorTitles[$i] = encodeURI($(this).find('.page__title').html().replace(" ","+"));
-                        slideTitles[$i] = $(this).find('.page__title').html();
+                        var title = $(this).find('.page__title').html();
+
+                        if ( null == title) {
+
+                            title = "Page "+$i+1;
+
+                        }
+                        anchorTitles[$i] = encodeURI(title.replace(" ","+"));
+                        slideTitles[$i] = title;
                         $i++;
 
                     });
