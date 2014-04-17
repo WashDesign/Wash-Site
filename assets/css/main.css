@@ -1375,7 +1375,8 @@ a {
   .multipage .article .page__constrain {
     background-color: white;
     color: black;
-    padding: 2.5em; }
+    padding: 2.5em;
+    width: 100%; }
 
 .site-aside__media {
   position: fixed;
