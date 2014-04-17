@@ -63,11 +63,13 @@ jQuery(document).ready(function($) {
                 if ( ! matchMedia('screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)').matches ) {
 
                     var anchorTitles = new Array();
+                    var slideTitles = new Array();
                     var $i = 0;
 
                     $('#js-site-content').find('section').each( function(){
 
                         anchorTitles[$i] = encodeURI($(this).find('.page__title').html().replace(" ","+"));
+                        slideTitles[$i] = $(this).find('.page__title').html();
                         $i++;
 
                     });
@@ -81,7 +83,7 @@ jQuery(document).ready(function($) {
                         menu: false,
                         navigation: true,
                         navigationPosition: 'right',
-                        //navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'longSlide'],
+                        navigationTooltips: slideTitles,
                         slidesNavigation: true,
                         slidesNavPosition: 'bottom',
                         loopBottom: false,

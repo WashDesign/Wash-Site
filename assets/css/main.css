@@ -1259,6 +1259,9 @@ a {
   .multipage .nav--slidr--arrow {
     margin-top: 1em; } }
 
+[data-tooltip] {
+  white-space: nowrap; }
+
 .site-main {
   position: absolute;
   z-index: 80;
