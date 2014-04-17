@@ -91,18 +91,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/scss\/Styles\/_pages.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_pages.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_pages.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -133,16 +121,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/jo-wall.jpg" : {
+    "\/assets\/css\/scss\/Styles\/_pages.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/jo-wall.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/jo-wall.jpg",
-      "initialSize" : 203931,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_pages.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_pages.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/scss\/Library\/_defaults.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -156,17 +145,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/scss\/Library\/Dependencies\/_mqs.scss" : {
+    "\/assets\/img\/jo-wall.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Dependencies\/_mqs.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_mqs.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/img\/jo-wall.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/jo-wall.jpg",
+      "initialSize" : 203931,
+      "fileType" : 4096
     },
     "\/assets\/js\/inc\/jquery-ui.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -178,6 +166,18 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck.js",
       "fileType" : 64
+    },
+    "\/assets\/css\/scss\/Library\/Dependencies\/_mqs.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Dependencies\/_mqs.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_mqs.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/js\/inc\/mediaCheck-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -249,18 +249,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/scss\/Library\/Base\/_blockquotes.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Base\/_blockquotes.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_blockquotes.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/scss\/Library\/Base\/_images.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -270,6 +258,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_images.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/css\/scss\/Library\/Base\/_blockquotes.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Base\/_blockquotes.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_blockquotes.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -430,15 +430,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/css\/scss\/Config\/_setup.scss" : {
+    "\/assets\/css\/scss\/Styles\/_nav.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Config\/_setup.scss",
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_nav.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_setup.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_nav.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -465,15 +465,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage-ck.js",
       "fileType" : 64
     },
-    "\/assets\/css\/scss\/Styles\/_nav.scss" : {
+    "\/assets\/css\/scss\/Config\/_setup.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_nav.scss",
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Config\/_setup.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_nav.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_setup.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -591,16 +591,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js" : {
+    "\/page.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/page.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/js\/inc\/jquery-ui.min-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -613,17 +611,16 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck-ck.js",
       "fileType" : 64
     },
-    "\/assets\/css\/scss\/Library\/Base\/_headings.scss" : {
+    "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Base\/_headings.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_headings.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck-ck.js",
+      "fileType" : 64
     },
     "\/layout.html" : {
       "ignoreWasSetByUser" : 0,
@@ -633,17 +630,6 @@
       "inputAbbreviatedPath" : "\/layout.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/img\/people.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/people.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/people.jpg",
-      "initialSize" : 148566,
-      "fileType" : 4096
     },
     "\/assets\/css\/scss\/Library\/Dependencies\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -657,6 +643,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/js\/inc\/jquery.fullPage.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage.min-ck.js",
+      "fileType" : 64
+    },
     "\/assets\/css\/scss\/Objects\/_font_icons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -668,28 +665,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_font_icons.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/js\/scripts.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/scripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/scripts-ck.js",
-      "fileType" : 64
-    },
-    "\/assets\/js\/inc\/jquery.fullPage.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage.min-ck.js",
-      "fileType" : 64
     },
     "\/assets\/css\/scss\/Config\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -703,14 +678,39 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/page.html" : {
+    "\/assets\/css\/scss\/Styles\/_global.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_global.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/img\/people.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/img\/people.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/people.jpg",
+      "initialSize" : 148566,
+      "fileType" : 4096
+    },
+    "\/assets\/js\/scripts.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/scripts.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/scripts-ck.js",
+      "fileType" : 64
     },
     "\/assets\/fonts\/font-icon-ref.png" : {
       "ignoreWasSetByUser" : 0,
@@ -723,15 +723,15 @@
       "initialSize" : 79176,
       "fileType" : 8192
     },
-    "\/assets\/css\/scss\/Styles\/_global.scss" : {
+    "\/assets\/css\/scss\/Library\/Base\/_headings.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_global.scss",
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Base\/_headings.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_global.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_headings.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
