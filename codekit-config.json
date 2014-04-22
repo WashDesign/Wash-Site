@@ -47,17 +47,6 @@
       "initialSize" : 273909,
       "fileType" : 4096
     },
-    "\/assets\/js\/inc\/jquery.fullPage.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/img\/media-city-cs-9-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -68,6 +57,17 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-768.jpg",
       "initialSize" : 196937,
       "fileType" : 4096
+    },
+    "\/assets\/js\/inc\/jquery.fullPage.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage-ck.js",
+      "fileType" : 64
     },
     "\/assets\/css\/scss\/Library\/_defaults.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -182,6 +182,26 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck.js",
       "fileType" : 64
     },
+    "\/assets\/js\/scripts-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/scripts-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/scripts-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/css\/jquery.fullPage.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/jquery.fullPage.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/css\/scss\/Styles\/Modules\/_frame.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -193,26 +213,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/css\/_frame.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/css\/jquery.fullPage.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/jquery.fullPage.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/assets\/js\/scripts-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/scripts-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/scripts-ck-ck.js",
-      "fileType" : 64
     },
     "\/assets\/img\/red-block.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -304,17 +304,6 @@
       "initialSize" : 344784,
       "fileType" : 4096
     },
-    "\/assets\/js\/inc\/jquery-ui.min-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/css\/scss\/Objects\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -326,6 +315,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_media.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/js\/inc\/jquery-ui.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck-ck.js",
+      "fileType" : 64
     },
     "\/assets\/img\/media-city-cs-2-768.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -360,6 +360,17 @@
       "initialSize" : 100362,
       "fileType" : 4096
     },
+    "\/assets\/img\/media-city-cs-7-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
+      "initialSize" : 288820,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Library\/Base\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -371,17 +382,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_global.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/img\/media-city-cs-7-1020.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
-      "initialSize" : 288820,
-      "fileType" : 4096
     },
     "\/assets\/js\/inc\/mediaelementplayer.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -459,15 +459,6 @@
       "initialSize" : 79176,
       "fileType" : 8192
     },
-    "\/layout.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layout.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/css\/scss\/Library\/Dependencies\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -479,6 +470,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/layout.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layout.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/scss\/Styles\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -614,17 +614,6 @@
       "initialSize" : 48999,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-8-1020.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-1020.jpg",
-      "initialSize" : 443246,
-      "fileType" : 4096
-    },
     "\/assets\/img\/media-city-cs-15-960.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -634,6 +623,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-15-960.jpg",
       "initialSize" : 189073,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/media-city-cs-8-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-1020.jpg",
+      "initialSize" : 443246,
       "fileType" : 4096
     },
     "\/page.html" : {
@@ -723,16 +723,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/js\/inc\/jquery.inview.min.js" : {
+    "\/assets\/css\/scss\/Styles\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.inview.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.inview.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_footer.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_footer.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/img\/media-city-cs-7-768.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -757,17 +758,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/scss\/Styles\/_footer.scss" : {
+    "\/assets\/js\/inc\/jquery.inview.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_footer.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_footer.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.inview.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.inview.min-ck.js",
+      "fileType" : 64
     },
     "\/assets\/js\/inc\/jquery-2.0.3.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -802,18 +802,6 @@
       "initialSize" : 499029,
       "fileType" : 4096
     },
-    "\/assets\/css\/scss\/Themes\/_site.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Themes\/_site.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_site.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/scss\/Themes\/_page.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -823,6 +811,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_page.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/css\/scss\/Themes\/_site.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Themes\/_site.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_site.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1140,29 +1140,6 @@
       "initialSize" : 690260,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-3-1020.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
-      "initialSize" : 749451,
-      "fileType" : 4096
-    },
-    "\/assets\/css\/scss\/Library\/Base\/_paragraphs.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Base\/_paragraphs.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_paragraphs.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/scss\/Styles\/_nav.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1174,6 +1151,26 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_nav.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/case-study.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/case-study.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/img\/media-city-cs-8-480.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
+      "initialSize" : 151969,
+      "fileType" : 4096
     },
     "\/assets\/css\/scss\/Config\/_setup.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1209,48 +1206,17 @@
       "initialSize" : 126050,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-1-768.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
-      "initialSize" : 240698,
-      "fileType" : 4096
-    },
-    "\/case-study.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/case-study.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss" : {
+    "\/assets\/css\/scss\/Objects\/_item.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss",
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Objects\/_item.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_mixin_library.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_item.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/img\/media-city-cs-8-480.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
-      "initialSize" : 151969,
-      "fileType" : 4096
     },
     "\/assets\/img\/media-city-intro-1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1285,6 +1251,29 @@
       "initialSize" : 1329,
       "fileType" : 8192
     },
+    "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_mixin_library.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/img\/media-city-cs-3-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
+      "initialSize" : 749451,
+      "fileType" : 4096
+    },
     "\/assets\/img\/media-city-cs-7-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1296,6 +1285,29 @@
       "initialSize" : 716567,
       "fileType" : 4096
     },
+    "\/assets\/img\/media-city-cs-1-768.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
+      "initialSize" : 240698,
+      "fileType" : 4096
+    },
+    "\/assets\/css\/scss\/Library\/Base\/_paragraphs.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Base\/_paragraphs.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_paragraphs.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/img\/media-city-cs-10-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1306,18 +1318,6 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-10-768.jpg",
       "initialSize" : 202974,
       "fileType" : 4096
-    },
-    "\/assets\/css\/scss\/Objects\/_item.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Objects\/_item.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_item.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1519,16 +1519,16 @@
       "initialSize" : 177666,
       "fileType" : 4096
     },
-    "\/assets\/img\/lewis-away.jpg" : {
+    "\/assets\/js\/inc\/jquery.slimscroll.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
-      "initialSize" : 235677,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.slimscroll.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.slimscroll.min-ck.js",
+      "fileType" : 64
     },
     "\/assets\/img\/media-city-cs-13-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1541,6 +1541,17 @@
       "initialSize" : 331813,
       "fileType" : 4096
     },
+    "\/assets\/img\/lewis-away.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
+      "initialSize" : 235677,
+      "fileType" : 4096
+    },
     "\/assets\/img\/media-city-cs-13-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1551,17 +1562,6 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1920.jpg",
       "initialSize" : 935625,
       "fileType" : 4096
-    },
-    "\/assets\/js\/inc\/jquery.slimscroll.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.slimscroll.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.slimscroll.min-ck.js",
-      "fileType" : 64
     },
     "\/assets\/img\/media-city-cs-13-768.jpg" : {
       "ignoreWasSetByUser" : 0,
