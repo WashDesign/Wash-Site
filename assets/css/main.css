@@ -1416,8 +1416,10 @@ a {
 .multipage .article {
   float: left;
   width: 100%;
-  background-color: white;
-  padding-bottom: 1.25em; }
+  background-color: white; }
+  @media all and (min-width: 48em) {
+    .multipage .article {
+      padding-bottom: 1.25em; } }
   .multipage .article .page__constrain {
     background-color: white;
     color: black;

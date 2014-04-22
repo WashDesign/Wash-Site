@@ -223,7 +223,12 @@
         float: left;
         width: 100%;
         background-color: white;
-        padding-bottom: 1.25em;
+
+        @include mq( $from: desktop-small ) {
+
+            padding-bottom: 1.25em;
+
+        }
 
 
         .page__constrain {
