@@ -1,4 +1,11 @@
 
+.items {
+
+    @extend .grp;
+    background-color: rgb(0,0,0);
+
+}
+
 .is-content {
 	background-color: $cs-yellow;
 }

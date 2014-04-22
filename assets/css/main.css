@@ -627,12 +627,12 @@ table {
       border-top: 1px rgba(0, 0, 0, 0) solid;
       box-sizing: border-box; }
 
-.grp {
+.grp, .items {
   zoom: 1; }
-  .grp:before, .grp:after {
+  .grp:before, .items:before, .grp:after, .items:after {
     content: "";
     display: table; }
-  .grp:after {
+  .grp:after, .items:after {
     clear: both; }
 
 .image-replacement,
@@ -738,6 +738,9 @@ table {
 
 .media--left {
   float: left; }
+
+.items {
+  background-color: black; }
 
 .is-content {
   background-color: #fdba31; }
