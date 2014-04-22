@@ -763,7 +763,10 @@ table {
     width: 50%; }
 
   .item.is-half.is-split.is-content > .is-ratio {
-    padding-bottom: 62.5490196078%; }
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-bottom: 59.5490196078%; }
   .item.is-half.is-split.is-content > .item.is-half.is-split {
     width: 100%; }
 

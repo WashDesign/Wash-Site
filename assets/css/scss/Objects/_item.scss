@@ -1,12 +1,11 @@
 
 .is-content {
 	background-color: $cs-yellow;
-	//padding: 0.5em;
 }
 
 .item {
 	float: left;
-  
+
 	img {
 		width: 100%;
 		height: auto;
@@ -28,26 +27,29 @@
 @include mq($from: desktop-small) {
 
   .item.is-half { width:  50%; }
-  
+
   .item.is-half.is-split.is-content {
-  	
+
   	> .is-ratio {
-  		padding-bottom: 62.5490196078%;
+  		padding-top: 3%;
+  		padding-left: 3%;
+  		padding-right: 5%;
+  		padding-bottom: 59.5490196078%;
   	}
-  	
-  	> .item.is-half.is-split { 
-  		width: 100%; 
+
+  	> .item.is-half.is-split {
+  		width: 100%;
   	}
-  	
+
   }
-  
+
   .is-ratio {
-    padding-bottom: 54.2%; 
+    padding-bottom: 54.2%;
     position: relative;
     overflow: hidden;
     height: 0;
   }
-  
+
 } // end 768
 
 
