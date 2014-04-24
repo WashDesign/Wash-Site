@@ -761,6 +761,9 @@ table {
 .is-right {
   float: right; }
 
+@media all and (max-width: 47.99em) {
+  .item.is-half.is-split.is-content > .is-ratio {
+    padding: 1em; } }
 @media all and (min-width: 48em) {
   .item.is-half {
     width: 50%; }
@@ -1579,6 +1582,11 @@ a {
     bottom: auto !important;
     right: auto !important; } }
 
+@media all and (max-width: 47.99em) {
+  .multipage .site-aside__media {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; } }
 @media all and (max-width: 47.99em) {
   .multipage .site-aside__info.is-open {
     height: 48px; } }

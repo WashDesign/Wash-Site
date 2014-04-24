@@ -255,6 +255,18 @@
 
 .multipage {
 
+    .site-aside__media {
+
+        @include mq( $to: desktop-small ) {
+
+     	   -webkit-box-shadow: none;
+     	      -moz-box-shadow: none;
+     	           box-shadow: none;
+
+        }
+
+    }
+
     .site-aside__info {
 
 

@@ -31,6 +31,19 @@
 }
 
 
+@include mq($to: desktop-small) {
+
+    .item.is-half.is-split.is-content {
+
+        > .is-ratio {
+      		padding: 1em;
+      	}
+
+
+    }
+
+}
+
 @include mq($from: desktop-small) {
 
   .item.is-half { width:  50%; }

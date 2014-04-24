@@ -511,6 +511,63 @@ if(options.paddingTop || options.paddingBottom){
 			}
 		};
 
+		$.fn.fullpage.reBuild = function(){
+
+		    isResizing = true;
+
+			var windowsWidth = $(window).width();
+			windowsHeight = $(window).height();
+
+			//text and images resizing
+			if (options.resize) {
+				resizeMe(windowsHeight, windowsWidth);
+			}
+
+			$('.section').each(function(){
+				var scrollHeight = windowsHeight - parseInt($(this).css('padding-bottom')) - parseInt($(this).css('padding-top'));
+
+				//resizing the scrolling divs
+				if(options.scrollOverflow){
+					var slides = $(this).find('.slide');
+
+					if(slides.length){
+						slides.each(function(){
+							createSlimScrolling($(this));
+						});
+					}else{
+						createSlimScrolling($(this));
+					}
+
+				}
+
+				//adjusting the height of the table-cell for IE and Firefox
+				if(options.verticalCentered){
+					$(this).find('.tableCell').css('height', getTableHeight($(this)) + 'px');
+				}
+
+				$(this).css('height', windowsHeight + 'px');
+
+				//adjusting the position fo the FULL WIDTH slides...
+				var slides = $(this).find('.slides');
+				if (slides.length) {
+					landscapeScroll(slides, slides.find('.slide.active'));
+				}
+			});
+
+			//adjusting the position for the current section
+			var destinyPos = $('.section.active').position();
+
+			var activeSection = $('.section.active');
+
+			//isn't it the first section?
+			if(activeSection.index('.section')){
+				scrollPage(activeSection);
+			}
+
+			isResizing = false;
+			//doneResizing();
+		}
+
 		function scrollPage(element, callback) {
 			var scrollOptions = {}, scrolledElement;
 			var dest = element.position();

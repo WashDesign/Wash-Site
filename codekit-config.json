@@ -193,6 +193,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/scripts-ck-ck.js",
       "fileType" : 64
     },
+    "\/assets\/css\/jquery.fullPage.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/jquery.fullPage.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/css\/scss\/Library\/Dependencies\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -204,15 +213,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/css\/jquery.fullPage.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/jquery.fullPage.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/assets\/img\/red-block.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -237,15 +237,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/media-city-cs-9-960.jpg" : {
+    "\/assets\/img\/media-city-cs-9-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-960.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1920.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-960.jpg",
-      "initialSize" : 293819,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1920.jpg",
+      "initialSize" : 736086,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-12-960.jpg" : {
@@ -259,15 +259,15 @@
       "initialSize" : 18364,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-9-1920.jpg" : {
+    "\/assets\/img\/media-city-cs-9-960.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1920.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-960.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1920.jpg",
-      "initialSize" : 736086,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-960.jpg",
+      "initialSize" : 293819,
       "fileType" : 4096
     },
     "\/assets\/css\/scss\/Styles\/_aside.scss" : {
@@ -304,17 +304,6 @@
       "initialSize" : 344784,
       "fileType" : 4096
     },
-    "\/assets\/js\/inc\/jquery-ui.min-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/css\/scss\/Objects\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -326,6 +315,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_media.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/js\/inc\/jquery-ui.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck-ck.js",
+      "fileType" : 64
     },
     "\/assets\/img\/media-city-cs-2-768.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -416,18 +416,6 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/css\/scss\/Styles\/_header.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_header.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_header.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -447,6 +435,29 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-1260.jpg",
       "initialSize" : 599539,
       "fileType" : 4096
+    },
+    "\/assets\/js\/inc\/slidr.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/slidr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/slidr-ck.js",
+      "fileType" : 64
+    },
+    "\/assets\/css\/scss\/Styles\/_header.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_header.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_header.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/fonts\/font-icon-ref.png" : {
       "ignoreWasSetByUser" : 0,
@@ -526,6 +537,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/css\/onepage-scroll.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/onepage-scroll.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/css\/scss\/Library\/Base\/_lists.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -537,15 +557,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_lists.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/css\/onepage-scroll.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/onepage-scroll.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/assets\/css\/scss\/Library\/Base\/_images.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -677,17 +688,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/css\/scss\/Objects\/_nav.scss" : {
+    "\/assets\/img\/media-city-cs-9-1260.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Objects\/_nav.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_nav.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1260.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1260.jpg",
+      "initialSize" : 404282,
+      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-13-vid-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -700,16 +710,17 @@
       "initialSize" : 84485,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-9-1260.jpg" : {
+    "\/assets\/css\/scss\/Objects\/_nav.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1260.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1260.jpg",
-      "initialSize" : 404282,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Objects\/_nav.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_nav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/scss\/Library\/Dependencies\/_mqs.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -802,18 +813,6 @@
       "initialSize" : 499029,
       "fileType" : 4096
     },
-    "\/assets\/css\/scss\/Themes\/_page.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Themes\/_page.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_page.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/scss\/Themes\/_site.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -823,6 +822,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_site.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/css\/scss\/Themes\/_page.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Themes\/_page.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_page.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -859,6 +870,17 @@
       "outputAbbreviatedPath" : "\/assets\/js\/scripts-ck.js",
       "fileType" : 64
     },
+    "\/assets\/img\/media-city-cs-7-960.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-960.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-960.jpg",
+      "initialSize" : 285669,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Library\/_helpers.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -870,17 +892,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_helpers.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/img\/media-city-cs-7-960.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-960.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-960.jpg",
-      "initialSize" : 285669,
-      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-5-768.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -926,17 +937,6 @@
       "initialSize" : 1002730,
       "fileType" : 4096
     },
-    "\/assets\/img\/red-block-768.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
-      "initialSize" : 272496,
-      "fileType" : 4096
-    },
     "\/assets\/css\/scss\/Objects\/_font_icons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -948,6 +948,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_font_icons.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/red-block-768.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
+      "initialSize" : 272496,
+      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-9-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1129,15 +1140,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage-ck-ck.js",
       "fileType" : 64
     },
-    "\/assets\/img\/media-city-cs-8-480.jpg" : {
+    "\/assets\/img\/media-city-cs-3-960.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-960.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
-      "initialSize" : 151969,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-960.jpg",
+      "initialSize" : 690260,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-3-1020.jpg" : {
@@ -1187,15 +1198,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/media-city-cs-1-768.jpg" : {
+    "\/assets\/img\/media-city-cs-3-480.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-480.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
-      "initialSize" : 240698,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-480.jpg",
+      "initialSize" : 197330,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-11-960.jpg" : {
@@ -1230,16 +1241,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/media-city-intro-1.jpg" : {
+    "\/assets\/js\/inc\/flexslider.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "initialSize" : 813326,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider-ck.js",
+      "fileType" : 64
     },
     "\/assets\/img\/wash-design-brand.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1252,28 +1263,27 @@
       "initialSize" : 1329,
       "fileType" : 8192
     },
-    "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_mixin_library.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/js\/inc\/flexslider.js" : {
+    "\/assets\/img\/media-city-cs-8-480.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-480.jpg",
+      "initialSize" : 151969,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/media-city-intro-1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "initialSize" : 813326,
+      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-7-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1297,27 +1307,28 @@
       "initialSize" : 202974,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-3-960.jpg" : {
+    "\/assets\/img\/media-city-cs-1-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-960.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-960.jpg",
-      "initialSize" : 690260,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-768.jpg",
+      "initialSize" : 240698,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-3-480.jpg" : {
+    "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-480.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-480.jpg",
-      "initialSize" : 197330,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/css\/_mixin_library.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1373,6 +1384,17 @@
       "initialSize" : 203931,
       "fileType" : 4096
     },
+    "\/assets\/img\/media-city-cs-5-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
+      "initialSize" : 276342,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Styles\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1384,17 +1406,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_main.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/img\/media-city-cs-5-1020.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
-      "initialSize" : 276342,
-      "fileType" : 4096
     },
     "\/assets\/css\/scss\/Library\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1508,15 +1519,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/img\/media-city-cs-6-768.jpg" : {
+    "\/assets\/img\/media-city-cs-14-960.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-6-768.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-14-960.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-6-768.jpg",
-      "initialSize" : 177666,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-14-960.jpg",
+      "initialSize" : 437802,
       "fileType" : 4096
     },
     "\/assets\/js\/inc\/jquery.slimscroll.min.js" : {
@@ -1530,17 +1541,6 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.slimscroll.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
-      "initialSize" : 331813,
-      "fileType" : 4096
-    },
     "\/assets\/img\/lewis-away.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1552,15 +1552,26 @@
       "initialSize" : 235677,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-14-960.jpg" : {
+    "\/assets\/img\/media-city-cs-6-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-14-960.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-6-768.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-14-960.jpg",
-      "initialSize" : 437802,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-6-768.jpg",
+      "initialSize" : 177666,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "initialSize" : 331813,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-13-768.jpg" : {

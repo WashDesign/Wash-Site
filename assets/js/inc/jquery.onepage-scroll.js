@@ -232,6 +232,14 @@
 
     }
 
+    $.fn.reDraw = function() {
+
+        console.log('redraw')
+
+        responsive();
+
+    }
+
 
 
     function responsive() {
