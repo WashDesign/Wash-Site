@@ -150,6 +150,7 @@
         width: 34.615385%;
         top: 5em;
         left: -39%;
+        color: $cs-black;
 
 
     }
@@ -230,6 +231,13 @@
                 }
 
             }
+
+        }
+
+        .col {
+
+            list-style-type: none;
+            float: left;
 
         }
 
