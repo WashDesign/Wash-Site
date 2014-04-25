@@ -237,6 +237,7 @@
         .col {
 
             list-style-type: none;
+            padding-left: 1em;
             float: left;
 
         }
@@ -255,6 +256,12 @@
         left: auto !important;
         bottom: auto !important;
         right: auto !important;
+
+        &.is-right {
+
+            float: none;
+
+        }
 
 
     }

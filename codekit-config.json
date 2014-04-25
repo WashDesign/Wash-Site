@@ -140,15 +140,15 @@
       "initialSize" : 349609,
       "fileType" : 4096
     },
-    "\/assets\/js\/inc\/flexslider.js" : {
+    "\/assets\/js\/inc\/jquery.onepage-scroll.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider.js",
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js",
       "fileType" : 64
     },
     "\/assets\/css\/scss\/Library\/Base\/_blockquotes.scss" : {
@@ -163,6 +163,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/js\/inc\/flexslider.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider-ck.js",
+      "fileType" : 64
+    },
     "\/assets\/img\/media-city-cs-6-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -173,17 +184,6 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-6-768.jpg",
       "initialSize" : 177666,
       "fileType" : 4096
-    },
-    "\/assets\/js\/inc\/jquery.onepage-scroll.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js",
-      "fileType" : 64
     },
     "\/assets\/css\/scss\/Library\/Dependencies\/_flexslider.scss" : {
       "ignoreWasSetByUser" : 0,

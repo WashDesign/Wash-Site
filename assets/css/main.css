@@ -1437,7 +1437,7 @@ a {
 @media all and (min-width: 48em) {
   .multipage .page__constrain {
     position: relative;
-    padding: 3% 3% 5% 3%; } }
+    padding: 3% 4% 5% 3%; } }
 @media all and (min-width: 63.75em) {
   .multipage .page__constrain {
     width: 60%; } }
@@ -1596,6 +1596,7 @@ a {
           top: 97%; }
     .page__aside .col {
       list-style-type: none;
+      padding-left: 1em;
       float: left; } }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .page__aside {
@@ -1607,7 +1608,9 @@ a {
     top: auto !important;
     left: auto !important;
     bottom: auto !important;
-    right: auto !important; } }
+    right: auto !important; }
+    .page__aside.is-right {
+      float: none; } }
 
 @media all and (max-width: 47.99em) {
   .multipage .site-aside__media {
