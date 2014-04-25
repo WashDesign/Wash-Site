@@ -232,7 +232,8 @@ jQuery(document).ready(function($) {
 
                         $.fn.fullpage.moveTo(1);
                         s.slide($('.page').eq(0).data('start'));
-
+                        // long slide back to top - //*** SEEMS TO REMEBER WHERE YOU WERE AT
+                        //$("#js-site-content").find('.scrollable').each(function() { $(this).animate({ scrollTop: 0 }, "slow").slimScroll({ scroll: '0px' }); })
                     });
 
                 }
