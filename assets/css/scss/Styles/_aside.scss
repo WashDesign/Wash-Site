@@ -152,6 +152,14 @@
         left: -39%;
         color: $cs-black;
 
+         .col {
+
+            list-style-type: none;
+            padding-left: 1em;
+            float: left;
+
+        }
+
 
     }
 
@@ -234,13 +242,7 @@
 
         }
 
-        .col {
 
-            list-style-type: none;
-            padding-left: 1em;
-            float: left;
-
-        }
 
     }
 

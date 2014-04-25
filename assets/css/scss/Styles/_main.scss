@@ -208,6 +208,18 @@
 
     		width: 60%;
 
+    		&.is-medium {
+
+        		width: 80%;
+
+    		}
+
+    		&.is-large {
+
+        		width: 100%;
+
+    		}
+
     	}
 
         @include mq( $and: $ipad-landscape ) {

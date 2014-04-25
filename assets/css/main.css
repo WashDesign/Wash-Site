@@ -1440,7 +1440,11 @@ a {
     padding: 3% 4% 5% 3%; } }
 @media all and (min-width: 63.75em) {
   .multipage .page__constrain {
-    width: 60%; } }
+    width: 60%; }
+    .multipage .page__constrain.is-medium {
+      width: 80%; }
+    .multipage .page__constrain.is-large {
+      width: 100%; } }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .multipage .page__constrain {
     padding: 0;
@@ -1559,7 +1563,11 @@ a {
     width: 34.615385%;
     top: 5em;
     left: -39%;
-    color: #1e2425; } }
+    color: #1e2425; }
+    .page__aside .col {
+      list-style-type: none;
+      padding-left: 1em;
+      float: left; } }
 @media all and (min-width: 63.75em) {
   .page__aside {
     top: auto;
@@ -1593,11 +1601,7 @@ a {
         bottom: auto;
         top: 96%; }
         .page__aside.is-down.hug.is-right {
-          top: 97%; }
-    .page__aside .col {
-      list-style-type: none;
-      padding-left: 1em;
-      float: left; } }
+          top: 97%; } }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .page__aside {
     position: inherit;

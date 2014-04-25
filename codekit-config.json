@@ -220,17 +220,6 @@
       "initialSize" : 197330,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-5-1020.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
-      "initialSize" : 276342,
-      "fileType" : 4096
-    },
     "\/assets\/img\/lewis-away.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -240,6 +229,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
       "initialSize" : 235677,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/media-city-cs-5-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
+      "initialSize" : 276342,
       "fileType" : 4096
     },
     "\/assets\/img\/w-black.png" : {
@@ -354,6 +354,17 @@
       "initialSize" : 120313,
       "fileType" : 4096
     },
+    "\/assets\/img\/approach\/services-3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/services-3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/services-3.jpg",
+      "initialSize" : 188148,
+      "fileType" : 4096
+    },
     "\/assets\/img\/red-block.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -445,17 +456,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/scss\/Objects\/_font_icons.scss" : {
+    "\/assets\/img\/approach\/logos.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Objects\/_font_icons.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_font_icons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/logos.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/logos.jpg",
+      "initialSize" : 149425,
+      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-1-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -478,6 +488,18 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
       "initialSize" : 288820,
       "fileType" : 4096
+    },
+    "\/assets\/css\/scss\/Objects\/_font_icons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Objects\/_font_icons.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_font_icons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/img\/media-city-cs-6-480.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -645,15 +667,15 @@
       "initialSize" : 123865,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-3-1020.jpg" : {
+    "\/assets\/img\/approach\/approach-1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/approach-1.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
-      "initialSize" : 749451,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/approach-1.jpg",
+      "initialSize" : 234463,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-9-1020.jpg" : {
@@ -667,15 +689,15 @@
       "initialSize" : 298320,
       "fileType" : 4096
     },
-    "\/assets\/img\/red-block-768.jpg" : {
+    "\/assets\/img\/media-city-cs-3-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
-      "initialSize" : 272496,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
+      "initialSize" : 749451,
       "fileType" : 4096
     },
     "\/assets\/js\/inc\/mediaelementplayer.min.js" : {
@@ -688,6 +710,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/mediaelementplayer.min-ck.js",
       "fileType" : 64
+    },
+    "\/assets\/img\/red-block-768.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
+      "initialSize" : 272496,
+      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-5-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -812,6 +845,17 @@
       "initialSize" : 702918,
       "fileType" : 4096
     },
+    "\/assets\/img\/approach\/services-4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/services-4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/services-4.jpg",
+      "initialSize" : 163296,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Objects\/_item.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -858,6 +902,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/media-city-cs-4-1260.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
+      "initialSize" : 499029,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Library\/_defaults.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -869,17 +924,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_defaults.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/img\/media-city-cs-4-1260.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
-      "initialSize" : 499029,
-      "fileType" : 4096
     },
     "\/assets\/img\/w-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -960,16 +1004,16 @@
       "initialSize" : 716567,
       "fileType" : 4096
     },
-    "\/assets\/js\/inc\/jquery.onepage-scroll.min.js" : {
+    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "initialSize" : 331813,
+      "fileType" : 4096
     },
     "\/assets\/css\/scss\/Styles\/Modules\/_frame.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -983,16 +1027,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
+    "\/assets\/js\/inc\/jquery.onepage-scroll.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
-      "initialSize" : 331813,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min-ck.js",
+      "fileType" : 64
     },
     "\/assets\/css\/scss\/Styles\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1017,6 +1061,17 @@
       "initialSize" : 35990,
       "fileType" : 4096
     },
+    "\/assets\/img\/media-city-cs-5-1260.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
+      "initialSize" : 382619,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Styles\/_aside.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1028,17 +1083,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_aside.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/img\/media-city-cs-5-1260.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
-      "initialSize" : 382619,
-      "fileType" : 4096
     },
     "\/assets\/img\/story\/2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1432,6 +1476,17 @@
       "initialSize" : 122934,
       "fileType" : 4096
     },
+    "\/assets\/img\/approach\/services-5.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/services-5.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/services-5.jpg",
+      "initialSize" : 126883,
+      "fileType" : 4096
+    },
     "\/assets\/img\/media-city-cs-3-960.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1441,6 +1496,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-960.jpg",
       "initialSize" : 690260,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/approach\/process.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/process.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/process.jpg",
+      "initialSize" : 136969,
       "fileType" : 4096
     },
     "\/assets\/img\/est2003.png" : {
@@ -1564,6 +1630,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/assets\/img\/approach\/services-2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/services-2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/services-2.jpg",
+      "initialSize" : 75352,
+      "fileType" : 4096
+    },
     "\/our-story.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1606,6 +1683,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-480.jpg",
       "initialSize" : 95504,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/approach\/approach.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/approach.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/approach.jpg",
+      "initialSize" : 176884,
       "fileType" : 4096
     },
     "\/assets\/img\/story\/train.jpg" : {
@@ -1738,6 +1826,17 @@
       "initialSize" : 813326,
       "fileType" : 4096
     },
+    "\/assets\/img\/approach\/digital.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/digital.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/digital.jpg",
+      "initialSize" : 172977,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Objects\/_logo.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1771,6 +1870,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage-ck-ck.js",
       "fileType" : 64
+    },
+    "\/assets\/img\/approach\/team.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/approach\/team.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/approach\/team.jpg",
+      "initialSize" : 238923,
+      "fileType" : 4096
     },
     "\/case-study.html" : {
       "ignoreWasSetByUser" : 0,
