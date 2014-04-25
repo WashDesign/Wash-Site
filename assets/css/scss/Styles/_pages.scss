@@ -1,4 +1,151 @@
 // !PAGES
 
+.featured {
+
+    @include mq( $to: desktop-small ) {
+
+        .site-header {
+
+            height: 12.25%;
+            background-color: black;
+
+        }
+
+        .logo {
+
+            height: 12.25%;
+            padding-top: 0;
+            padding-left: 1em;
+
+        }
+
+        .logo__img {
+
+            display: none
+
+        }
+
+        .logo__icon--white {
+
+            display: block;
+
+        }
+
+
+        .wash-slider__info__btn {
+
+            display: none;
+
+        }
+
+        .site-main {
+
+            top: 12.25%;
+
+        }
+
+        .site-aside {
+
+            display: none;
+
+        }
+
+    }
+
+    @include mq( $and: $ipad-landscape ) {
+
+        .site-header,
+        .site-main,
+        .site-footer {
+
+            width: 100%;
+            left: 0;
+
+
+        }
+
+        .site-header {
+
+            height: 7.5%;
+            background-color: black;
+
+            .constrain {
+
+                width: 100%;
+
+            }
+
+        }
+
+        .logo {
+
+            height: 7.5%;
+            padding-top: 0;
+            padding-left: 0;
+
+        }
+
+        .logo__img {
+
+            display: none
+
+        }
+
+        .logo__icon--white {
+
+            display: block;
+
+        }
+
+        .nav--primary__btn {
+
+            color: white;
+
+        }
+
+        .site-main {
+
+            top: 7.5%;
+            padding-bottom: 21.25% !important;
+            background-color: transparent;
+
+        }
+
+        .site-aside {
+
+            display: none;
+
+        }
+
+        .site-footer {
+
+            z-index: $layer4;
+
+        }
+
+        .article {
+
+            padding-bottom: 0;
+
+        }
+
+
+    }
+
+    &.wash-nav--push--toleft .site-header,
+    &.wash-nav--push--toleft .site-footer {
+
+        @include mq( $and: $ipad-landscape ) {
+
+                left: -50%;
+
+        }
+
+    }
+
+
+}
+
+
 
 

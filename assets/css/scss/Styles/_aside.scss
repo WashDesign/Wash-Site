@@ -150,6 +150,15 @@
         width: 34.615385%;
         top: 5em;
         left: -39%;
+        color: $cs-black;
+
+         .col {
+
+            list-style-type: none;
+            padding-left: 1em;
+            float: left;
+
+        }
 
 
     }
@@ -233,6 +242,8 @@
 
         }
 
+
+
     }
 
     @include mq( $and: $ipad-landscape ) {
@@ -247,6 +258,12 @@
         left: auto !important;
         bottom: auto !important;
         right: auto !important;
+
+        &.is-right {
+
+            float: none;
+
+        }
 
 
     }
