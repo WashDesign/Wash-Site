@@ -140,15 +140,15 @@
       "initialSize" : 349609,
       "fileType" : 4096
     },
-    "\/assets\/js\/inc\/jquery.onepage-scroll.js" : {
+    "\/assets\/js\/inc\/flexslider.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.js",
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider-ck.js",
       "fileType" : 64
     },
     "\/assets\/css\/scss\/Library\/Base\/_blockquotes.scss" : {
@@ -163,17 +163,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/js\/inc\/flexslider.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/flexslider-ck.js",
-      "fileType" : 64
-    },
     "\/assets\/img\/media-city-cs-6-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -184,6 +173,17 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-6-768.jpg",
       "initialSize" : 177666,
       "fileType" : 4096
+    },
+    "\/assets\/js\/inc\/jquery.onepage-scroll.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll-ck.js",
+      "fileType" : 64
     },
     "\/assets\/css\/scss\/Library\/Dependencies\/_flexslider.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -577,17 +577,6 @@
       "initialSize" : 45928,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-8-960.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-960.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-960.jpg",
-      "initialSize" : 446529,
-      "fileType" : 4096
-    },
     "\/assets\/img\/media-city-cs-8-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -597,6 +586,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-1020.jpg",
       "initialSize" : 443246,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/media-city-cs-8-960.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-960.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-8-960.jpg",
+      "initialSize" : 446529,
       "fileType" : 4096
     },
     "\/assets\/css\/scss\/main.scss" : {
