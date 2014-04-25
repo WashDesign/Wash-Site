@@ -374,6 +374,12 @@
 
                     }
 
+                    @include mq( $and: $ipad-landscape ) {
+
+                        display: none;
+
+                    }
+
                 }
 
             }
@@ -415,6 +421,12 @@
 
                         width: 3em;
                         margin-left: -4em;
+
+                    }
+
+                    @include mq( $and: $ipad-landscape ) {
+
+                        display: none;
 
                     }
 
@@ -606,8 +618,26 @@
 
 // Full Page Nav
 
+.multipage {
+
+#fullPage-nav span, .fullPage-slidesNav span {
+
+    border-color: $cs-yellow;
+    background: transparent;
+
+}
+
+#fullPage-nav li .active span,
+.fullPage-slidesNav .active span {
+
+    background-color: $cs-yellow;;
+
+}
+
 [data-tooltip] {
 
      white-space: nowrap;
+
+}
 
 }
