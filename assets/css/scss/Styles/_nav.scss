@@ -511,6 +511,12 @@
 
     }
 
+    @include mq( $and: $ipad-landscape ) {
+
+        display: none;
+
+    }
+
 
 
 

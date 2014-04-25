@@ -200,6 +200,7 @@
         @include mq( $from: desktop-small ) {
 
             position: relative;
+            padding: 3% 3% 5% 3%;
 
         }
 
@@ -211,7 +212,8 @@
 
         @include mq( $and: $ipad-landscape ) {
 
-    	   width: 100%;
+            padding: 0;
+            width: 100%;
 
     	}
 

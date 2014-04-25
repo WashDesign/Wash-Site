@@ -1266,6 +1266,9 @@ a {
       background-color: #fdba31; }
     .nav--slidr--link .nav-slidr__link.is-on {
       display: block; }
+  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .nav--slidr--link {
+      display: none; } }
 
 .nav-slidr__link {
   float: left;
@@ -1415,12 +1418,14 @@ a {
     padding: 1em; } }
 @media all and (min-width: 48em) {
   .multipage .page__constrain {
-    position: relative; } }
+    position: relative;
+    padding: 3% 3% 5% 3%; } }
 @media all and (min-width: 63.75em) {
   .multipage .page__constrain {
     width: 60%; } }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .multipage .page__constrain {
+    padding: 0;
     width: 100%; } }
 .multipage .article {
   float: left;

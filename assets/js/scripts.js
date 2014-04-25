@@ -83,7 +83,7 @@ jQuery(document).ready(function($) {
 
                     $.fn.fullpage({
                         verticalCentered: false,
-                        resize : true,
+                        resize : false,
                         anchors: anchorTitles,
                         scrollingSpeed: 700,
                         easing: 'easeInQuart',
@@ -109,14 +109,17 @@ jQuery(document).ready(function($) {
 
                             if( direction == "down" ) {
 
-                                if ( index  < ($('.page').size() ) ) {
+                                if ( index + 1 < $('#js-site-content').find('section').size() ) {
 
                                     s.slide($('.page').eq(index).data('start'));
 
                                 } else {
 
+                                    // prevent the continous toggle on rebuild (feature page)
                                     if ( !$('body.featured').length ) {
 
+                                        // toggle arrow
+                                        s.slide($('.page').eq(index).data('start'));
                                         $('#js-nav-slidr__link--down, #js-nav-slidr__link--up').toggleClass('is-on').stop();
 
                                     }
@@ -126,22 +129,28 @@ jQuery(document).ready(function($) {
                             }
                             if( direction == "up" ) {
 
-                                if ( index - 1  < ($('.page').size() ) ) {
+                                if ( index  != ( $('#js-site-content').find('section').size() ) ) {
 
-                                    s.slide($('.page').eq(index - 2).data('start'));
+                                    s.slide($('.page').eq(index-2).data('start'));
 
                                 } else {
 
-                                    if ( !$('body.featured').length ) {
 
-                                        $('#js-nav-slidr__link--down, #js-nav-slidr__link--up').toggleClass('is-on').stop();
+                                   // prevent the continous toggle on rebuild (feature page)
+                                   if ( !$('body.featured').length ) {
 
-                                    }
+                                       // toggle arrow
+                                       s.slide($('.page').eq(index-2).data('start'));
+                                       $('#js-nav-slidr__link--down, #js-nav-slidr__link--up').toggleClass('is-on').stop();
+
+                                   }
 
                                 }
 
 
                             }
+
+                            console.log(index);
 
                         },
                         afterLoad: function(anchorLink, index){
@@ -222,6 +231,7 @@ jQuery(document).ready(function($) {
                     $('#js-nav-slidr__link--up').click( function() {
 
                         $.fn.fullpage.moveTo(1);
+                        s.slide($('.page').eq(0).data('start'));
 
                     });
 
@@ -271,7 +281,7 @@ jQuery(document).ready(function($) {
 
         if ( slides ) {
 
-            console.log(slides);
+            //console.log(slides);
 
             s.add('h', slides);
 
