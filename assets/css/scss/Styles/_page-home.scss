@@ -1,0 +1,14 @@
+// !HOME
+
+.home {
+	
+	@include mq( $from: 1800px ) {
+	 
+	 	.page--1 {
+	 	
+			.page__constrain {
+				max-width: 42em;
+			}
+		}
+	}
+}
