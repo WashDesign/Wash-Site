@@ -220,17 +220,6 @@
       "initialSize" : 197330,
       "fileType" : 4096
     },
-    "\/assets\/img\/lewis-away.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
-      "initialSize" : 235677,
-      "fileType" : 4096
-    },
     "\/assets\/img\/media-city-cs-5-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -240,6 +229,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1020.jpg",
       "initialSize" : 276342,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/lewis-away.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/lewis-away.jpg",
+      "initialSize" : 235677,
       "fileType" : 4096
     },
     "\/assets\/img\/w-black.png" : {
@@ -512,15 +512,15 @@
       "initialSize" : 112058,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-13-1260.jpg" : {
+    "\/assets\/img\/story\/plane.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
-      "initialSize" : 424395,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
+      "initialSize" : 328870,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-10-1020.jpg" : {
@@ -534,15 +534,15 @@
       "initialSize" : 273909,
       "fileType" : 4096
     },
-    "\/assets\/img\/story\/plane.jpg" : {
+    "\/assets\/img\/media-city-cs-13-1260.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
-      "initialSize" : 328870,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
+      "initialSize" : 424395,
       "fileType" : 4096
     },
     "\/assets\/css\/ie.css" : {
@@ -689,15 +689,15 @@
       "initialSize" : 298320,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-3-1020.jpg" : {
+    "\/assets\/img\/red-block-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
-      "initialSize" : 749451,
+      "outputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
+      "initialSize" : 272496,
       "fileType" : 4096
     },
     "\/assets\/js\/inc\/mediaelementplayer.min.js" : {
@@ -711,15 +711,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/mediaelementplayer.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/img\/red-block-768.jpg" : {
+    "\/assets\/img\/media-city-cs-3-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/red-block-768.jpg",
-      "initialSize" : 272496,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-3-1020.jpg",
+      "initialSize" : 749451,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-5-1920.jpg" : {
@@ -1004,16 +1004,16 @@
       "initialSize" : 716567,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
+    "\/assets\/js\/inc\/jquery.onepage-scroll.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
-      "initialSize" : 331813,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min-ck.js",
+      "fileType" : 64
     },
     "\/assets\/css\/scss\/Styles\/Modules\/_frame.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1027,16 +1027,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/js\/inc\/jquery.onepage-scroll.min.js" : {
+    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.onepage-scroll.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "initialSize" : 331813,
+      "fileType" : 4096
     },
     "\/assets\/css\/scss\/Styles\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1061,17 +1061,6 @@
       "initialSize" : 35990,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-5-1260.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
-      "initialSize" : 382619,
-      "fileType" : 4096
-    },
     "\/assets\/css\/scss\/Styles\/_aside.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1083,6 +1072,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_aside.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/media-city-cs-5-1260.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-5-1260.jpg",
+      "initialSize" : 382619,
+      "fileType" : 4096
     },
     "\/assets\/img\/story\/2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1792,17 +1792,16 @@
       "initialSize" : 189473,
       "fileType" : 4096
     },
-    "\/assets\/css\/scss\/Library\/_helpers.scss" : {
+    "\/assets\/img\/media-city-intro-1.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/_helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "initialSize" : 813326,
+      "fileType" : 4096
     },
     "\/assets\/js\/inc\/modernizr-2.7.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1815,16 +1814,17 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/modernizr-2.7.1.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/img\/media-city-intro-1.jpg" : {
+    "\/assets\/css\/scss\/Library\/_helpers.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "initialSize" : 813326,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/_helpers.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_helpers.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/img\/approach\/digital.jpg" : {
       "ignoreWasSetByUser" : 0,
