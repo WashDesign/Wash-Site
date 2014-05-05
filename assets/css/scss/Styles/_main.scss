@@ -93,7 +93,8 @@
 
 	background-color: white;
 	color: black;
-
+	position: relative; // --- Ell
+	
 	@include mq( $to: desktop-small ) {
 
 	    a {
@@ -107,7 +108,8 @@
 
 	@include mq( $from: desktop-small ) {
 
-		padding: 5%;
+		/* padding: 5%; */
+		padding: 1em 2em 2em 2em; // --- Ell
 		background-color: $cs-black;
 		background-color: $cs-black-alpha;
 		color: white;
