@@ -21,6 +21,85 @@ jQuery(document).ready(function($) {
 	});
 
 
+	//! Location Map
+  if ( $('#js-findus__map').length ) {
+
+		function initialize() {
+			var latlng = new google.maps.LatLng(53.762505,-2.689474);
+
+			var styles = [
+			  {
+			    stylers: [
+			      { saturation: -95 }
+			    ]
+			  },{
+			    featureType: "road",
+			    elementType: "geometry",
+			    stylers: [
+			      { lightness: 100 },
+			      { visibility: "simplified" }
+			    ]
+			  },{
+			    featureType: "road",
+			    elementType: "labels",
+			    stylers: [
+			      { visibility: "off" }
+			    ]
+			  }
+			];
+
+			var map_options = {
+				zoom: 14,
+				center: latlng,
+				panControl: false,
+				zoomControl: true,
+				mapTypeControl: false,
+			  scrollwheel: false,
+			  navigationControl: false,
+			  mapTypeControl: false,
+				scaleControl: false,
+				streetViewControl: false,
+				overviewMapControl: true,
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				styles: styles
+			};
+			var map = new google.maps.Map(document.getElementById("js-findus__map"), map_options);
+
+/*
+			var Gicon = new google.maps.MarkerImage('/BIG2526/assets/img/map-marker.png',
+				new google.maps.Size(30.0, 50.0),
+				new google.maps.Point(0, 0),
+				new google.maps.Point(0, 50.0)
+			);
+*/
+
+		  var Glatlng = new google.maps.LatLng(53.762505,-2.689474);
+
+			var Gmarker = new google.maps.Marker({
+				position: Glatlng,
+				map: map,
+				animation: google.maps.Animation.DROP,
+				title: "Wash Design Location",
+				/* icon: Gicon, */
+			});
+
+			google.maps.event.addListener(Gmarker, 'click', function(event) {
+
+			    if (map.getZoom() != 14) {
+					map.setZoom(14);
+					map.setCenter(Glatlng);
+				} else {
+					map.setZoom(18);
+					map.setCenter(latlng);
+				}
+
+		    });
+
+		}
+		initialize();
+	}
+
+
 	mediaCheck({
         media: '(max-width: 767px)',
         entry: function() {
