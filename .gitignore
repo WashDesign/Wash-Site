@@ -1,0 +1,7 @@
+.sass-cache
+.DS_Store
+craft/storage/backups/
+craft/storage/runtime/
+craft/storage/userphotos/ 
+
+# These are some useful ignores for Craft theme building. #
