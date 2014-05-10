@@ -20,7 +20,7 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/main.css">
-		<!-- <link rel="stylesheet" href="assets/css/jquery.fullpage.css"> -->
+		<link rel="stylesheet" href="assets/css/jquery.fullpage.css">
 
 		<!-- IE CSS -->
         <!--[if lt IE 9]>
@@ -34,7 +34,7 @@
 			<script src="assets/js/inc/respond.min.js"></script></script>
 		<![endif]-->
     </head>
-    <body class="wash-nav--push singlepage home">
+    <body class="wash-nav--push multipage">
 
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -42,7 +42,7 @@
 
         <div class="frame frame-y frame--top"></div>
         <div class="frame frame-x frame--right"></div>
-        <div class="frame frame-y frame--bottom"></div>
+        <div id="frame" class="frame frame-y frame--bottom"></div>
         <div class="frame frame-x frame--left"></div>
 
 		<header class="site-header" role="banner">
@@ -61,11 +61,9 @@
                 <div id="js-wash-nav--push" class="wash-nav wash-nav--vertical wash-nav--right">
     				<nav class="nav nav--primary" role="navigation">
     					<ul class="nav__ul">
-<!--     						<li class="nav__item nav__item--current"><a href="index.html">Home</a></li> -->
     						<li class="nav__item"><a href="our-story.html">Our Story</a></li>
     						<li class="nav__item"><a href="approach.html">Services &amp; Process</a></li>
     						<li class="nav__item"><a href="selected-works.html">Selected Works</a></li>
-    						<li class="nav__item hd--b"><a href="social.html">Social</a></li>
     						<li class="nav__item hd--b"><a href="contact-us.html">Contact</a></li>
     						<li class="nav__item hd--b"><a href="newsletter.html">Newsletter</a></li>
     					</ul>
@@ -81,79 +79,45 @@
 
             </div>
 		</header>
+			
+		<main id="js-site-main" class="site-content site-main grp" role="main">
 
-		<main id="js-site-main" class="site-main grp" role="main">
+		    <div id="js-site-content">
+                <section class="page page--1 section">
+    				<div class="page__constrain">
+    					<h2 class="page__title vh">Contact Us</h2>
+    					<div class="page__body is-hero">
+    					<!-- Check item scope -->
+						<div class="site__address address--a" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<div class="postal-address">
+							<span itemprop="streetAddress">The Watermark<br>Ribbleton Lane</span><br>
+							<span itemprop="addressRegion">Preston</span><br>
+							<span itemprop="postalCode">PR1 5EZ</span>
+							</div>
+						</div>
+						<div class="site__address address--b" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<div class="postal-address">
+							<span itemprop="streetAddress">The Trampery<br>13-19 Bevenden Street</span><br>
+							<span itemprop="addressRegion">Shoreditch<br>London</span><br>
+							<span itemprop="postalCode">N1 6AS</span>
+							</div>
+						</div>
+						 
+						<div class="site__contact is-hero">
+							<a href="tel:01772880000" itemprop="telephone">Tel: +44(0) 1772 880000</a><br>
+							<a href="mailto:info@wash-design.co.uk" itemprop="email">info@info@wash-design.co.uk</a>
+							</div>
+    					</div>
+  
 
-			<section class="page page--1 section" data-start="one" data-slides='["one", "two", "three"]'  data-slideloop='["one", "two", "three", "one"]'>
-				<div class="page__constrain">
-					<h2 class="page__title vh">Wash</h2>
-					<div class="page__body is-hero">
-					<p>Wash are one of the North West’s most respected creative consultants. We develop and build <a href="#">brand</a> strategy. We identify, clarify and share our clients’ unique stories. And we do it by applying craft to our creativity and by matching visual flair with smart strategic thinking.</p><p>We know that the brands and the marketeers wise enough to get creative are the ones that get noticed in an increasingly crowded market. So <a href="#">we work hard</a> to make sure that the personality of a brand shines through every dimension, across every medium and on the many <a href="#">platforms</a> now available. We are an agency for the digitally integrated culture.</p>
-					</div>
-                    <nav class="nav--slidr--arrow"><a href="#" id="js-slidr--arrow__link" class="slidr--arrow__link"><span class="ui-icon" data-icon="&#xe600;"></span></a></nav>
-				</div>
-			</section>
+    				</div>
+    			</section>
 
-    </main>
-    <aside class="site-aside" role="complementary">
+            </div>
 
-			<div id="js-site-aside__media" class="site-aside__media">
-
-				<div data-slidr="one" style="background-size: cover; background-image: url(assets/img/projects/Clifton/Clifton1.jpg); width: 100%; height: 100%;">
-
-				</div>
-
-                <div data-slidr="two" style="background-size: cover;background-image: url(assets/img/projects/Lunar/LUNAR1.jpg); width: 100%; height: 100%;">
-
-				</div>
-
-				<div data-slidr="three" style="background-size: cover;background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
-
-				</div>
-				<!--
-<div data-slidr="three" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
-
-				</div>
-				<div data-slidr="four" style="background-size: cover; background-image: url(assets/img/lewis-away.jpg); width: 100%; height: 100%;">
-
-				</div>
--->
-
-			</div>
-			<div id="js-site-aside__info" class="site-aside__info">
-
-
-                <div data-slidr="one">
-                    <h2>Featured: Clifton Arms Hotel</h2>
-                    <p><a href="case-study.html">A new brand for a new Manchester</a></p>
-				</div>
-
-                <div data-slidr="two">
-                    <h2>Featured: Lunar Caravans</h2>
-                    <p><a href="case-study.html">A new brand for a new Manchester</a></p>
-				</div>
-
-				<div data-slidr="three">
-                    <h2>Featured: MediaCity</h2>
-                    <p><a href="case-study.html">A new brand for a new Manchester</a></p>
-				</div>
-				<!--
-<div data-slidr="three">
-                    <h2>Featured: Kinetic Consulting Ltd</h2>
-                    <p><a href="#">A rebrand takes us to Geneva</a></p>
-				</div>
-				<div data-slidr="four">
-                    <h2>Featured: Curious Minds</h2>
-                    <p><a href="#">Curiosity leads us to greater thinking.</a></p>
-				</div>
--->
-                <aside class="nav--slidr">
-                    <a href="#" id="js-nav-slidr__link--left" class="nav-slidr__link nav-slidr__link--left"><span class="ui-icon__btn--plus " data-icon="&#xe6d5;"></span></a>
-                    <a href="#" id="js-nav-slidr__link--right" class="nav-slidr__link nav-slidr__link--right"><span class="ui-icon__btn--plus " data-icon="&#xe6d8;"></span></a>
-                </aside>
-
-			</div>
-
+        </main>
+        <aside class="site-aside" role="complementary">
+			<div id="js-findus__map" class="map"></div>
 		</aside>
 
     	<nav class="nav nav--secondary hm" role="navigation">
@@ -193,6 +157,7 @@
 	    <script src="assets/js/inc/jquery.slimscroll.min.js"></script>
 	    <script src="assets/js/inc/jquery.fullPage.js"></script>
 	    <script src="assets/js/inc/slidr.min.js"></script>
+	    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<script src="assets/js/scripts.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

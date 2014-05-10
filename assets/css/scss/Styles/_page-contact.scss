@@ -1,0 +1,20 @@
+// !CONTACT
+
+.site__address {
+	margin-bottom: 1em;
+	
+	@include mq( $from: desktop-small ) {  
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: -4px; 
+	}
+	 
+}
+
+.site__contact {
+
+	a {
+		text-decoration: none;
+	}
+} 

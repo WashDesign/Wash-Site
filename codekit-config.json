@@ -1,7 +1,8 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8376",
+  "creatorBuild" : "8403",
   "files" : {
+<<<<<<< HEAD
     "\/page.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -512,15 +513,15 @@
       "initialSize" : 112058,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-13-1260.jpg" : {
+    "\/assets\/img\/story\/plane.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
-      "initialSize" : 424395,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
+      "initialSize" : 328870,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-10-1020.jpg" : {
@@ -534,15 +535,15 @@
       "initialSize" : 273909,
       "fileType" : 4096
     },
-    "\/assets\/img\/story\/plane.jpg" : {
+    "\/assets\/img\/media-city-cs-13-1260.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
-      "initialSize" : 328870,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
+      "initialSize" : 424395,
       "fileType" : 4096
     },
     "\/assets\/css\/ie.css" : {
@@ -1792,17 +1793,16 @@
       "initialSize" : 189473,
       "fileType" : 4096
     },
-    "\/assets\/css\/scss\/Library\/_helpers.scss" : {
+    "\/assets\/img\/media-city-intro-1.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/_helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "initialSize" : 813326,
+      "fileType" : 4096
     },
     "\/assets\/js\/inc\/modernizr-2.7.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1815,16 +1815,17 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/modernizr-2.7.1.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/img\/media-city-intro-1.jpg" : {
+    "\/assets\/css\/scss\/Library\/_helpers.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "initialSize" : 813326,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/_helpers.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_helpers.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/img\/approach\/digital.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1914,6 +1915,9 @@
       "fileType" : 4,
       "debugStyle" : 0
     }
+=======
+
+>>>>>>> FETCH_HEAD
   },
   "manualImportLinks" : [
 
@@ -1990,28 +1994,27 @@
       "curly" : 1,
       "trailing" : 1,
       "nonew" : 1,
-      "withstmt" : 0,
+      "es3" : 0,
+      "freeze" : 1,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
       "boss" : 0,
       "funcscope" : 0,
-      "regexdash" : 0,
       "jquery" : 1,
       "esnext" : 0,
       "camelcase" : 1,
-      "es5" : 0,
       "dojo" : 0,
       "strict" : 0,
       "devel" : 0,
-      "onecase" : 0,
       "wsh" : 0,
       "nonstandard" : 0,
       "asi" : 0,
-      "smarttabs" : 0,
+      "moz" : 0,
       "rhino" : 0,
-      "noempty" : 0,
+      "smarttabs" : 0,
       "lastsemic" : 0,
+      "noempty" : 0,
       "eqnull" : 0,
       "eqeqeq" : 1,
       "couch" : 0,
@@ -2028,6 +2031,7 @@
       "unused" : 1,
       "debug" : 0,
       "bitwise" : 1,
+      "notypeof" : 1,
       "white" : 0,
       "browser" : 1,
       "worker" : 0,
@@ -2035,12 +2039,11 @@
       "multistr" : 0,
       "shadow" : 0,
       "sub" : 0,
-      "regexp" : 1,
+      "plusplus" : 0,
       "scripturl" : 0,
       "forin" : 0,
       "loopfunc" : 0,
-      "laxbreak" : 0,
-      "plusplus" : 0
+      "laxbreak" : 0
     },
     "jsLintFlags" : {
       "white" : 0,
