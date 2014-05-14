@@ -1,5 +1,24 @@
 // !PAGES
 
+
+// ! HOME
+
+.home {
+	
+	@include mq( $from: 1800px ) {
+	 
+	 	.page--1 {
+	 	
+			.page__constrain {
+				max-width: 42em;
+			}
+		}
+	}
+}
+
+// !--Featured 
+
+
 .featured {
 
     @include mq( $to: desktop-small ) {
@@ -145,7 +164,41 @@
 
 
 }
+// ! NEWSLETTER
 
+.page-newsletter {
+
+	@include mq( $from: desktop-small ) {
+	 
+	 	.page--1 {
+	 	
+			.page__constrain {
+				max-width: 22.750em;
+			}
+		}
+	}	
+}
+
+// ! CONTACT
+
+.site__address {
+	margin-bottom: 1em;
+	
+	@include mq( $from: desktop-small ) {  
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: -4px; 
+	}
+	 
+}
+
+.site__contact {
+
+	a {
+		text-decoration: none;
+	}
+} 
 
 
 
