@@ -1273,7 +1273,7 @@ a {
       display: none; } }
   .nav--slidr--link .nav-slidr__link {
     display: none;
-    background-color: rgba(253, 186, 49, 0.75); }
+    background-color: rgba(253, 186, 49, 0.95); }
     .nav--slidr--link .nav-slidr__link:hover, .nav--slidr--link .nav-slidr__link:focus {
       background-color: #fdba31; }
     .nav--slidr--link .nav-slidr__link.is-on {
@@ -1533,18 +1533,29 @@ a {
     -webkit-transition: all 0.3s ease-in-out !important;
     -moz-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important; }
+    .site-aside__info > div h2 a {
+      color: black;
+      text-decoration: underline; }
+      .site-aside__info > div h2 a:hover, .site-aside__info > div h2 a:focus {
+        text-decoration: none; }
     @media all and (min-width: 48em) {
       .site-aside__info > div {
         margin: 12em 72.5% 0 5%;
         height: auto;
         width: 22.5%;
-        background-color: rgba(253, 186, 49, 0.75); } }
+        background-color: rgba(253, 186, 49, 0.95); } }
     @media all and (min-width: 63.75em) {
       .site-aside__info > div {
         margin: 80% 5% 5% 70%;
         bottom: 0;
-        height: 20%;
-        width: 25%; } }
+        height: 0%;
+        width: auto;
+        right: 0%;
+        background-color: transparent; }
+        .site-aside__info > div > h2 {
+          font-size: 1em; }
+          .site-aside__info > div > h2 + p {
+            display: none; } }
     @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
       .site-aside__info > div {
         height: 100%;
@@ -1559,7 +1570,7 @@ a {
 @media all and (min-width: 48em) {
   .page__aside {
     position: absolute;
-    background-color: rgba(253, 186, 49, 0.75);
+    background-color: rgba(253, 186, 49, 0.95);
     height: auto;
     padding: 1em;
     width: 34.615385%;
@@ -1678,6 +1689,10 @@ a {
       .site-footer .constrain {
         width: 100%; } }
 
+@media all and (min-width: 112.5em) {
+  .home .page--1 .page__constrain {
+    max-width: 42em; } }
+
 @media all and (max-width: 47.99em) {
   .featured .site-header {
     height: 12.25%;
@@ -1731,9 +1746,9 @@ a {
   .featured.wash-nav--push--toleft .site-header, .featured.wash-nav--push--toleft .site-footer {
     left: -50%; } }
 
-@media all and (min-width: 112.5em) {
-  .home .page--1 .page__constrain {
-    max-width: 42em; } }
+@media all and (min-width: 48em) {
+  .page-newsletter .page--1 .page__constrain {
+    max-width: 22.750em; } }
 
 .site__address {
   margin-bottom: 1em; }

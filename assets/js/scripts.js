@@ -445,8 +445,6 @@ jQuery(document).ready(function($) {
     if ( isSingle ) {
 
         var a = slidr.create('js-site-aside__info', {
-            	after: function(e) { console.log('in: ' + e.in.slidr); },
-            	before: function(e) { console.log('out: ' + e.out.slidr); },
             	breadcrumbs: false, // not required
             	direction: 'horizontal',
             	controls: 'none', // not required
@@ -454,12 +452,22 @@ jQuery(document).ready(function($) {
             	keyboard: true, //*** what are these
             	overflow: false,
             	theme: '#222',
-            	timing: { 'linear': '0.7s ease-out' },
+            	timing: { 'linear': '0.7s ease-out' }, 
             	touch: false,
-            	transition: 'linear'
+            	transition: 'linear',
+            	after: function(e) {
+            		BackgroundCheck.refresh();
+            		console.log('in: ' + e.in.slidr);
+            	},
+				before: function(e) { 	
+					console.log('out: ' + e.out.slidr);
+					BackgroundCheck.init({
+						targets: '.site-aside__info > div',
+						images: '.site-aside__media > div'
+					}); 
+				},
 
         })
-
 
         var startslides = new Array();
         var $i = 0;
