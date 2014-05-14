@@ -1,8 +1,7 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8403",
+  "creatorBuild" : "8376",
   "files" : {
-<<<<<<< HEAD
     "\/page.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -87,15 +86,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery-ui.min-ck-ck.js",
       "fileType" : 64
     },
-    "\/assets\/img\/media-city-cs-9-480.jpg" : {
+    "\/assets\/img\/media-city-cs-13-vid-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-480.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-vid-1920.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-480.jpg",
-      "initialSize" : 82165,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-vid-1920.jpg",
+      "initialSize" : 84485,
       "fileType" : 4096
     },
     "\/assets\/css\/scss\/Themes\/_modules.scss" : {
@@ -119,15 +118,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/img\/media-city-cs-13-vid-1920.jpg" : {
+    "\/assets\/img\/social\/Screen2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-vid-1920.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/social\/Screen2.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-vid-1920.jpg",
-      "initialSize" : 84485,
+      "outputAbbreviatedPath" : "\/assets\/img\/social\/Screen2.jpg",
+      "initialSize" : 399734,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/media-city-cs-9-480.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-480.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-480.jpg",
+      "initialSize" : 82165,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-4-1020.jpg" : {
@@ -411,6 +421,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/projects\/Clifton\/Clifton2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Clifton\/Clifton2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Clifton\/Clifton2.jpg",
+      "initialSize" : 792680,
+      "fileType" : 4096
+    },
+    "\/newsletter.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/newsletter.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/css\/scss\/Library\/Dependencies\/_mqs.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -423,6 +453,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/projects\/Lunar\/LUNAR2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/LUNAR2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/LUNAR2.jpg",
+      "initialSize" : 728238,
+      "fileType" : 4096
+    },
     "\/assets\/img\/story\/lamps.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -434,6 +475,18 @@
       "initialSize" : 379047,
       "fileType" : 4096
     },
+    "\/assets\/css\/scss\/Styles\/_page-home.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_page-home.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_page-home.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/js\/inc\/slidr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -444,6 +497,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/slidr-ck.js",
       "fileType" : 64
+    },
+    "\/assets\/img\/newsletter\/NEWS3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS3.jpg",
+      "initialSize" : 514000,
+      "fileType" : 4096
     },
     "\/assets\/css\/scss\/Objects\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -479,17 +543,6 @@
       "initialSize" : 422157,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-7-1020.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
-      "initialSize" : 288820,
-      "fileType" : 4096
-    },
     "\/assets\/css\/scss\/Objects\/_font_icons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -502,6 +555,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/media-city-cs-7-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1020.jpg",
+      "initialSize" : 288820,
+      "fileType" : 4096
+    },
     "\/assets\/img\/media-city-cs-6-480.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -513,15 +577,15 @@
       "initialSize" : 112058,
       "fileType" : 4096
     },
-    "\/assets\/img\/story\/plane.jpg" : {
+    "\/assets\/img\/media-city-cs-13-1260.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
-      "initialSize" : 328870,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
+      "initialSize" : 424395,
       "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-10-1020.jpg" : {
@@ -535,15 +599,15 @@
       "initialSize" : 273909,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-cs-13-1260.jpg" : {
+    "\/assets\/img\/story\/plane.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1260.jpg",
-      "initialSize" : 424395,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/plane.jpg",
+      "initialSize" : 328870,
       "fileType" : 4096
     },
     "\/assets\/css\/ie.css" : {
@@ -645,6 +709,28 @@
       "initialSize" : 984486,
       "fileType" : 4096
     },
+    "\/assets\/img\/projects\/Lunar\/Core3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/Core3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/Core3.jpg",
+      "initialSize" : 92987,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/media-city-cs-1-480.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-480.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-480.jpg",
+      "initialSize" : 123865,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Library\/Base\/_lists.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -657,16 +743,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/media-city-cs-1-480.jpg" : {
+    "\/social.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-480.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-1-480.jpg",
-      "initialSize" : 123865,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/social.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/img\/approach\/approach-1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -778,6 +862,17 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage.min-ck.js",
       "fileType" : 64
     },
+    "\/assets\/img\/story\/tom-train.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/tom-train.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/tom-train.jpg",
+      "initialSize" : 224435,
+      "fileType" : 4096
+    },
     "\/assets\/css\/scss\/Library\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -789,17 +884,6 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/img\/story\/tom-train.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/story\/tom-train.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/story\/tom-train.jpg",
-      "initialSize" : 224435,
-      "fileType" : 4096
     },
     "\/assets\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -880,6 +964,17 @@
       "initialSize" : 292321,
       "fileType" : 4096
     },
+    "\/assets\/img\/projects\/Lunar\/LUNAR1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/LUNAR1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/LUNAR1.jpg",
+      "initialSize" : 440902,
+      "fileType" : 4096
+    },
     "\/assets\/js\/inc\/mediaCheck-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -903,17 +998,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/media-city-cs-4-1260.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
-      "initialSize" : 499029,
-      "fileType" : 4096
-    },
     "\/assets\/css\/scss\/Library\/_defaults.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -925,6 +1009,28 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_defaults.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/media-city-cs-4-1260.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-4-1260.jpg",
+      "initialSize" : 499029,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/newsletter\/NEWS5.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS5.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS5.jpg",
+      "initialSize" : 434763,
+      "fileType" : 4096
     },
     "\/assets\/img\/w-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -960,17 +1066,6 @@
       "initialSize" : 100362,
       "fileType" : 4096
     },
-    "\/assets\/img\/story\/old.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/story\/old.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/story\/old.jpg",
-      "initialSize" : 347517,
-      "fileType" : 4096
-    },
     "\/assets\/css\/scss\/Styles\/_nav.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -982,6 +1077,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_nav.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/story\/old.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/old.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/old.jpg",
+      "initialSize" : 347517,
+      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-1-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1028,15 +1134,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
+    "\/assets\/img\/projects\/Clifton\/Clifton1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Clifton\/Clifton1.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
-      "initialSize" : 331813,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Clifton\/Clifton1.jpg",
+      "initialSize" : 632440,
       "fileType" : 4096
     },
     "\/assets\/css\/scss\/Styles\/_footer.scss" : {
@@ -1050,6 +1156,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_footer.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/media-city-cs-13-1020.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-13-1020.jpg",
+      "initialSize" : 331813,
+      "fileType" : 4096
     },
     "\/assets\/img\/media-city-cs-2-768.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1096,6 +1213,17 @@
       "initialSize" : 368975,
       "fileType" : 4096
     },
+    "\/assets\/img\/story\/People7.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/People7.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/People7.jpg",
+      "initialSize" : 551321,
+      "fileType" : 4096
+    },
     "\/assets\/img\/media-city-cs-13-768.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1140,6 +1268,28 @@
       "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_box.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/newsletter\/NEWS2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS2.jpg",
+      "initialSize" : 564570,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/projects\/Lunar\/Core1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/Core1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/Core1.jpg",
+      "initialSize" : 123531,
+      "fileType" : 4096
     },
     "\/assets\/css\/scss\/Styles\/_pages.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1195,6 +1345,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-6-1260.jpg",
       "initialSize" : 369224,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/social\/Lewis1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/social\/Lewis1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/social\/Lewis1.jpg",
+      "initialSize" : 247169,
       "fileType" : 4096
     },
     "\/assets\/css\/scss\/Styles\/_main.scss" : {
@@ -1330,6 +1491,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/img\/story\/People13.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/People13.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/People13.jpg",
+      "initialSize" : 941253,
+      "fileType" : 4096
+    },
     "\/assets\/img\/media-city-cs-7-1260.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1340,6 +1512,18 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-7-1260.jpg",
       "initialSize" : 390313,
       "fileType" : 4096
+    },
+    "\/assets\/css\/scss\/Styles\/_page-contact.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_page-contact.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_page-contact.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/img\/media-city-cs-5-768.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1375,6 +1559,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/js\/inc\/picturefill.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/js\/inc\/picturefill.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/inc\/picturefill-ck.js",
+      "fileType" : 64
+    },
     "\/assets\/css\/scss\/Library\/Base\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1387,16 +1582,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/js\/inc\/picturefill.js" : {
+    "\/contact-us.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/inc\/picturefill.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/inc\/picturefill-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/contact-us.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/scss\/Library\/Dependencies\/_mixin_library.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1499,6 +1692,17 @@
       "initialSize" : 690260,
       "fileType" : 4096
     },
+    "\/assets\/img\/social\/Screen1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/social\/Screen1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/social\/Screen1.jpg",
+      "initialSize" : 390411,
+      "fileType" : 4096
+    },
     "\/assets\/img\/approach\/process.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1542,6 +1746,18 @@
       "outputAbbreviatedPath" : "\/assets\/img\/media-city-cs-9-1260.jpg",
       "initialSize" : 404282,
       "fileType" : 4096
+    },
+    "\/assets\/css\/scss\/Styles\/_typography.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Styles\/_typography.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_typography.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/scss\/Objects\/_fonts.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1622,6 +1838,17 @@
       "initialSize" : 196937,
       "fileType" : 4096
     },
+    "\/assets\/img\/newsletter\/NEWS4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS4.jpg",
+      "initialSize" : 664872,
+      "fileType" : 4096
+    },
     "\/assets\/css\/jquery.fullPage.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1630,6 +1857,17 @@
       "inputAbbreviatedPath" : "\/assets\/css\/jquery.fullPage.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/assets\/img\/projects\/Clifton\/Clifton3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Clifton\/Clifton3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Clifton\/Clifton3.jpg",
+      "initialSize" : 858528,
+      "fileType" : 4096
     },
     "\/assets\/img\/approach\/services-2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1708,6 +1946,15 @@
       "initialSize" : 313227,
       "fileType" : 4096
     },
+    "\/assets\/css\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/js\/inc\/jquery.fullPage.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1718,15 +1965,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage-ck.js",
       "fileType" : 64
-    },
-    "\/assets\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/assets\/img\/media-city-cs-10-1920.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1793,16 +2031,17 @@
       "initialSize" : 189473,
       "fileType" : 4096
     },
-    "\/assets\/img\/media-city-intro-1.jpg" : {
+    "\/assets\/css\/scss\/Library\/_helpers.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
-      "initialSize" : 813326,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/_helpers.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_helpers.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/js\/inc\/modernizr-2.7.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1815,17 +2054,27 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/modernizr-2.7.1.min-ck.js",
       "fileType" : 64
     },
-    "\/assets\/css\/scss\/Library\/_helpers.scss" : {
+    "\/assets\/img\/media-city-intro-1.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/scss\/Library\/_helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/scss\/css\/_helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/media-city-intro-1.jpg",
+      "initialSize" : 813326,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/social\/Em1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/social\/Em1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/social\/Em1.jpg",
+      "initialSize" : 309415,
+      "fileType" : 4096
     },
     "\/assets\/img\/approach\/digital.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1850,17 +2099,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/story\/wall.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/story\/wall.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/story\/wall.jpg",
-      "initialSize" : 370449,
-      "fileType" : 4096
-    },
     "\/assets\/js\/inc\/jquery.fullPage-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1872,6 +2110,28 @@
       "outputAbbreviatedPath" : "\/assets\/js\/inc\/jquery.fullPage-ck-ck.js",
       "fileType" : 64
     },
+    "\/assets\/img\/projects\/Lunar\/LUNAR3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/LUNAR3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/projects\/Lunar\/LUNAR3.jpg",
+      "initialSize" : 1287466,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/story\/wall.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/story\/wall.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/story\/wall.jpg",
+      "initialSize" : 370449,
+      "fileType" : 4096
+    },
     "\/assets\/img\/approach\/team.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1881,6 +2141,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/approach\/team.jpg",
       "initialSize" : 238923,
+      "fileType" : 4096
+    },
+    "\/assets\/img\/newsletter\/NEWS1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/newsletter\/NEWS1.jpg",
+      "initialSize" : 536386,
       "fileType" : 4096
     },
     "\/case-study.html" : {
@@ -1915,9 +2186,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     }
-=======
-
->>>>>>> FETCH_HEAD
   },
   "manualImportLinks" : [
 
@@ -1994,27 +2262,28 @@
       "curly" : 1,
       "trailing" : 1,
       "nonew" : 1,
-      "es3" : 0,
-      "freeze" : 1,
+      "withstmt" : 0,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
       "boss" : 0,
       "funcscope" : 0,
+      "regexdash" : 0,
       "jquery" : 1,
       "esnext" : 0,
       "camelcase" : 1,
+      "es5" : 0,
       "dojo" : 0,
       "strict" : 0,
       "devel" : 0,
+      "onecase" : 0,
       "wsh" : 0,
       "nonstandard" : 0,
       "asi" : 0,
-      "moz" : 0,
-      "rhino" : 0,
       "smarttabs" : 0,
-      "lastsemic" : 0,
+      "rhino" : 0,
       "noempty" : 0,
+      "lastsemic" : 0,
       "eqnull" : 0,
       "eqeqeq" : 1,
       "couch" : 0,
@@ -2031,7 +2300,6 @@
       "unused" : 1,
       "debug" : 0,
       "bitwise" : 1,
-      "notypeof" : 1,
       "white" : 0,
       "browser" : 1,
       "worker" : 0,
@@ -2039,11 +2307,12 @@
       "multistr" : 0,
       "shadow" : 0,
       "sub" : 0,
-      "plusplus" : 0,
+      "regexp" : 1,
       "scripturl" : 0,
       "forin" : 0,
       "loopfunc" : 0,
-      "laxbreak" : 0
+      "laxbreak" : 0,
+      "plusplus" : 0
     },
     "jsLintFlags" : {
       "white" : 0,
