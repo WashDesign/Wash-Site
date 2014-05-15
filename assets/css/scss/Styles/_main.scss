@@ -24,7 +24,7 @@
 
 	@include mq( $from: desktop ) {
 
-		width: 42%;
+		//width: 42%;
 		left: 25%;
 
     }
@@ -47,11 +47,11 @@
 	height: 100%;
 	width: 100%;
 	float:left;
-    padding: 1em;
+    padding: 2em 1em;
 	background-color: white;
 
 	@include mq( $to: desktop-small ) {
-
+        
     	&:last-child {
 
     		-webkit-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
@@ -67,10 +67,7 @@
 	@include mq( $from: desktop-small ) {
 
 		padding: 0;
-
-		background-color: transparent;
-
-
+        background-color: transparent;
 	}
 
 	@include mq( $from: desktop ) {
@@ -94,11 +91,27 @@
 	background-color: white;
 	color: black;
 	position: relative; // --- Ell
+    max-width: 36.875em;
+    margin: 0 auto;
 	
+    a {
+        border-bottom: 1px solid $black;
+        text-decoration: none;
+        
+        &:hover,
+        &:focus {
+            border-color: transparent;
+        }
+    }
+    
+    .nav--slidr--arrow {
+        a { border-bottom: none; }
+    }    
+    
 	@include mq( $to: desktop-small ) {
 
 	    a {
-
+            
     	    color: black;
 
 
@@ -113,7 +126,16 @@
 		background-color: $cs-black;
 		background-color: $cs-black-alpha;
 		color: white;
+        margin: 0;
 
+        a { 
+            border-color: $white; 
+            
+            &:hover,
+            &:focus {
+             border-color:transparent;
+            }
+        }
 	}
 
 	@include mq( $from: desktop ) {
@@ -173,11 +195,38 @@
    }
 
    .page {
+       
+       padding-top: 0;
+       padding-bottom: 0;
+       
+        &:first-child {
+            padding-top: 2em;    
+        }
+        &:last-child {
+            padding-bottom: 2em;  
+
+            hr {
+            display: none;    
+            }
+        }
+
+        hr {
+            border-color: #F8F8F8; 
+            margin: 0;
+        }
 
     	@include mq( $from: desktop-small ) {
 
             padding: 0 5% 0 30%;
 
+            &:first-child {
+                padding-top: 0;    
+            }
+            &:last-child {
+                padding-bottom: 2em;  
+
+            }
+            hr { display: none; } 
 
 
     	}
@@ -202,7 +251,7 @@
         @include mq( $from: desktop-small ) {
 
             position: relative;
-            padding: 3% 4% 5% 3%;
+            padding: 2em 1.25em 3em;
 
         }
 

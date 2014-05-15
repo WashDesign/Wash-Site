@@ -4,7 +4,14 @@
 // ! HOME
 
 .home {
-	
+
+    @include mq( $from: desktop ) {
+    
+        .site-main {
+            left: 12.5%;    
+        }
+    }
+    
 	@include mq( $from: 1800px ) {
 	 
 	 	.page--1 {
@@ -164,12 +171,49 @@
 
 
 }
+
+// ! OUR STORY
+
+.page-our-story {
+
+    @include mq( $from: desktop-small ) {
+        
+        .page {
+            padding-left: 16%;
+
+            .page__constrain {
+                width: 100%;    
+            }
+        }
+    }
+    
+    @include mq( $from: desktop ) {
+        
+        .page--1,
+        .page--3 {
+            padding-left: 24%;
+        }
+    }
+}
+
+
 // ! NEWSLETTER
 
 .page-newsletter {
 
+    .page__aside{
+        padding: 2em 1.25em;
+        background-color: $cs-yellow;     
+    }
+    
 	@include mq( $from: desktop-small ) {
 	 
+        .page__aside {
+            background-color: $cs-yellow-alpha;
+            top: 13em;
+            left: 30%;
+            width: 100%;       
+        }
 	 	.page--1 {
 	 	
 			.page__constrain {
@@ -177,6 +221,14 @@
 			}
 		}
 	}	
+    @include mq( $from: desktop ) {
+        
+        .page__aside {
+            top: 80%;
+            min-width: 23.438em;
+        }
+        
+    }
 }
 
 // ! CONTACT
