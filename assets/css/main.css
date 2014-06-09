@@ -1448,7 +1448,7 @@ a:hover, a:focus {
 /* line 146, scss/Styles/_nav.scss */
 .nav--primary__btn {
   position: absolute;
-  right: 0.5em;
+  right: 0;
   top: 0.5em;
   text-decoration: none;
   font-size: 1.825em;
@@ -1904,10 +1904,11 @@ a:hover, a:focus {
     left: 50%;
     padding-bottom: 20%;
     background-color: white;
+    left: auto !important;
   }
 }
 
-/* line 44, scss/Styles/_main.scss */
+/* line 45, scss/Styles/_main.scss */
 .page {
   position: relative;
   height: 100%;
@@ -1917,36 +1918,43 @@ a:hover, a:focus {
   background-color: white;
 }
 @media all and (max-width: 47.99em) {
-  /* line 55, scss/Styles/_main.scss */
+  /* line 56, scss/Styles/_main.scss */
   .page:last-child {
-    -webkit-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
-    -moz-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
-    box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
+    /*
+        		-webkit-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
+        		   -moz-box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
+        		        box-shadow: 0 10px 15px rgba(30, 36, 37, 0.9);
+    */
   }
 }
 @media all and (min-width: 48em) {
-  /* line 44, scss/Styles/_main.scss */
+  /* line 45, scss/Styles/_main.scss */
   .page {
     padding: 0;
     background-color: transparent;
   }
 }
 @media all and (min-width: 63.75em) {
-  /* line 44, scss/Styles/_main.scss */
+  /* line 45, scss/Styles/_main.scss */
   .page {
     padding: 0;
   }
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 44, scss/Styles/_main.scss */
+  /* line 45, scss/Styles/_main.scss */
   .page {
     padding: 1em;
     background-color: white;
     float: right;
   }
+  /* line 88, scss/Styles/_main.scss */
+  .page:last-child {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
 }
 
-/* line 89, scss/Styles/_main.scss */
+/* line 98, scss/Styles/_main.scss */
 .page__constrain {
   background-color: white;
   color: black;
@@ -1954,27 +1962,27 @@ a:hover, a:focus {
   max-width: 36.875em;
   margin: 0 auto;
 }
-/* line 97, scss/Styles/_main.scss */
+/* line 106, scss/Styles/_main.scss */
 .page__constrain a {
   border-bottom: 1px solid black;
   text-decoration: none;
 }
-/* line 102, scss/Styles/_main.scss */
+/* line 111, scss/Styles/_main.scss */
 .page__constrain a:hover, .page__constrain a:focus {
   border-color: transparent;
 }
-/* line 108, scss/Styles/_main.scss */
+/* line 117, scss/Styles/_main.scss */
 .page__constrain .nav--slidr--arrow a {
   border-bottom: none;
 }
 @media all and (max-width: 47.99em) {
-  /* line 113, scss/Styles/_main.scss */
+  /* line 122, scss/Styles/_main.scss */
   .page__constrain a {
     color: black;
   }
 }
 @media all and (min-width: 48em) {
-  /* line 89, scss/Styles/_main.scss */
+  /* line 98, scss/Styles/_main.scss */
   .page__constrain {
     /* padding: 5%; */
     padding: 1em 2em 2em 2em;
@@ -1983,51 +1991,51 @@ a:hover, a:focus {
     color: white;
     margin: 0;
   }
-  /* line 131, scss/Styles/_main.scss */
+  /* line 140, scss/Styles/_main.scss */
   .page__constrain a {
     border-color: white;
   }
-  /* line 135, scss/Styles/_main.scss */
+  /* line 144, scss/Styles/_main.scss */
   .page__constrain a:hover, .page__constrain a:focus {
     border-color: transparent;
   }
 }
 @media all and (min-width: 63.75em) {
-  /* line 89, scss/Styles/_main.scss */
+  /* line 98, scss/Styles/_main.scss */
   .page__constrain {
     width: 100%;
   }
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 89, scss/Styles/_main.scss */
+  /* line 98, scss/Styles/_main.scss */
   .page__constrain {
     padding: 0;
     background-color: white;
     color: black;
     width: 100%;
   }
-  /* line 154, scss/Styles/_main.scss */
+  /* line 163, scss/Styles/_main.scss */
   .page__constrain a {
     color: black;
   }
 }
 
 @media all and (min-width: 48em) {
-  /* line 169, scss/Styles/_main.scss */
+  /* line 178, scss/Styles/_main.scss */
   .multipage .site-main {
     width: 100%;
     left: 0;
   }
 }
 @media all and (min-width: 63.75em) {
-  /* line 169, scss/Styles/_main.scss */
+  /* line 178, scss/Styles/_main.scss */
   .multipage .site-main {
     width: 100%;
     left: 0;
   }
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 169, scss/Styles/_main.scss */
+  /* line 178, scss/Styles/_main.scss */
   .multipage .site-main {
     top: 6.9em;
     width: 50%;
@@ -2035,99 +2043,116 @@ a:hover, a:focus {
     padding-bottom: 20%;
   }
 }
-/* line 197, scss/Styles/_main.scss */
+/* line 206, scss/Styles/_main.scss */
 .multipage .page {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 202, scss/Styles/_main.scss */
+/* line 211, scss/Styles/_main.scss */
 .multipage .page:first-child {
   padding-top: 2em;
 }
-/* line 205, scss/Styles/_main.scss */
+/* line 214, scss/Styles/_main.scss */
 .multipage .page:last-child {
   padding-bottom: 2em;
 }
-/* line 208, scss/Styles/_main.scss */
+/* line 217, scss/Styles/_main.scss */
 .multipage .page:last-child hr {
   display: none;
 }
-/* line 213, scss/Styles/_main.scss */
+/* line 222, scss/Styles/_main.scss */
 .multipage .page hr {
-  border-color: #F8F8F8;
+  border-color: #ececec;
   margin: 0;
 }
 @media all and (min-width: 48em) {
-  /* line 197, scss/Styles/_main.scss */
+  /* line 206, scss/Styles/_main.scss */
   .multipage .page {
     padding: 0 5% 0 30%;
   }
-  /* line 222, scss/Styles/_main.scss */
+  /* line 231, scss/Styles/_main.scss */
   .multipage .page:first-child {
     padding-top: 0;
   }
-  /* line 225, scss/Styles/_main.scss */
+  /* line 234, scss/Styles/_main.scss */
   .multipage .page:last-child {
     padding-bottom: 2em;
   }
-  /* line 229, scss/Styles/_main.scss */
+  /* line 238, scss/Styles/_main.scss */
   .multipage .page hr {
     display: none;
   }
 }
 @media all and (min-width: 63.75em) {
-  /* line 197, scss/Styles/_main.scss */
+  /* line 206, scss/Styles/_main.scss */
   .multipage .page {
     padding: 0 5% 0 25%;
   }
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 197, scss/Styles/_main.scss */
+  /* line 206, scss/Styles/_main.scss */
   .multipage .page {
-    padding: 1em;
+    padding-left: 1em !important;
+  }
+  /* line 253, scss/Styles/_main.scss */
+  .multipage .page:first-child {
+    padding-top: 2em;
+  }
+  /* line 256, scss/Styles/_main.scss */
+  .multipage .page:last-child {
+    padding-bottom: 2em;
+  }
+  /* line 259, scss/Styles/_main.scss */
+  .multipage .page:last-child hr {
+    display: none;
+  }
+  /* line 264, scss/Styles/_main.scss */
+  .multipage .page hr {
+    display: block;
   }
 }
 @media all and (min-width: 48em) {
-  /* line 248, scss/Styles/_main.scss */
+  /* line 272, scss/Styles/_main.scss */
   .multipage .page__constrain {
     position: relative;
     padding: 2em 1.25em 3em;
   }
 }
 @media all and (min-width: 63.75em) {
-  /* line 248, scss/Styles/_main.scss */
+  /* line 272, scss/Styles/_main.scss */
   .multipage .page__constrain {
     width: 60%;
   }
-  /* line 262, scss/Styles/_main.scss */
+  /* line 286, scss/Styles/_main.scss */
   .multipage .page__constrain.is-medium {
     width: 80%;
   }
-  /* line 268, scss/Styles/_main.scss */
+  /* line 292, scss/Styles/_main.scss */
   .multipage .page__constrain.is-large {
     width: 100%;
   }
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 248, scss/Styles/_main.scss */
+  /* line 272, scss/Styles/_main.scss */
   .multipage .page__constrain {
     padding: 0;
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
-/* line 286, scss/Styles/_main.scss */
+/* line 311, scss/Styles/_main.scss */
 .multipage .article {
   float: left;
   width: 100%;
   background-color: white;
 }
 @media all and (min-width: 48em) {
-  /* line 286, scss/Styles/_main.scss */
+  /* line 311, scss/Styles/_main.scss */
   .multipage .article {
     padding-bottom: 1.25em;
   }
 }
-/* line 299, scss/Styles/_main.scss */
+/* line 324, scss/Styles/_main.scss */
 .multipage .article .page__constrain {
   background-color: white;
   color: black;
@@ -2663,6 +2688,25 @@ a:hover, a:focus {
   /* line 26, scss/Styles/_typography.scss */
   .col--1 {
     margin-right: 3%;
+  }
+}
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 33, scss/Styles/_typography.scss */
+  .is-micro {
+    font-size: 1em;
+    line-height: 1.3;
+  }
+
+  /* line 38, scss/Styles/_typography.scss */
+  .col {
+    width: 100%;
+  }
+
+  /* line 43, scss/Styles/_typography.scss */
+  .col--1,
+  .col--2 {
+    margin: 0;
+    width: 100%;
   }
 }
 @media all and (min-width: 48em) {
