@@ -9,6 +9,12 @@
 }
 
 .btn {
+    font-family: $serif;
+    font-weight: 300;
+    @extend %btn-reset;
+}
+    
+/*.btn {
 
     // reset
     // reusable e.g. variations
@@ -74,5 +80,5 @@
     }
 
 }
-
+*/
 }

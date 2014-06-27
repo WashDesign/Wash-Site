@@ -1,14 +1,47 @@
 // !TYPOGRAPHY
 
-.page__body {
-	
-	@include mq( $from: desktop-small ) {
-	
-		&.is-hero,
-		> .is-hero { 
-			font-size: 1.25em;
-			line-height: 1.29; 
-		}
-	
-	}
+.is-hero {
+    font-size: 1.05em;
+    line-height: 1.3;
+}
+
+@include mq( $from: desktop-small ) {
+
+    .is-hero { 
+        font-size: 1.15em;
+    }
+    
+    .is-micro {
+        font-size: 0.750em;
+        line-height: 1.3;
+    }
+
+    .col {
+        display: inline-block;
+        vertical-align: top;
+        width: 47%;
+        margin-right: -4px;
+    }
+    
+    .col--1 {
+        margin-right: 3%;    
+    }
+}
+
+@include mq( $and: $ipad-landscape ) {
+
+    .is-micro {
+        font-size: 1em;
+        line-height: 1.3;
+    }
+    
+    .col {
+        width: 100%;
+    }
+    
+    .col--1,
+    .col--2 {
+        margin: 0;
+        width: 100%;
+    }
 }

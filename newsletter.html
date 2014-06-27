@@ -20,7 +20,7 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/main.css">
-		<link rel="stylesheet" href="assets/css/jquery.fullpage.css">
+		<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
 
 		<!-- IE CSS -->
         <!--[if lt IE 9]>
@@ -33,8 +33,13 @@
 		<!--[if lt IE 9]>
 			<script src="assets/js/inc/respond.min.js"></script></script>
 		<![endif]-->
+
+        <!-- TypeKit -->
+        <script type="text/javascript" src="//use.typekit.net/bke4pqc.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     </head>
-    <body class="wash-nav--push multipage">
+    <body class="wash-nav--push multipage page-newsletter">
 
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -49,7 +54,7 @@
 		    <div id="js-site-header" class="constrain grp">
 
 			    <div class="logo logo--site-header" itemscope itemtype="http://schema.org/Organization">
-    				<a class="logo__link" itemprop="url" href="#" rel="home">
+    				<a class="logo__link" itemprop="url" href="/index.html" rel="home">
     					<h1 class="logo__header" itemprop="name">Wash Design</h1>
     					<img class="logo__img logo__img--white" itemprop="logo" src="assets/img/wash-design-brand.svg" alt="wash-brand" width="140" height="67">
     					<img class="logo__img logo__img--black" itemprop="logo" src="assets/img/wash-design-brand-black.svg" alt="wash-brand" width="140" height="67">
@@ -79,7 +84,7 @@
 
             </div>
 		</header>
-			
+
 		<main id="js-site-main" class="site-content site-main grp" role="main">
 		    <nav class="nav--slidr--link">
 		        <a href="#" id="js-nav-slidr__link--down" class="nav-slidr__link nav-slidr__link--down is-on"><span class="ui-icon" data-icon="&#xe6d6;"></span></a>
@@ -92,25 +97,25 @@
     					<div class="page__body is-hero">
     					<p>Our newsletter is hopefully an enlightening piece of information on Wash ramblings that ideally comes to you Spring, Summer, Autumn & Winter. But not always guaranteed and necessarily in that order.</p>
     					</div>
-    					
+
 						<aside class="page__aside hang is-down is-center">
 							<h3>Sign up to our newsletter:</h3>
 							<form action="http://washdesign.createsend.com/t/y/s/idiudi/" method="post">
 							    <p>
-							        <label for="fieldName">Name</label><br />
+							        <label for="fieldName">Name</label>
 							        <input id="fieldName" name="cm-name" type="text" />
 							    </p>
 							    <p>
-							        <label for="fieldEmail">Email</label><br />
+							        <label for="fieldEmail">Email</label>
 							        <input id="fieldEmail" name="cm-idiudi-idiudi" type="email" required />
 							    </p>
 							    <p>
-							        <button type="submit">Subscribe</button>
+							        <button class="btn btn--text" type="submit">Send</button>
 							    </p>
 							</form>
+                                <nav class="nav--slidr--arrow"><a href="#" id="js-slidr--arrow__link" class="slidr--arrow__link"><span class="ui-icon" data-icon="&#xe600;"></span></a></nav>
 						</aside>
-						
-    					<nav class="nav--slidr--arrow"><a href="#" id="js-slidr--arrow__link" class="slidr--arrow__link"><span class="ui-icon" data-icon="&#xe600;"></span></a></nav>
+
     				</div>
     			</section>
 
@@ -124,8 +129,8 @@
 				<div data-slidr="image1" style="background-size: cover; background-image: url(assets/img/newsletter/NEWS1.jpg); width: 100%; height: 100%;"></div>
 				<div data-slidr="image2" style="background-size: cover; background-image: url(assets/img/newsletter/NEWS2.jpg); width: 100%; height: 100%;"></div>
 				<div data-slidr="image3" style="background-size: cover; background-image: url(assets/img/newsletter/NEWS3.jpg); width: 100%; height: 100%;"></div>
-				<div data-slidr="image4" style="background-size: cover; background-image: url(assets/img/newsletter/NEWS4.jpg); width: 100%; height: 100%;"></div>	
-				<div data-slidr="image5" style="background-size: cover; background-image: url(assets/img/newsletter/NEWS5.jpg); width: 100%; height: 100%;"></div>	
+				<div data-slidr="image4" style="background-size: cover; background-image: url(assets/img/newsletter/NEWS4.jpg); width: 100%; height: 100%;"></div>
+				<div data-slidr="image5" style="background-size: cover; background-image: url(assets/img/newsletter/NEWS5.jpg); width: 100%; height: 100%;"></div>
 			</div>
 			<div id="js-site-aside__info" class="site-aside__info">
 
@@ -151,7 +156,7 @@
                     <h2>The red block</h2>
                     <p>Image taken on site with natural lighting on d500</p>
 				</div>
-				
+
                 <aside class="nav--slidr">
                     <a href="#" id="js-nav-slidr__link--left" class="nav-slidr__link nav-slidr__link--left"><span class="ui-icon__btn--plus " data-icon="&#xe6d5;"></span></a>
                     <a href="#" id="js-nav-slidr__link--right" class="nav-slidr__link nav-slidr__link--right"><span class="ui-icon__btn--plus " data-icon="&#xe6d8;"></span></a>

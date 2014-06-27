@@ -20,7 +20,7 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/main.css">
-		<link rel="stylesheet" href="assets/css/jquery.fullpage.css">
+		<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
 
 		<!-- IE CSS -->
         <!--[if lt IE 9]>
@@ -33,6 +33,11 @@
 		<!--[if lt IE 9]>
 			<script src="assets/js/inc/respond.min.js"></script></script>
 		<![endif]-->
+
+        <!-- TypeKit -->
+        <script type="text/javascript" src="//use.typekit.net/bke4pqc.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     </head>
     <body class="wash-nav--push multipage featured">
 
@@ -49,7 +54,7 @@
 		    <div id="js-site-header" class="constrain grp">
 
 			    <div class="logo logo--site-header" itemscope itemtype="http://schema.org/Organization">
-    				<a class="logo__link" itemprop="url" href="#" rel="home">
+    				<a class="logo__link" itemprop="url" href="/index.html" rel="home">
     					<h1 class="logo__header" itemprop="name">Wash Design</h1>
     					<img class="logo__img logo__img--white" itemprop="logo" src="assets/img/wash-design-brand.svg" alt="wash-brand" width="140" height="67">
     					<img class="logo__img logo__img--black" itemprop="logo" src="assets/img/wash-design-brand-black.svg" alt="wash-brand" width="140" height="67">
@@ -89,22 +94,15 @@
 		        <a href="#" id="js-nav-slidr__link--up" class="nav-slidr__link nav-slidr__link--up"><span class="ui-icon" data-icon="&#xe6d7;"></span></a>
 		    </nav>
 		    <div id="js-site-content">
-                <section class="page page--1 section">
-    				<div class="page__constrain">
-    					<h2 class="page__title">Wash</h2>
-    					<div class="page__body">
-    						<p>MediaCityUK - a brand owned by Paperlinx Europe required a recognisable brand and brand collateral to work across it’s marketing material.</p>
-
-    						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non aliquam massa. Fusce ac justo at enim iaculis gravida. Mauris nisi libero.</p>
-
-    						<p>Logo/Brand Architecture<br>
-    						Art Direction<br>
-    						Web<br>
-    						Promotional Material<br>
-    						Swatches/Catalogue</p>
-    					</div>
-    				</div>
-    			</section>
+			<section class="page page--1 section" data-start="one" data-slides='["one", "two", "three"]'  data-slideloop='["one", "two", "three", "one"]'>
+				<div class="page__constrain">
+					<h2 class="page__title vh">Wash</h2>
+					<div class="page__body is-hero">
+					<p>Wash are one of the North West’s most respected creative consultants. We develop and build <a href="#">brand</a> strategy. We identify, clarify and share our clients’ unique stories. And we do it by applying craft to our creativity and by matching visual flair with smart strategic thinking.</p><p>We know that the brands and the marketeers wise enough to get creative are the ones that get noticed in an increasingly crowded market. So <a href="#">we work hard</a> to make sure that the personality of a brand shines through every dimension, across every medium and on the many <a href="#">platforms</a> now available. We are an agency for the digitally integrated culture.</p>
+					</div>
+                    <nav class="nav--slidr--arrow"><a href="#" id="js-slidr--arrow__link" class="slidr--arrow__link"><span class="ui-icon" data-icon="&#xe600;"></span></a></nav>
+				</div>
+			</section>
 
 			<section class="article section pin" data-anchor="longSlide">
 				<div class="items">
@@ -188,84 +186,53 @@ Victoria Tipper, Manager
 
 			<div id="js-site-aside__media" class="site-aside__media">
 
-				<div data-slidr="image1" style="background-size: cover; background-image: url(assets/img/people.jpg); width: 100%; height: 100%;">
+				<div data-slidr="one" style="background-size: cover; background-image: url(assets/img/projects/Clifton/Clifton1.jpg); width: 100%; height: 100%;">
 
 				</div>
 
-                <div data-slidr="image2" style="background-size: cover;background-image: url(assets/img/people.jpg); width: 100%; height: 100%;">
-
-				</div>
-				<div data-slidr="image3" style="background-size: cover; background-image: url(assets/img/people.jpg); width: 100%; height: 100%;">
-
-				</div>
-				<div data-slidr="image4" style="background-size: cover; background-image: url(assets/img/red-block.jpg); width: 100%; height: 100%;">
+                <div data-slidr="two" style="background-size: cover;background-image: url(assets/img/projects/Lunar/LUNAR1.jpg); width: 100%; height: 100%;">
 
 				</div>
 
-				<div data-slidr="image5" style="background-size: cover; background-image: url(assets/img/red-block.jpg); width: 100%; height: 100%;">
+				<div data-slidr="three" style="background-size: cover;background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
 
 				</div>
-
-                <div data-slidr="image6" style="background-size: cover;background-image: url(assets/img/red-block.jpg); width: 100%; height: 100%;">
-
-				</div>
-				<div data-slidr="image7" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
+				<!--
+<div data-slidr="three" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
 
 				</div>
-				<div data-slidr="image8" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
+				<div data-slidr="four" style="background-size: cover; background-image: url(assets/img/lewis-away.jpg); width: 100%; height: 100%;">
 
 				</div>
-
-				<div data-slidr="image9" style="background-size: cover; background-image: url(assets/img/jo-wall.jpg); width: 100%; height: 100%;">
-
-				</div>
-
-
-
+-->
 
 			</div>
+<!--
 			<div id="js-site-aside__info" class="site-aside__info">
 
 
-			    <div data-slidr="image1">
-                    <h3>MediaCity</h3>
-                    <p>Full photoshoot for MediaCity involving a striking setting and an even more striking model.</p>
+                <div data-slidr="one">
+                    <h2>Featured: <a href="case-study.html">Clifton Arms Hotel</a></h2>
+                    <p><a href="case-study.html">A new brand for a new Manchester</a></p>
 				</div>
 
-                <div data-slidr="image2">
-                    <h3>MediaCity</h3>
-                    <p>Full photoshoot for MediaCity involving a striking setting and an even more striking model.</p>
-				</div>
-				<div data-slidr="image3">
-                    <h3>MediaCity</h3>
-                    <p>Full photoshoot for MediaCity involving a striking setting and an even more striking model.</p>
-				</div>
-				<div data-slidr="image4">
-                    <h2>The red block</h2>
-                    <p>Image taken on site with natural lighting on d500</p>
-				</div>
-				<div data-slidr="image5">
-                    <h2>The red block</h2>
-                    <p>Image taken on site with natural lighting on d500</p>
-				</div>
-				<div data-slidr="image6">
-                    <h2>The red block</h2>
-                    <p>Image taken on site with natural lighting on d500</p>
+                <div data-slidr="two">
+                    <h2>Featured: <a href="case-study.html">Lunar Caravans</a></h2>
+                    <p><a href="case-study.html">A new brand for a new Manchester</a></p>
 				</div>
 
-				<div data-slidr="image7">
-                    <h2>Hit "The Wall"</h2>
-                    <p>Thinking caps come as standard issue.</p>
+				<div data-slidr="three">
+                    <h2>Featured: <a href="case-study.html">MediaCity</a></h2>
+                    <p><a href="case-study.html">A new brand for a new Manchester</a></p>
 				</div>
 
-				<div data-slidr="image8">
-                    <h2>Hit "The Wall"</h2>
-                    <p>Thinking caps come as standard issue.</p>
+<div data-slidr="three">
+                    <h2>Featured: Kinetic Consulting Ltd</h2>
+                    <p><a href="#">A rebrand takes us to Geneva</a></p>
 				</div>
-
-				<div data-slidr="image9">
-                    <h2>Hit "The Wall"</h2>
-                    <p>Thinking caps come as standard issue.</p>
+				<div data-slidr="four">
+                    <h2>Featured: Curious Minds</h2>
+                    <p><a href="#">Curiosity leads us to greater thinking.</a></p>
 				</div>
 
                 <aside class="nav--slidr">
@@ -273,8 +240,8 @@ Victoria Tipper, Manager
                     <a href="#" id="js-nav-slidr__link--right" class="nav-slidr__link nav-slidr__link--right"><span class="ui-icon__btn--plus " data-icon="&#xe6d8;"></span></a>
                 </aside>
 
-
 			</div>
+-->
 
 		</aside>
 

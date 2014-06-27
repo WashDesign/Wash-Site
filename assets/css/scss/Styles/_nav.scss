@@ -6,7 +6,7 @@
 
     @include mq( $from: desktop-small ) {
 
-        width: 54%;
+        width: 53%;
         float: left;
 
     }
@@ -145,7 +145,7 @@
 
 .nav--primary__btn {
 	position: absolute;
-	right: 0.5em;
+	right: 0;
 	top: 0.5em;
 	text-decoration: none;
 	font-size: 1.825em;
