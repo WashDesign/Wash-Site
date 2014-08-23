@@ -1,0 +1,8 @@
+#js-nav-slidr__link--down { display: none; }
+.js #js-nav-slidr__link--down {
+  bottom: 0;
+  left: 50%;
+  display: block;
+  margin-left: -22px;
+  position: absolute;
+}
